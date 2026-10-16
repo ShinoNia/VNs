@@ -1,6 +1,1802 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
   <scripts>
+    <scene id="00" title="楔子">
+      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
+      <bg img="拂云观-侧面"/>
+      <bgm id="秋恋古道（慢抒情）"/>
+      <delay t="3"/>
+      <dialog chara="012">「呼……」</dialog>
+      <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center" duration="1"/>
+      <text>
+        <p>少年深吸一口气。</p>
+        <p>他伸手敲门，指节落在门前两寸，又定住了。</p>
+      </text>
+      <motion chara="012" action="img_trans" img="枕玉-标准-敲门-中景（汗）"/>
+      <dialog chara="012">「为什么是我啊……」</dialog>
+      <text>委屈与无奈涌上少年心头。</text>
+      <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <text>少年名为枕玉，是太虚剑派新入门的弟子，拜师至今不过三月，却被派来天穹峰顶敲掌门的屋门，预备承受她的雷霆之怒。</text>
+      <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-敲门-中景（汗）"/>
+      <dialog chara="012">（得罪掌门的事叫我来干，师姐师兄们太过分啦……）</dialog>
+      <text>少年想象着掌门的怒容，心中惴惴不安。</text>
+      <motion chara="012" action="hide"/>
+      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="拂云观-亮"/>
+      <event action="hide_ui" duration="1"/>
+      <motion chara="003" action="show" pos="right" img="林朝雨-标准-标准-中景" duration="1"/>
+      <delay t="1"/>
+      <mono pageend="true">
+        <p/>
+        <p>太虚派掌门——『轻尘剑』林朝雨，</p>
+        <p>今年五十又六，已过知天命之年。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>赤鸢上仙乘金光飞升，太虚山被凡火付之一炬</p>
+        <p>后，身为仙人首徒的她与六师弟在这天穹峰</p>
+        <p>重建了太虚剑派。</p>
+        <p/>
+        <p>只不过十余年的发展，太虚剑派已跻身</p>
+        <p>神州正道江湖六大宗门之列。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>林朝雨也因此声望极盛，与丈夫『逐驹剑』</p>
+        <p>马非马是为江湖中人人称羡的侠侣伉俪。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>贵为一派之主，林掌门的性情却并不乖戾；</p>
+        <p>正相反，她待人一向温婉冲和，不论尊卑，</p>
+        <p>总是一视同仁。</p>
+        <p/>
+        <p>唯有几个例外。[\s]</p>
+        <p/>
+        <p>一旦涉及到例外，林朝雨总会像变了</p>
+        <p>个人似的，一触即怒，火暴异常。</p>
+      </mono>
+      <motion chara="003" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="入云阶" pos="0,-600"/>
+      <text>早在少年来到天穹峰时，好心的师兄们就把他拉到一旁：</text>
+      <bg img="入云阶" duration="60" pos="0,0"/>
+      <dialog chara="-1">
+        <p>「枕玉你初来乍到，师兄教你点规矩，都是为你好：</p>
+        <p>在掌门师父面前，有一件事两个人千千万万不可提起。」</p>
+      </dialog>
+      <dialog chara="-1">
+        <p>「这一件事，就是副掌门的事；</p>
+        <p>副掌门在外面做了什么，你听到什么，都别和掌门师父讲，这两位的事轮不到咱们议论。」</p>
+      </dialog>
+      <dialog chara="012">「这个我理会得。」</dialog>
+      <text>
+        <p>少年枕玉连忙点头，俗话说——夫妻房内事，外人休掺和。</p>
+        <p>他并非多嘴多舌之人，决不蹚这浑水。</p>
+      </text>
+      <dialog chara="012">「两个人是？」</dialog>
+      <dialog chara="-1">「一个是咱们的祖师爷，太师父赤鸢真人……」</dialog>
+      <text>师兄们突然压低声音，左右看了看。</text>
+      <dialog chara="-1">「你们年纪小的可能都不晓得这名字了，太师父以前可是大大有名，神仙下凡千年不老。」</dialog>
+      <dialog chara="-1">「赤鸢真人二十年前重返仙班了，但你可别拿这事去刺激掌门，太师父飞升时没带上她，掌门师父始终惦念着呢。」</dialog>
+      <dialog chara="012">「唔唔。」</dialog>
+      <text>
+        <p>赤鸢真人的名字虽然随着时间渐渐淡去，但少年还是听过许多她的事迹，[\s]</p>
+        <p>更不如说正是『唯一真仙』的存在，才促使他千里迢迢来到天穹峰，拜入太虚派。</p>
+      </text>
+      <dialog chara="-1">
+        <p>「另一个就是『无双』苏湄。她是掌门的师妹，但两人势同水火……</p>
+        <p>这名字你非但别提，连听都不要听，遇上无双门人躲得远远的就对了，别和她们扯上任何关系。」</p>
+      </dialog>
+      <dialog chara="012">「啊？」</dialog>
+      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
+      <event action="hide_ui" duration="1.5"/>
+      <bg img="BGDarkRoom"/>
+      <motion chara="004" action="show" pos="right" duration="2" img="苏湄-自信-标准-中景"/>
+      <mono>
+        <p/>
+        <p>无双门——近二十年前，与新太虚剑派</p>
+        <p>几乎同时成立，规模却天差地别。</p>
+        <p/>
+        <p>太虚剑派如今位列六大宗门，无双</p>
+        <p>却仍是小宗小派。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>尽管如此，江湖中也没有人敢招惹无双门徒。</p>
+        <p>只因其门主乃是——『惊才绝艳』的苏湄。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>美貌绝伦，智计百出。</p>
+        <p/>
+        <p>苏湄虽为赤鸢真人的二弟子，武林却公认</p>
+        <p>她是太虚七剑中最可怕的一位，敬称之为</p>
+        <p>『女中诸葛』，『无双仙子』。</p>
+      </mono>
+      <motion chara="004" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="入云阶"/>
+      <dialog chara="012">「……这么可怕啊？」</dialog>
+      <text>师兄们面面相顾，一齐点头：</text>
+      <dialog chara="-1">「就这么可怕。」</dialog>
+      <event action="hide_ui" duration="2.1"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="拂云观-侧面（开门）" duration="2"/>
+      <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center"/>
+      <dialog chara="012">「…………」</dialog>
+      <text>他正愣神，屋里掌门的说话声已飘到了耳里。</text>
+      <motion chara="012" action="img_trans" img="枕玉-吃惊-敲门-中景（汗）"/>
+      <dialog chara="003">「枕玉，在门外发什么怔？」</dialog>
+      <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景"/>
+      <dialog chara="012">「啊……是！弟子枕玉拜见掌门。」</dialog>
+      <text>少年紧张不已，同时又有些激动。</text>
+      <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景（多汗）"/>
+      <dialog chara="012">「掌门您……怎知道是弟子？」</dialog>
+      <dialog chara="003">「怎么？我还没老到连徒弟的名字都记不住吧。」</dialog>
+      <text>
+        <p>掌门道。</p>
+        <p>声音中自嘲多过责备。</p>
+      </text>
+      <dialog chara="003">
+        <p>「本派上下二百一十七人，我都记得清清楚楚；[\s]</p>
+        <p>来人内息不匀，脚步虚浮，显是根基不稳。</p>
+        <p>想来想去，也只有刚入门不久的你了。」</p>
+      </dialog>
+      <motion chara="012" action="img_trans" img="枕玉-标准-标准-中景"/>
+      <dialog chara="012">「……啊，是，是。弟子一定努力练功！」</dialog>
+      <text>
+        <p>枕玉瞬间汗流浃背。[\s]</p>
+        <p>他拜师刚刚三月，『太虚真诀』的入门功法『太易劲』尚未练成，爬上入云阶已是气喘吁吁。</p>
+      </text>
+      <text>师父这句话虽然平淡，但在少年枕玉听来，便像是指他练功不勤，顿觉惭愧无地。</text>
+      <dialog chara="004">「这孩子能登上这入云阶就不容易了，别吓着他啦。」</dialog>
+      <text>枕玉微诧：这并不是掌门的声音。</text>
+      <event action="hide_ui" duration="3.1"/>
+      <motion chara="012" action="hide"/>
+      <se id="01-71开门声"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="拂云观-亮"/>
+      <motion action="show" pos="800,0" chara="004" img="苏湄-自信-标准-远景"/>
+      <motion chara="004" action="move" pos="right" duration="2"/>
+      <text>屋门忽尔敞开，一位少年平生仅见的美貌女子含笑而立。</text>
+      <dialog chara="003">「……」</dialog>
+      <motion chara="003" action="show" pos="left" img="林朝雨-愤恨-标准-远景" duration="1"/>
+      <motion chara="004" action="show" pos="right" img="苏湄-自信-标准-远景" duration="1"/>
+      <text>在她身后，掌门林朝雨面沉似水。</text>
+      <dialog chara="003">「苏湄……我太虚派的弟子，何时轮到你无双门评点了？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-远景"/>
+      <dialog chara="004">「啊哟，是我多言了。」</dialog>
+      <text>美艳绝伦的女子冲枕玉眨眨眼。</text>
+      <text>林朝雨这才把视线转向少年：</text>
+      <motion action="img_trans" chara="003" img="林朝雨-微笑-标准-远景"/>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-远景"/>
+      <dialog chara="003">「枕玉。你有何事？说罢。」</dialog>
+      <motion chara="003" action="hide"/>
+      <motion chara="004" action="hide"/>
+      <motion chara="012" action="show" pos="center" duration="1" img="枕玉-吃惊张嘴-标准-中景（汗）"/>
+      <dialog chara="012">「啊……」</dialog>
+      <text>少年不禁踌躇，他本是来替师兄师姐向掌门师父请罪的。</text>
+      <mono pageend="true">
+        <p/>
+        <p>是日清晨，『无双仙子』苏湄不请自到天穹峰，</p>
+        <p>声称有副掌门的口信需转呈掌门。</p>
+        <p/>
+        <p>师姐与师兄们生怕惹得师父震怒，</p>
+        <p>谁也不敢擅作主张领人上山。</p>
+        <p/>
+        <p>正合计着，无双门主却已不知所踪。</p>
+        <p>……谁知道，竟然已经到了拂云观中。</p>
+      </mono>
+      <text>少年不知所措，干脆如实道来：</text>
+      <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-标准-中景（汗）"/>
+      <dialog chara="012">「回师父：无双门的苏门主求见。二师姐与玄离师兄不敢擅自做主，命我先行上山向您禀报。」</dialog>
+      <motion chara="012" action="hide" duration="0"/>
+      <motion chara="004" action="show" pos="right" img="苏湄-甜笑-标准-远景"/>
+      <motion chara="003" action="show" pos="left" img="林朝雨-惊讶-标准-远景"/>
+      <dialog chara="004">「嘻，」</dialog>
+      <text>一旁的苏门主不禁轻笑出声。</text>
+      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-远景"/>
+      <text>掌门面上显见不悦，冷冷道：</text>
+      <dialog chara="003">「人都在这了，还有什么可禀报的？你回去罢。」</dialog>
+      <dialog chara="012">「是……弟子告退。」</dialog>
+      <text>枕玉低头行礼。</text>
+      <motion action="img_trans" chara="003" img="林朝雨-认真-标准-远景"/>
+      <dialog chara="003">「再有，」</dialog>
+      <text>掌门叹了口气，柔声嘱咐：</text>
+      <motion chara="003" action="img_trans" img="林朝雨-微笑-标准-远景"/>
+      <dialog chara="003">「往后跑腿送信的事，你不必来了。让玄离好好教你太虚真诀，把太易劲和太初劲的根基打扎实，上山也不至于累成这般。」</dialog>
+      <dialog chara="012">「弟子明白。」</dialog>
+      <text>掌门实是体恤少年。枕玉心里感激，却不善言词，只垂首道：</text>
+      <dialog chara="012">「谢师父。」</dialog>
+      <dialog chara="003">「去吧。」</dialog>
+      <bgm looptimes="0"/>
+      <event action="goto" to="01"/>
+    </scene>
+    <scene id="01" type="block" prev="00" title="楔子2">
+      <text>少年行礼，转身下山。林朝雨目送弟子的身影消失在青石阶后，这才转身面对一言不发的苏湄。</text>
+      <bgm id="天穹"/>
+      <motion chara="003" action="hide"/>
+      <motion chara="004" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1.6" color="#000000"/>
+      <event action="hide_ui" duration="1.5"/>
+      <bg img="拂云观-亮" scale="1.2"/>
+      <motion chara="004" action="show" img="苏湄-自信-标准-中景" pos="right"/>
+      <motion chara="003" action="show" reversex="true" img="林朝雨-不悦-标准-中景" pos="left"/>
+      <delay t="1.4"/>
+      <dialog chara="003">「我仍当你是师妹，但在我太虚派，没有你说话的份。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「小妹知错啦。」</dialog>
+      <text>苏湄笑容不改，目光往远处投去，又转而打量这间小室。</text>
+      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"/>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
+      <dialog chara="004">「太虚派，拂云观……嘻，这些都是师姐你的了。」</dialog>
+      <text>林朝雨报以一声冷哼。</text>
+      <dialog chara="003">「总得把太虚一脉传下去，不能让它断在我们手里。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「唉，我们七个中，就数师姐最恋旧啦。」</dialog>
+      <text>两人闲言数语，始终不入正题。林朝雨耐心地等着，苏湄却似乎对琐事极感兴趣：</text>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
+      <dialog chara="004">「你的小徒弟资质不错，人也有胆量，只可惜是男子，武功很难练到小马儿的境界。」</dialog>
+      <dialog chara="003">「……我收徒不如师父那么看重天资。拿彦卿来说，他算得上万中无一的武学奇才了，我的徒儿不论男女，没一个能比得上他。」</dialog>
+      <motion action="img_trans" chara="003" img="林朝雨-怅然-标准-中景" reversex="true"/>
+      <dialog chara="003">「不过，枕玉确是个好苗子，太虚派终要传给后辈，或许他会是我的关门弟子罢。」</dialog>
+      <dialog chara="004">「师姐现在就想着关门弟子的事了？」</dialog>
+      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-中景" reversex="true"/>
+      <text>林朝雨一怔，忽然脸色铁青。</text>
+      <text>
+        <p>赤鸢七个徒弟中，数她年岁最长，足足比二师妹大上十五岁。[\s]</p>
+        <p>林朝雨起初不以为意，然而时日久了，又与最年轻的六师弟成婚，便格外忌讳年龄之事。</p>
+      </text>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤怒-标准-中景"/>
+      <dialog chara="003">「苏湄，别挑战我的耐性……言归正传。」</dialog>
+      <text>太虚掌门主动挑破两人心照不宣的薄纸，</text>
+      <dialog chara="003">
+        <p>「师父复生，师妹已死，接着就是我们——可你有什么打算？[\s]</p>
+        <p>时隔许久你又来找我，总不会是来闲谈的罢？你……要再杀师父一次么？」</p>
+      </dialog>
+      <dialog chara="004">「……」</dialog>
+      <text>林朝雨将师妹的平静当作默认：</text>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤恨-标准-中景"/>
+      <dialog chara="003">「苏湄，我不喜欢你，可毕竟曾当你作亲妹妹看待。有句话我要提醒你：」</dialog>
+      <dialog chara="003">「今时不同往日，我们七个也再聚不到一起。当年之事实是侥幸，再来一次，结果未必相同。」</dialog>
+      <text>林朝雨长叹一息，</text>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-心头一震-标准-中景"/>
+      <dialog chara="003">
+        <p>「二十年了，我从没忘记那一晚……</p>
+        <p>四妹和七妹险些死了，若不是你，彦卿脸上那一剑……怕是凶多吉少。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「我就说师姐最是恋旧～嘻，已经二十年了，没什么『若不是』啦。」</dialog>
+      <text>
+        <p>二师妹对已成定局的事物毫无兴趣，</p>
+        <p>林朝雨心知如此，却始终不能赞同。</p>
+      </text>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
+      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"/>
+      <dialog chara="003">「哼，说吧，你的计划是什么？」</dialog>
+      <dialog chara="004">「我没有那样的东西。」</dialog>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-中景"/>
+      <text>武林中公认的聪明人，号称『智计无双』的苏湄却道：</text>
+      <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"/>
+      <dialog chara="004" inline="true">「计划再周详，又何曾尽如人意？若依着计算，师父现在应当已经死了，怎会重返世间……</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">不，我不作计划。变化时刻发生，人心太难算尽。」</dialog>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"/>
+      <text>林朝雨心中骤起一股凉意。</text>
+      <text inline="true">尽管厌憎苏湄，她的内心却始终相信这个女人总有法子；</text>
+      <text>
+        <p>正如二十年前，她能将七人集合起来，设计诛杀天下无敌的真仙赤鸢。</p>
+        <p>——明知时移世易，沧海桑田，太虚七剑已不同以往。</p>
+      </text>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-中景"/>
+      <dialog chara="003">「所以，你……」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">「唉，计划虽然没有，办法却有许多。」</dialog>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"/>
+      <text>林朝雨讶然挑眉：</text>
+      <dialog chara="003">「办法？」</dialog>
+      <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"/>
+      <dialog chara="004">「嗯。」</dialog>
+      <dialog chara="004">
+        <p>「二十年前，咱们葬了师父，一把火烧了太虚山。</p>
+        <p>事后我回山察看，却发现一桩蹊跷：」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">「师父的轩辕剑不见了。」</dialog>
+      <text>苏湄向前一步，注视着林朝雨的目光似有深意。</text>
+      <event action="hide_ui" duration="1.5"/>
+      <motion chara="003" action="hide"/>
+      <motion chara="004" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="拂云观-亮" scale="1.3"/>
+      <motion chara="003" action="show" reversex="true" img="林朝雨-惊恐-标准-近景" pos="left"/>
+      <motion chara="004" action="show" pos="right" img="苏湄-平静-标准-近景"/>
+      <dialog chara="003">「……不见了？」</dialog>
+      <dialog chara="004">「……」</dialog>
+      <text>苏湄的视线定定地落在林朝雨脸上，忽又移开。</text>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
+      <dialog chara="004">「……不是你。」</dialog>
+      <dialog chara="003">「咦？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"/>
+      <text>苏湄像想到了什么有趣的事，脸上浮现一丝笑意：</text>
+      <dialog chara="004">
+        <p>「我回去的时候，发现师父的棺木已被焚毁。棺中骸骨焦黑，面目全非。</p>
+        <p>可惜，灵柩的位置是我安排的，我知道那把火决计烧不到此处。</p>
+        <p>于是我查验了现场，结果不出所料——」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
+      <dialog chara="004">「棺材里的，并非师父的遗蜕。」</dialog>
+      <motion chara="003" action="img_trans" img="林朝雨-愤怒-标准-近景" reversex="true"/>
+      <dialog chara="003">「……什么？」</dialog>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-近景"/>
+      <dialog chara="004">「…………」</dialog>
+      <dialog chara="003">
+        <p>「所以……你早知道师父还活着？你……二十年前就知道了？</p>
+        <p>但你没有告诉我……你没有说，一个字也没说……」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"/>
+      <dialog chara="004">「……」</dialog>
+      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-近景"/>
+      <dialog chara="003">
+        <p>「我不知道，一直都不知道……彦卿呢？他也蒙在鼓里吗？婉兮和婉如……</p>
+        <p>还有素衣，你至少应该告诉素衣——」</p>
+      </dialog>
+      <dialog chara="004">「没有，我对谁也没说。」</dialog>
+      <motion chara="003" action="hide" img="林朝雨-怅然-标准-近景"/>
+      <text>
+        <p>林朝雨向后退去，直到这时，痛苦才爬上她满是细细皱纹的脸颊，让衰老突然击溃了太虚掌门的骄傲。</p>
+        <p>她看上去仿佛突然老去了十岁，时光就这样褪去了她的掩藏。</p>
+      </text>
+      <motion chara="003" action="show" img="林朝雨-愤怒-标准-近景" reversex="true" pos="left"/>
+      <dialog chara="003">
+        <p>「素衣一生孤苦。那孩子和我们不一样，我们做好了准备……无论如何，你总归不该这样对她。</p>
+        <p>到底是为什么？苏湄，为什么不告诉我们？」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
+      <dialog chara="004">「是啊……为什么呢？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"/>
+      <motion chara="003" action="img_trans" img="林朝雨-惊讶-标准-近景" reversex="true"/>
+      <text>苏湄喃喃道，眼中雾气升腾。</text>
+      <dialog chara="004">「……时间……」</dialog>
+      <text>
+        <p>含糊的字词从唇齿间滑出。</p>
+        <p>苏湄痴痴地望着一旁，仿佛失魂落魄，有如失去了记忆的老者，正在往事的旧物堆中寻找着自己也不清楚的宝物。</p>
+      </text>
+      <dialog chara="004">「只是想……一点……时间……」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-近景"/>
+      <text>
+        <p>说着，她闭上眼睛，好像这就意味着话题的终结。</p>
+        <p>当她再开口时，那老人的幻影消失了。</p>
+        <p>站在林朝雨面前的，又是镇定自若的无双门主。</p>
+      </text>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"/>
+      <dialog chara="004" inline="true">「是的……我早知道了。二十年前，师父的遗体从太虚山消失不见。或许有人偷走了它，或许师父当时就已复生——谁知道呢？我只是，意识到一种『可能』：</dialog>
+      <dialog chara="004">
+        <p/>
+        <p>师父没有死，她还活着。」</p>
+      </dialog>
+      <dialog chara="004">
+        <p>「不论多么不可思议，它终归是种可能，我无法将之忽略。[\s]</p>
+        <p>所以我建立了无双门，将他们派去中原各地。除了斩妖除魔之外，他们还承担着打探师父下落，监视可疑之处的任务。」</p>
+      </dialog>
+      <dialog chara="004">
+        <p>「而我……</p>
+        <p>这些年来，我一直在思考和探索师父与轩辕剑的奥秘，多少有些收获。[\s]</p>
+        <p>虽无必胜的把握，但可用的手段已经足够了。」</p>
+      </dialog>
+      <text>『手段』……这个字眼让林朝雨有些不快。</text>
+      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"/>
+      <dialog chara="003">「别想对师父耍你的手腕，她可是赤鸢真人。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"/>
+      <dialog chara="004">「嗯……我没有不敬师父的意思。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
+      <text>苏湄轻扬嘴角，笑容带着点点忧伤：</text>
+      <dialog chara="004">
+        <p>「师父若来杀我，那也理所应当呀，被杀者自有复仇的权利；[\s]</p>
+        <p>但是，弑师之事我从不后悔，若不迈出那一步，我们如今只有无尽的痛苦。</p>
+        <p>你呢？」</p>
+      </dialog>
+      <motion chara="003" action="img_trans" img="林朝雨-怅然-标准-近景" reversex="true"/>
+      <dialog chara="003">「……」</dialog>
+      <text>三十年的朝夕相处，化作细针在太虚剑派女掌座的心头轻扎。</text>
+      <dialog chara="003">「……我也不后悔。」</dialog>
+      <text>林朝雨轻声说道。</text>
+      <motion chara="003" action="img_trans" img="林朝雨-认真-标准-近景" reversex="true"/>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"/>
+      <dialog chara="004">
+        <p>「好，我不会引颈就戮，接下来我会全力与师父一斗，生死由命，胜负在天——[\s]</p>
+        <p>这就是我来此的用意。师姐，我需要你的帮助。」</p>
+      </dialog>
+      <text inline="true">
+        <p>林朝雨定定地注视着眼前的红发女子，[\s]</p>
+        <p>她曾是自己的妹妹、亲友、伙伴、情敌与对头，一度成了陌路，以为老死终不相往来；</p>
+      </text>
+      <text>可现在，林朝雨的心里百感交集，没一种占了上风。</text>
+      <text>最后，她说道：</text>
+      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"/>
+      <dialog chara="003">「我听着。」</dialog>
+      <transition mode="fade" in="1" stop="0.1" out="0" color="#000000"/>
+      <motion chara="004" action="hide"/>
+      <motion chara="003" action="hide"/>
+      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
+      <cg img="CG_第二折_天穹苏湄" duration="1"/>
+      <text>苏湄走出拂云观，在天穹峰顶张开双臂，绕了个圈，回头道：</text>
+      <dialog chara="004">「我要你的太虚派。」</dialog>
+      <event action="hide_ui" duration="8"/>
+      <motion chara="004" action="hide" duration="2.5"/>
+      <transition mode="fade" in="2" stop="0.5" color="#000000" out="0"/>
+      <cg/>
+      <bgm looptimes="0"/>
+      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
+      <bg img="Chapter02"/>
+      <delay t="2.5"/>
+      <se id="01-10标题试剑"/>
+      <delay t="3"/>
+      <transition mode="fade" in="2" stop="3" out="0" color="#000000"/>
+      <event action="goto" to="02"/>
+    </scene>
+    <scene id="02" prev="01" title="西方的江湖">
+      <transition mode="eye" in="0" stop="0.5" out="0.5" color="#000000"/>
+      <bgm id="月下昆仑（慢灵）"/>
+      <bg img="沙漠-星空"/>
+      <dialog chara="002">「！！」</dialog>
+      <text>荒漠之中，小女孩忽然惊醒。</text>
+      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="沙漠-夜谈1"/>
+      <motion chara="002" action="show" img="素裳-疲惫无神-持剑-中景" pos="right"/>
+      <delay t="1"/>
+      <text>
+        <p>心脏突突疾跳，冷汗浸湿衣衫。</p>
+        <p>女孩下意识地摸向身旁的布包，握住轩辕剑，这才稍稍安心。</p>
+      </text>
+      <dialog chara="001">「你做噩梦了？」</dialog>
+      <text>一旁传来熟悉的声音。</text>
+      <motion chara="002" action="hide"/>
+      <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
+      <motion chara="001" action="show" pos="left" img="奥托-标准-单酒杯-中景"/>
+      <text>她扭头看向说话的罗刹人。</text>
+      <text>
+        <p>真奇怪。刚认识的时候，他的神州话还没这么流利，尚带着别扭的西域口音。</p>
+        <p>可这才不到两天光景，他已经说得和本地人差不多好了。</p>
+      </text>
+      <motion chara="002" action="show" img="素裳-嘟嘴-持剑-中景" pos="right"/>
+      <dialog chara="002">「……没，我没事。」</dialog>
+      <text>
+        <p>罗刹人耸耸肩，移开视线，举杯抿了口摇晃的红色液体。当他放下酒杯时，红水就立刻停止了晃动。它总是维持在同样的高度，不增也不减。</p>
+        <p>女孩时常好奇那是什么，她倒是有几个想法，却不敢说。</p>
+      </text>
+      <bg img="沙漠-夜谈2" duration="1"/>
+      <motion chara="001" action="hide"/>
+      <motion chara="002" action="hide"/>
+      <delay t="1"/>
+      <text>李素裳爬起来，睡意已一扫而空。她抖抖衣服，又在罗刹人身旁坐下，打量起西域的神秘妖火。</text>
+      <text inline="true">这东西邪得很。</text>
+      <cg img="氛围_通用_蓝色圆球"/>
+      <text>
+        <p/>
+        <p>它的外表看上去就像一颗发蓝的圆球，但不管怎么滚动，里面的火焰都不会动弹，只是持续散发着光和热。</p>
+      </text>
+      <text>大漠的夜晚温度极低，可两人双马围拢在这颗球旁，丝毫也不觉得寒冷。</text>
+      <dialog chara="002">（这家伙的戏法都好厉害啊……）</dialog>
+      <cg/>
+      <text>素裳不由得朝身边的金发男人看去。</text>
+      <bg img="沙漠-夜谈1"/>
+      <motion chara="002" action="show" img="素裳-浅笑-持剑-中景" pos="right"/>
+      <dialog chara="002">「喂，罗刹人。」</dialog>
+      <motion chara="001" action="show" img="奥托-汗苦笑-标准-中景" pos="left"/>
+      <dialog chara="001">「我有名字的。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
+      <motion chara="002" action="img_trans" img="素裳-大笑-持剑-中景"/>
+      <dialog chara="002">「你们那儿的名字怪怪的，我懒得记啦。」</dialog>
+      <text inline="true">罗刹人微微一笑，不予理会，目光投在身旁的一口棺材上。</text>
+      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
+      <text>
+        <p/>
+        <p>他一直带着这口硕大厚重的棺木，有时还对它喃喃低语，每次都让素裳很不舒服。</p>
+      </text>
+      <motion chara="002" action="img_trans" img="素裳-惊讶2-持剑-中景"/>
+      <text>李素裳等了一会儿，罗刹人还是没说话。</text>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"/>
+      <dialog chara="002">「喂……你为什么要找仙人呀？」</dialog>
+      <dialog chara="001">「……」</dialog>
+      <text>
+        <p>长长的沉默。</p>
+        <p>素裳正搜肠刮肚，寻找下一个话题时，罗刹人突然开口了。</p>
+      </text>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景"/>
+      <dialog chara="001">「我曾见过仙人一面。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"/>
+      <dialog chara="002">「咦？」</dialog>
+      <text>少女先是疑惑，接着白了他一眼：</text>
+      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
+      <dialog chara="002">
+        <p>「啊，你又骗我，之前你还问我仙人是谁呢。</p>
+        <p>啧啧，你们罗刹人不爱讲实话啊。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
+      <dialog chara="001">「没骗你。但，那是个很长的故事了。」</dialog>
+      <dialog chara="002">「没事呀。我有时间，反正一时半会儿也不想睡。」</dialog>
+      <text>罗刹人望着脚下的沙砾，</text>
+      <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"/>
+      <dialog chara="001">「你真的要听？」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-笑-持剑-中景"/>
+      <dialog chara="002">「嗯！不过别讲太难懂，就简单一点，尽量简单一点。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
+      <dialog chara="001">「好吧。二十年前……」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"/>
+      <dialog chara="002">「等一下，二十年前？你今年几岁？」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-单手扶额-中景"/>
+      <dialog chara="001">「……你这样打断我，我可没法说了。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"/>
+      <dialog chara="002">「呃，对不住，你继续。」</dialog>
+      <dialog chara="001">「唉……」</dialog>
+      <text>罗刹人长叹一息。</text>
+      <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"/>
+      <dialog chara="001">「二十年前，欧陆与神州曾经发生过一场战争。欧洲派出的远征军名为天命骑士团，而我正在其中。明帝国的实力很强，天命从未遇到过如此强大的对手，但凭借[em font=Arial]Walküre[/em]和[em font=Arial]Der Schlüssel Gottes[/em]，天命还是取得了上风——」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
+      <dialog chara="002">「喂哎哎——再等等，什么娃儿，什么带耳？」</dialog>
+      <text>李素裳不满地嘟起嘴，</text>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"/>
+      <dialog chara="002">「我都说了你们那儿的名字怪怪的，你还讲这么多！欺负我啊！？」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-汗苦笑-摊手-中景"/>
+      <dialog chara="001">「……实在抱歉，说得太顺口了。」</dialog>
+      <text>罗刹人无奈摊手。</text>
+      <motion chara="002" action="img_trans" img="素裳-专注-持剑-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <dialog chara="001">「我换用你们神州的语言解释吧。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-大笑潇洒-背手-中景"/>
+      <dialog chara="002">「噢噢，那敢情好～你讲，本姑娘这回绝不插嘴。」</dialog>
+      <dialog chara="001">「呃……」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-中景"/>
+      <dialog chara="002">「呃？」</dialog>
+      <text>可能是不同语境的转换太过困难，罗刹人几度张口，都说不出话来。</text>
+      <motion chara="001" action="img_trans" img="奥托-思索星-中景"/>
+      <dialog chara="001">「总之……对。西方的骑士，就相当于你们的侠客。」</dialog>
+      <se id="02-10拍手"/>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
+      <text>罗刹人总算找到了思路，他拍了下手，露出无可奈何的表情，又不禁莞尔：</text>
+      <event action="goto" to="03"/>
+    </scene>
+    <scene id="03" type="block" prev="02" title="天命派">
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-摊手-中景"/>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="001">
+        <p>「容我从头说起：在神州的西边有片大陆，名唤欧罗巴。[\s]</p>
+        <p>你们神州的武林有各门各派，欧陆如今就只有一个，叫天命派。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
+      <dialog chara="001">「天命派由三人共同建立，据说祖师武功盖世，寰宇无敌。天命不消数年就成了欧陆不可小觑的势力，后又兼并了众神殿、英灵宫、荆冠门等诸派，声势极大。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
+      <dialog chara="001">「天命总览欧陆，事务繁杂，穷尽单人之力不能尽掌。因此天命的大权由三大家族……三大宗门把持，至今已有千年之久。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-惊讶-抱手-中景"/>
+      <dialog chara="002">「哇，千年！」</dialog>
+      <text>李素裳惊讶极了，</text>
+      <motion chara="002" action="img_trans" img="素裳-元气-普通-中景"/>
+      <dialog chara="002">「啧啧，那是真的厉害，我们的六大派也没几家有千年历史呀！这个天命是剑派么，练的什么功夫？」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-笑容释然-标准-中景"/>
+      <dialog chara="001">「既有剑术，也有枪法；不过天命真正的独门绝学，乃是你所谓的『妖术』和『戏法』。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
+      <text>罗刹人抬起左手，展示黄金十字。</text>
+      <motion chara="002" action="img_trans" img="素裳-惊讶2-普通-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-微笑奸-单十字-中景"/>
+      <dialog chara="001">「考虑到你们的文化，或许称之为法器更贴切。」</dialog>
+      <event action="hide_ui" duration="1.1"/>
+      <motion chara="002" action="hide" duration="0"/>
+      <motion chara="001" action="hide" duration="0"/>
+      <cg img="氛围_通用_犹大誓约"/>
+      <delay t="0.1"/>
+      <cg img="氛围_通用_犹大誓约" duration="1" scale="1.5"/>
+      <cg img="氛围_通用_犹大誓约启动" duration="1" reset="true"/>
+      <text>
+        <p>金链闪烁。李素裳忽然感到身躯一软，内力尽失。</p>
+        <p>只不过短短一瞬，就又恢复如常。</p>
+      </text>
+      <cg duration="2"/>
+      <bg img="沙漠-夜谈1"/>
+      <text>她往罗刹人手掌望去，金色的十字形已迅速消散，化为烟气。</text>
+      <motion chara="002" action="show" pos="right" duration="1" img="素裳-疲惫无神-持剑-中景"/>
+      <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑释然-标准-中景"/>
+      <dialog chara="002">（咦，这感觉……）</dialog>
+      <dialog chara="001">
+        <p>「天命镇派三宝之一：『犹大誓约』；</p>
+        <p>它能束缚崩坏能——即『真气』的流转。」</p>
+      </dialog>
+      <dialog chara="001">
+        <p>「而昨晚用来救治你的，是另一件法宝『黑渊白花』；</p>
+        <p>它能治愈人体，生骨活肌。只要真气足够，再重的伤势也能医除。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-微笑奸-摊手-中景"/>
+      <dialog chara="001">「但其实，你所见过的两件法器，都并非真货，而是赝品。」</dialog>
+      <text>罗刹人纤细的手指轻点自己的太阳要穴。</text>
+      <cg/>
+      <motion chara="002" action="hide"/>
+      <motion chara="001" action="hide"/>
+      <bg img="BGNeuron03"/>
+      <dialog chara="001">「在这里，是连天命派都不知其存在，我独有的法器——『虚空万藏』。」</dialog>
+      <dialog chara="001">「举凡见过，接触，并理解的事物；虚空万藏都可以用真气『拟似』，将之具现为实体。[\s]正因如此，我才能模拟天命派三大法宝的少许力量。」</dialog>
+      <bg img="沙漠-夜谈1"/>
+      <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑自信-标准-中景"/>
+      <motion chara="002" action="show" pos="right" duration="1" img="素裳-嘟嘴-抱手-中景"/>
+      <dialog chara="002">「……」</dialog>
+      <text>
+        <p>李素裳抱臂歪头，下意识地轻咬嘴唇。[\s]</p>
+        <p>倒非是不信罗刹人的话，只是她的脑袋已经被一堆名词搅成了浆糊。</p>
+      </text>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-抱手-中景"/>
+      <dialog chara="002">「……停一下，停一下。天命派那儿还挺好玩的，法宝什么的就……」</dialog>
+      <text>素裳苦恼地嘟着嘴巴：</text>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="002">「怎么突然修真了？还是别解释啦，我知道你很厉害就对了。接着说天命派的事吧。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
+      <dialog chara="001">「嗯。」</dialog>
+      <text>罗刹人长吁一声，朝素裳看了眼：</text>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
+      <dialog chara="001">
+        <p>「天命牢牢掌握欧陆，时日久了，野心便膨胀起来，终于盯上了地大物博的邻邦。</p>
+        <p>二十多年前，天命派兵攻打——呃，访问神州，希望与神州——呃，比武切磋。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-汗严-单空手-中景"/>
+      <dialog chara="001">「你们神州的军队很强，但天命的女武——呃，女侠士身携玄妙法器，终于赢得了比试。」</dialog>
+      <text inline="true">罗刹人说说停停，显然把史实改述为李素裳能够理解的版本令他备受折磨。</text>
+      <text>
+        <p/>
+        <p>证据就是——即使在烈日下也不曾出汗的罗刹人，此刻已有几颗豆大的汗珠从精致的脸颊上缓缓流下。</p>
+      </text>
+      <motion action="img_trans" chara="002" img="素裳-元气-普通-中景"/>
+      <text>一旁的素裳瞧着他的窘样，乐不可支。</text>
+      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
+      <dialog chara="001">「天命原本胜券在握，可是，仙人出现了。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-悲伤-标准-中景"/>
+      <dialog chara="001">「我就是在那时见到了她……」</dialog>
+      <dialog chara="001">
+        <p>「该说不愧是仙人吗？……</p>
+        <p>她一挥手，天空雷声震震，大地凝结成冰，火焰无风自燃。[\s]</p>
+        <p>种种奇妙异象将天命的阵势击溃。圣骑士接连上前，可全不是她的对手。」</p>
+      </dialog>
+      <text>罗刹人苦笑，声音渐渐飘渺。</text>
+      <motion chara="001" action="img_trans" img="奥托-茫然-标准-中景"/>
+      <dialog chara="001">
+        <p>「就连最强的女武神……掌握了『犹大誓约』的天才，</p>
+        <p>在她面前，也败得心服口服……」</p>
+      </dialog>
+      <text>罗刹人的目光又飘向那具棺材。</text>
+      <motion chara="002" action="img_trans" img="素裳-悲伤目前-抱手-中景"/>
+      <text>
+        <p>李素裳注意着他的视线，[\s]</p>
+        <p>经过一日的相处，她已经发现这罗刹人虽然时而有说有笑，但只要望向棺木，就会陷入彻底排斥外界的孤独之中。</p>
+      </text>
+      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
+      <dialog chara="002">「那里头是什么啊？」</dialog>
+      <text>对打仗毫无兴趣的李素裳终于忍不住问道：</text>
+      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
+      <dialog chara="002">「你总是跟它说话，有人在里面吗？」</dialog>
+      <dialog chara="001">「没有……」</dialog>
+      <text>罗刹人摇头，他似乎很困惑，视线在棺材上下游移，又望了望自己的手掌。</text>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="002">「不知道？你都没有打开过？」</dialog>
+      <dialog chara="001">「……」</dialog>
+      <motion chara="001" action="hide" duration="0"/>
+      <motion chara="002" action="hide" duration="0"/>
+      <bg img="沙漠-夜谈2"/>
+      <text>罗刹人没有回答，他的思绪好似飞去了很远的地方，留在李素裳身边的只是一具空空的躯壳。</text>
+      <text>素裳耐心地等待，她撑着下巴，注视罗刹人与外表完全不符的空邃双眸，好奇他正在想什么。</text>
+      <dialog chara="002">[em italic]（在想家吗？）[/em]</dialog>
+      <text>
+        <p>思念那远隔千里，她完全想象不出模样的西域故国？[\s]</p>
+        <p>还是在想着什么人呢？</p>
+      </text>
+      <dialog chara="002">
+        <p>[em italic]（……他有爹娘吗？</p>
+        <p>啊，真傻，那肯定是有的啦～</p>
+        <p>总不能是石头里蹦出来的吧。）[/em]</p>
+      </dialog>
+      <dialog chara="002">
+        <p>[em italic]（朋友呢？恋人呢？</p>
+        <p>也会有吧……该不会已经成亲了？</p>
+        <p>他有师承吗？是那个天命派的弟子吗？）[/em]</p>
+      </dialog>
+      <text>少女突然发现自己对罗刹人一无所知。</text>
+      <text>
+        <p>虽然同行了两天，可少女并没和罗刹人说上几句有意义的话，[\s]</p>
+        <p>她虽然问过名字，但听到那叽里咕噜的奇怪发言就放弃了记忆，现在再怎么努力也想不起来。</p>
+      </text>
+      <notification>传略馆更新：「罗刹人」</notification>
+      <event action="achievement" aid="b57930735ac07c7c"/>
+      <dialog chara="002">[em italic]（应该多和他讲讲话的……）[/em]</dialog>
+      <text>素裳有些沮丧。</text>
+      <text>
+        <p>她忽然想起：原来带这罗刹人回到师父身边后，就要与他分别了。[\s]</p>
+        <p>和他相处的时间只剩下半日，说长不长；说短，真的非常之短。</p>
+      </text>
+      <dialog chara="002">「唉……师父能留他几天吗？」</dialog>
+      <text>少女莫名地怅然若失。</text>
+      <text>她在十五年的光阴中首次拥有了朋友，既享受着与之相处的快乐，也体会着与之离别的感伤。</text>
+      <text>长夜漫漫，两个睡不着的人并肩坐着，神不守舍，直到天光大亮。</text>
+      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="goto" to="04"/>
+    </scene>
+    <scene id="04" prev="03" title="马非马">
+      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
+      <bg img="沙漠-夜景3"/>
+      <cg img="CG_第二折_百里逐驹1"/>
+      <se id="02-02马奔跑（沙漠）" looptimes="-1"/>
+      <se id="02-01马嘶鸣"/>
+      <bgm id="国势倾危（燃）"/>
+      <text>同样睡不着的，在这莽莽沙海上还有一人，一马。</text>
+      <mono>
+        <p/>
+        <p>马乃是汗血金蹄马，生得头细颈高，赭身朱鬣，龙脊纤长。[\s]</p>
+        <p>宝驹日行岂止千里，马蹄在沙上轻踏，足印留而不陷，如履平地。</p>
+      </mono>
+      <mono inline="true">
+        <p/>
+        <p>人则是千锤百炼人，身材魁梧健硕，长发短髯，肌肉虬结。[\s]</p>
+        <p>面上一道狭长剑疤，虽毁去了此人的清秀容貌，却无碍豪杰气概。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>这一人一马的默契，似乎已超越了主仆，更像是多年的挚友。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>若在中原，武林人士遥遥见了这对奇特的组合，就该一面在心里骂娘，一面拱手抱拳，堆起笑脸迎上，口中直呼 「马掌门！」 或 「马兄！」</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>盖因他是赤鸢真人座下唯一的男弟子，</p>
+        <p>七剑排行第六，</p>
+        <p>赫赫有名的天穹峰太虚派副掌座：[\s]</p>
+        <p/>
+        <p>『逐驹剑』——马非马。</p>
+      </mono>
+      <se looptimes="0"/>
+      <event action="achievement" aid="c31bc0dbbdc1f3ee"/>
+      <notification>传略馆解锁：「马非马」</notification>
+      <mono>
+        <p/>
+        <p>明面上，他兼有诸多身份，名号响亮至极，江湖中人莫不想与之结交。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>背地里，人们说起这位马大侠，则称呼为『疯子』、『狂人』、『怪客』、『死不掉的马非马』，见之无不头痛，维持个点头友谊便好，</p>
+        <p>谁也不愿与之来往过密。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>因为马非马这个人，不单武功了得，行事作风更是大大的狂傲。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>尽管顶着太虚剑派副掌门的名头，马非马却是个独行豪侠。</p>
+        <p/>
+        <p>太虚门徒一年也见不到他几次；与爱马『夜血』同处的日子，怕是比与妻子林朝雨更多。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>天穹峰的马副掌门温文尔雅，谦卑有礼；</p>
+        <p>可一下了山，就跟换了个人似的，什么角都敢惹，什么祸都敢闯。</p>
+        <p>对方是名门之后也好，天王老子也罢，马非马全不在乎。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>行侠仗义？惩恶锄奸？</p>
+        <p>逐驹剑不需要这种名义。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>想打架就打架，想出手就出手；</p>
+        <p>爱使剑就使剑，爱用拳就用拳；</p>
+        <p>想帮谁就帮谁，想杀谁就杀谁；</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>一切从心所欲。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>正因如此，武林正道人人对他避之唯恐不及。太虚掌门林朝雨也没少为他惹的事端奔走。</p>
+        <p/>
+        <p>他的仇家遍布天下，谁都不愿公然得罪太虚七剑，但私下里悬赏要他命的人可不少。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>对此，马非马的态度是：来者不拒。</p>
+      </mono>
+      <mono chara="008">
+        <p/>
+        <p>「想杀我就来，老子随时恭候。</p>
+        <p>躲半步算我没种，杀不掉是你没用。」</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>来杀他的人真的接踵而至。</p>
+        <p>埋伏、暗算、陷阱、下毒、色诱、挑战、比武……</p>
+        <p>什么招数都用过了，马非马还是没死，除了留下无数触目惊心的伤疤以外，他活得很好。</p>
+      </mono>
+      <bgm looptimes="0"/>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <cg/>
+      <bg img="拂云观-亮"/>
+      <motion chara="003" action="show" pos="right" img="林朝雨-微笑-标准-中景"/>
+      <bgm id="红颜近落霞（慢哀）"/>
+      <dialog chara="003">
+        <p>「我丈夫并非恶人，他是喜好自由，散漫惯了，难免做事冲动。</p>
+        <p>诸位请看在我的三分薄面上，勿与他计较。</p>
+        <p>武林同道若有需要林某的地方，太虚剑派定然鼎力相助。」</p>
+      </dialog>
+      <text>
+        <p>数年前，林朝雨借五十岁寿辰之机，宴请武林各大门派。[\s]</p>
+        <p>席间敬酒发言，实则为丈夫请罪，希望他得罪的各方势力高抬贵手。</p>
+      </text>
+      <motion chara="008" action="show" pos="left" img="马非马-微笑-标准-中景"/>
+      <text>马副掌门含笑起立，自罚一十九杯，亦是连连道歉。</text>
+      <motion chara="008" action="hide"/>
+      <motion chara="003" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <mono>
+        <p/>
+        <p>酒入寒肠，尽化男儿泪。</p>
+        <p>泪不轻弹，孤夜雨滂沱。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>人人都视作真相的，却是世上最大的谎言。</p>
+        <p/>
+        <p>马非马既不喜好自由，也不拥有自由。</p>
+      </mono>
+      <motion chara="003" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <text>
+        <p>得知师父复生后，马非马星夜兼程，直奔无双门而去，</p>
+        <p>只为第一时间把此事告知二师姐。</p>
+      </text>
+      <se/>
+      <bgm id="国势倾危（燃）" looptimes="0"/>
+      <bgm id="十大恶人（阴谋）"/>
+      <bg img="BGDarkRoom"/>
+      <motion chara="008" action="show" pos="left" duration="1" img="马非马-微惊-标准-中景"/>
+      <motion chara="004" action="show" pos="right" img="苏湄-自信-标准-中景" duration="1"/>
+      <dialog chara="004">「我知道。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">
+        <p>「那里有我的门徒，自有一套传递信息的法子。不过，也只比你稍快半日而已。</p>
+        <p>你来得正好，我的情报略嫌简单，正要听听你的说法。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <text>『无双仙子』苏湄不动声色，听完又让他复述一遍，询问种种细节。</text>
+      <motion chara="008" action="img_trans" img="马非马-标准-标准-中景"/>
+      <dialog chara="008">
+        <p>「事态紧急，我仅在附近稍作打听。</p>
+        <p>从种种描述来看，应是师父无疑。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
+      <dialog chara="004">「仍是二十年前，甚至更早时的模样？」</dialog>
+      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
+      <dialog chara="008">「是的。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「师父容颜不老啊～」</dialog>
+      <text>太虚第二徒一笑，马非马的心也跟着跳了起来。</text>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">
+        <p>「……有古怪，时间和地点都有蹊跷。</p>
+        <p>不过，这恰恰说明我的猜测是对的……」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-忧郁-别过-中景"/>
+      <text>说罢，苏湄沉吟不语，视线习惯性地飘上高空。</text>
+      <dialog chara="004">
+        <p>「你的语气有些反常，小马儿。</p>
+        <p>……哪里不合情理，是吗？」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
+      <dialog chara="008">
+        <p>「杀人焚庄。</p>
+        <p>……这并非师父的性格。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
+      <dialog chara="004">「啊。」</dialog>
+      <text>苏湄轻叹道，</text>
+      <motion chara="008" action="img_trans" img="马非马-瞥目-标准-中景"/>
+      <dialog chara="004">
+        <p>「不错，我也觉着奇怪，本怀疑情报有误，背后另有隐情……</p>
+        <p>但据你所说，『师父』她确实出现了。」</p>
+      </dialog>
+      <dialog chara="004">「………………」</dialog>
+      <dialog chara="004">
+        <p>「『杀人焚庄……这并非师父的性格。』，你刚刚这么说。</p>
+        <p>那么，师父是什么性格？我犹记得年少时，她曾带着师姐火烧望山，杀死了许多圣火教民。」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
+      <dialog chara="008">
+        <p>「阎世罗以邪术操控教徒，他们已走火入魔；至于望山……</p>
+        <p>朝雨说，那里真气弥漫。若是放任不管，必然催生妖兽，为祸一方。」</p>
+      </dialog>
+      <dialog chara="004">
+        <p>「嗯，师父只杀走火入魔之人，只焚妖气过盛之地。</p>
+        <p>因此杀之无错，焚之有理？」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-沉思-标准-中景"/>
+      <dialog chara="008">
+        <p>「……对错道理，我说不清。</p>
+        <p>但斩妖除魔是太虚门人的职责。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
+      <text>苏湄的视线投在马非马的脸上。</text>
+      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
+      <dialog chara="004">「走火入魔、化妖、尸变……称呼虽多，本质却是相同：那就是真气超出了人体能够承受的负荷。过量的真气使人失去理智，狂性发作，沦为只知杀戮与破坏的野兽。这过程一旦开始，便再无逆转之法。」</dialog>
+      <dialog chara="004">
+        <p>「故而杀之为救。取一只妖魔性命，如同保护千百无辜免受其害。</p>
+        <p>嗯，太虚的职责说来就是这样：见化妖入魔者，杀之无赦。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
+      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
+      <dialog chara="004">
+        <p>「……我恪守此道，不曾违背。</p>
+        <p>二十年来，我无双门斩除的怪物何止千数。</p>
+        <p>可我不引以为豪，相反，我厌憎这条戒律。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
+      <dialog chara="004">
+        <p>「……它们当真该死么？[\s]</p>
+        <p>走火入魔者往往是从未接触过武功的百姓，江湖子弟反是少数。他们多为普通人，并无大奸大恶，只是……不幸被『真气』所祸而已。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">
+        <p>「『真气』无眼，『天意』不仁，于是人为刍狗。</p>
+        <p>你说师父杀人无错，我说也对。但错必是存在的。</p>
+        <p>若错不在师父，不在我，亦不在死者，则其错在天。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
+      <dialog chara="004">
+        <p>「小马儿，太虚不过是个囚笼。师父武功盖世，却也是『天』的囚徒。</p>
+        <p>如今身死道消二十载，这『斩妖除魔』的戒律是否还能将她束缚？」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">「别以旧有的印象判断新事，那会吃大亏的。」</dialog>
+      <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"/>
+      <dialog chara="008">「……」</dialog>
+      <text>
+        <p>马非马凝望着她精致的面容。[\s]</p>
+        <p>往昔的痛苦又在心底翻涌，而他已习以为常。</p>
+        <p>这个女人，从少时起就是这样，总是冷静几近无情，处变不惊。</p>
+      </text>
+      <text>
+        <p>[em italic]可是，今时不同往日……[/em]</p>
+        <p>他的双眼熔得滚烫，直有种冲动，想向她说出很多年前曾说过的那段话。</p>
+      </text>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
+      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
+      <dialog chara="004">「我不能答应你。」</dialog>
+      <text>苏湄突然开口。</text>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">「我知道你在想什么，小马儿，我一瞧就知道了。」</dialog>
+      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
+      <dialog chara="008">「——」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「你啊，你啊。」</dialog>
+      <text>苏湄轻轻地摇头，这并不是在责难他。</text>
+      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">
+        <p>「你是这世上最懂我的男人，可是，还不够懂；</p>
+        <p>我是这世上最懂你的女人，可是，那并非爱。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">
+        <p>「我不爱你，也不爱任何人～</p>
+        <p>唉，这不是你的错，也不是你能改变的事儿。」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-苦笑-标准-中景"/>
+      <dialog chara="008">「……哈哈。」</dialog>
+      <text>马非马苦笑，</text>
+      <dialog chara="008">「你还有事要拜托我，对吧？说不定你骗骗我，讲几句谎话，我会更加死心塌地呢。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <motion chara="008" action="img_trans" img="马非马-瞥目-标准-中景"/>
+      <dialog chara="004">「别傻了，小马儿。你既不会被我骗，我也不会骗你。」</dialog>
+      <text>苏湄晃晃手指，他的目光情不自禁地随着那根白净的手指游移。</text>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
+      <dialog chara="004">
+        <p>「你值得一份尊重，小马儿——你是个好男人啦，早就不是缠着我的小娃娃了。</p>
+        <p>一切本不必如此，是的，我明白的。你本不必犯下那些错，更不用吃这么多苦……我明白的。」</p>
+      </dialog>
+      <dialog chara="004">
+        <p>「所以，我不希望你做任何不情愿的事，</p>
+        <p>可你知道吗？无论我要你做什么，你都心甘情愿。」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
+      <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"/>
+      <dialog chara="004">
+        <p>「……但情愿，不等于快乐。</p>
+        <p>这必须由你自己取舍。」</p>
+      </dialog>
+      <text>马非马耸耸肩，他不快乐，他知道，她也知道。</text>
+      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
+      <dialog chara="004">
+        <p>「罢啦。我给你的是选择，选择的是你。</p>
+        <p>接下来我要说的话，你也有选择——」</p>
+      </dialog>
+      <dialog chara="008">「我要留下来。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
+      <text>
+        <p>苏湄瞧着面前的男人，先看他的眼睛，再看他的喉咙，接着是手。[\s]</p>
+        <p>这视线让他非常喜悦，也给了他说下去的勇气。</p>
+      </text>
+      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
+      <dialog chara="008">「师父会来找你，我不能让你死。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
+      <dialog chara="004" inline="true">「……</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
+      <dialog chara="004">不要紧，我不会死的。」</dialog>
+      <text>苏湄轻描淡写地答道。</text>
+      <motion chara="008" action="img_trans" img="马非马-沉思-标准-中景"/>
+      <text>
+        <p>马非马沉默了，这一句话就将他哽住。[\s]</p>
+        <p>因为，『无双』苏湄的话总会成真。</p>
+      </text>
+      <text>她可是苏湄啊。从不做没把握的事情，从不许没意义的承诺。</text>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
+      <dialog chara="004">
+        <p>「我早有准备，师父的归来并不在我意料之外。</p>
+        <p>至于你嘛，我希望你去把这消息告诉其他人。」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
+      <dialog chara="008">「我……你要我回去通知朝雨？」</dialog>
+      <motion action="img_trans" chara="004" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">「不必了，她那儿我亲自去说。你得去个更远的地方。」</dialog>
+      <dialog chara="008">「三师姐我可以顺路……五师姐？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">「对啦。」</dialog>
+      <se id="02-10拍手"/>
+      <text>苏湄拍手合掌，笑得很快活。</text>
+      <dialog chara="004">
+        <p>「我想请你去趟漠北。以夜血的速度，不出半月必至。[\s]</p>
+        <p>我需要你找到五妹，告诉她师父回来了——」</p>
+      </dialog>
+      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
+      <dialog chara="004">「——再帮我留意一下，她有没有轩辕剑。」</dialog>
+      <motion chara="008" action="img_trans" img="马非马-疑惑-标准-中景"/>
+      <dialog chara="008">「唔？她的剑不是……？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
+      <dialog chara="004">
+        <p>「对，所以，帮我留意一下吧。</p>
+        <p>轩辕剑的下落至关重要，我希望能全部掌握。」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
+      <text>
+        <p>马非马低下头，咀嚼苏湄话中的意思。</p>
+        <p>他知道她既然提出此事，必然有其用意，可他不明白。</p>
+      </text>
+      <text>
+        <p>但他毕竟和苏湄相识了三十多年，</p>
+        <p>知道一个聪明的女人，并不喜欢向男人作解释。</p>
+      </text>
+      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
+      <dialog chara="008">「好。只要告诉她？不用让她回中原？」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
+      <dialog chara="004">
+        <p>「嗯，传个话就够了，要怎么做是五妹的自由。</p>
+        <p>接着，你就回天穹峰吧，我会在那儿和你碰头。」</p>
+      </dialog>
+      <motion chara="008" action="img_trans" img="马非马-标准-标准-中景"/>
+      <dialog chara="008">「好。」</dialog>
+      <text>大汉回答，却没有动身。</text>
+      <dialog chara="008">「朝雨她……」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
+      <dialog chara="004">「我知道。」</dialog>
+      <text>她的回答恰到准处，就像男人的三个字已把疑虑与担忧交待得干干净净，再不需要多余的言语。</text>
+      <text>马非马应了一声，转身欲走。</text>
+      <motion chara="008" action="hide"/>
+      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
+      <bgm id="十大恶人（阴谋）" looptimes="0"/>
+      <dialog chara="004">「小马儿～」</dialog>
+      <text>苏湄在身后唤他，</text>
+      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
+      <dialog chara="004">「我不骗你，我不会死的。」</dialog>
+      <text>男人不说话，他点点头，这就够了。</text>
+      <motion chara="004" action="hide" duration="1.5"/>
+      <transition mode="fade" in="2" stop="0.5" out="2" color="#000000"/>
+      <cg img="CG_第二折_百里逐驹1"/>
+      <bgm looptimes="0"/>
+      <se id="02-01马嘶鸣"/>
+      <se id="02-02马奔跑（沙漠）" looptimes="-1"/>
+      <text>当夜，马非马乘夜血径入大漠。按照苏湄的指示寻访太虚第五剑。</text>
+      <text>长夜漫漫，一人一马疾驰不休，直到天光大亮。</text>
+      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="goto" to="06"/>
+    </scene>
+    <scene id="06" prev="04" title="数据之海">
+      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
+      <bgm id="久远时光中"/>
+      <bg img="BGNeuron03" duration="3"/>
+      <delay t="2"/>
+      <mono pageend="true">
+        <p/>
+        <p>潮起，[\s]潮落。[\s]</p>
+        <p>潮起，[\s]潮落。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>眼前所见的，是穷尽万世也不得全览的知识之库。[\s]</p>
+        <p>虚体所在的，是凡骨肉胎绝不能透彻的数据之海。</p>
+      </mono>
+      <transition mode="eye" in="2" stop="0.5" out="2" color="#000000"/>
+      <delay t="1.5"/>
+      <mono>
+        <p/>
+        <p>潮起，潮落。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>信息的薄浪冲刷着男人的意识，反反复复，反反复复。[\s]</p>
+        <p>他竭力维持清醒。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>在这片海洋之中，不可说不可说转的资讯沉沉浮浮。</p>
+        <p>男人所能摘取的，不过是百亿分之一的碎末罢了。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>而信手取来的信息中，可用的又是寥寥；[\s]</p>
+        <p/>
+        <p>若不进行细致漫长的筛选，</p>
+        <p>坐拥无限的知识又与愚人何异呢？</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>于是他仍在寻找。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>在趋于不可知的某处，他曾击败过的对手——「虚空万藏」本尊，仍然觊觎着他的肉身。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>无限的知识是它的诱饵，慷慨的馈赠是它的武器，</p>
+        <p>男人知道它在等待，等待着他松懈的那一念。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>但他仍在寻找。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>寻找是不会止步的。</p>
+        <p>这一切都是为了救回那个人——</p>
+        <p>为此，辛苦算得了什么？[\s]</p>
+        <p>危险算得了什么？[\s]</p>
+        <p>时间算得了什么？</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>永恒……又算得了什么？</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>潮起，[\s]潮落。[\s]</p>
+        <p>潮起，[\s]潮落。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>男人的意志不曾动摇。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p>                      潮起——</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p>                    他仍在寻找。</p>
+      </mono>
+      <transition mode="eye" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="goto" to="07"/>
+    </scene>
+    <scene id="07" prev="06" title="真气">
+      <transition mode="eye" in="0" stop="0.5" out="3" color="#000000"/>
+      <bgm id="侠女之声（女抒情）"/>
+      <bg img="氛围_第一折_烈阳"/>
+      <text>太阳爬上高空，罗刹人的眼里又现出了神采。</text>
+      <text>他极慢地呼了口气。声音很轻，但却逃不过歪头瞧着他的李素裳的耳朵。</text>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="BGDesert01"/>
+      <motion chara="002" action="show" img="素裳-元气-背手-中景" pos="right"/>
+      <dialog chara="002">「醒啦？」</dialog>
+      <motion chara="001" action="show" pos="left" img="奥托-微悲-标准-中景" duration="1"/>
+      <dialog chara="001">「嗯，醒了。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
+      <text>罗刹人应道，勉强地笑了笑。</text>
+      <motion chara="002" action="img_trans" img="素裳-标准-背手-中景"/>
+      <text>李素裳张口又抿上，反复数次后还是忍不住问：</text>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
+      <dialog chara="002">「那个，你们罗刹人都是睁着眼睛睡觉的吗？」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
+      <dialog chara="001">「……唔？」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
+      <dialog chara="002">「你话说了一半就睡着啦，但眼睛还睁着，吓着我了，拿手晃你都没反应。」</dialog>
+      <text>少女说着，白净的手掌就在罗刹人眼前晃了起来。</text>
+      <motion chara="001" action="img_trans" img="奥托-苦笑-单空手-中景"/>
+      <dialog chara="001">
+        <p>「……不，那是因为我的神识遁入了『虚空万藏』之中。</p>
+        <p>我有些疑惑，需得从中找寻答案。抱歉，让你担心了。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-标准-标准-中景"/>
+      <dialog chara="001">
+        <p>「我必须集中精神。这些法器威力强大，但力量总伴随着巨大的代价。</p>
+        <p>『虚空万藏』蕴藏大道至理，每一次探寻都危机重重。</p>
+        <p>若是心智不坚，意识便有被『虚空万藏』吞噬之虞。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-严肃-单空手-中景"/>
+      <dialog chara="001">「又如天命的第三至宝『天火圣裁』，其威力可开山断海。可神火既出，必遭反噬，持有者自身也难以幸免。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-悲伤-摊手-中景"/>
+      <dialog chara="001">
+        <p>「……用于医治你的『黑渊白花』亦然，它的异能连我也无法完全地掌握。</p>
+        <p>我曾用它治疗自己，结果落下后遗症——用你们的话说，大抵就是内伤吧。</p>
+        <p>现在每过一段时日，我就会衰老或还童，需得数十日方可复原……」</p>
+      </dialog>
+      <dialog chara="002">「内伤？……」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-悲伤目下-背手-中景"/>
+      <dialog chara="002">（因真气紊乱而返老还童……似乎在哪里听过……）</dialog>
+      <text>[em italic]……是走火入魔的前兆？[/em]</text>
+      <bgm looptimes="0"/>
+      <bg img="PureBlack" duration="0.3"/>
+      <motion chara="002" action="img_trans" img="素裳-呆滞刺激-背手-中景"/>
+      <text>念头闪动，跃入李素裳的脑海，如同魔种。</text>
+      <text>——！！</text>
+      <text>
+        <p>一种突如其来的情绪摄住少女的心神。</p>
+        <p>在短暂的惊讶、惋惜、与痛苦之下，是强烈到令人绝望的杀意。</p>
+      </text>
+      <text>
+        <p>走火入魔者，杀之无赦——</p>
+        <p>这是娘亲与师父从小就不厌其烦地教导她的，太虚一脉的使命，也是百无禁忌的『自在门』唯一的铁律。</p>
+      </text>
+      <bg img="心湖（3）明镜"/>
+      <text>
+        <p>素裳的『剑心』在一瞬间攀升至明镜境。</p>
+        <p>右掌骤然伸直，启剑『裂空』刹那成形。</p>
+        <p>此刻她的手掌，正是无坚不摧的除魔之器——</p>
+      </text>
+      <bg img="BGDesert01"/>
+      <bgm id="佛心禅悟"/>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-摊手-中景"/>
+      <dialog chara="001">
+        <p>「不……没那么可怕，这只是法器的副作用而已。</p>
+        <p>它的化解之法我已在『虚空万藏』中寻获了。」</p>
+      </dialog>
+      <motion chara="002" action="img_trans" img="素裳-疲惫无神-普通-中景"/>
+      <text>罗刹人伸出手，姿态优雅。</text>
+      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
+      <dialog chara="001">
+        <p>「只要依当时的功率逆转『黑渊白花』即可，难点在于控制精度。</p>
+        <p>我的法器是拟似而成，效率不如原版，因此要进行大量的运算……」</p>
+      </dialog>
+      <text>说着说着，罗刹人的用词又让素裳难以理解了。</text>
+      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
+      <dialog chara="002">
+        <p>「哎，能治好就行。你可千万不要走火入魔喔……</p>
+        <p>真想不出，你是受了什么伤啊，能把法宝用成这样？」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-严肃-标准-中景"/>
+      <text>罗刹人愣住，想了一想才道：</text>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <dialog chara="001">「不告诉你。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
+      <dialog chara="002">「嘁。」</dialog>
+      <text>
+        <p>看着嘟嘴的素裳，罗刹人面露微笑，心中却是一痛。[\s]</p>
+        <p>明明相似之处寥寥，可与这东方少女相处时，他总会情不自禁地想起『她』。</p>
+      </text>
+      <text>[em italic]啊啊，曾几何时，也是这般年岁……[/em]</text>
+      <motion chara="001" action="hide"/>
+      <motion chara="002" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <cg img="氛围_第二折_卡莲" scale="2" origin="80%,80%"/>
+      <delay t="0.6"/>
+      <bg img="BGDesert03"/>
+      <text>[em italic]卡莲……[/em]</text>
+      <text>罗刹人怔怔望着杏黄的枯沙，眼前又依稀看见了那个巧笑明眸的少女。</text>
+      <cg img="氛围_第二折_卡莲" duration="15" origin="80%,80%"/>
+      <se id="02-03卡莲语音"/>
+      <dialog chara="099">「喂，大发明家——」</dialog>
+      <delay t="0.3"/>
+      <text>
+        <p>是了，她是这样称呼他的……[\s]</p>
+        <p>记忆中的少女背手而立，轻风把银色的发丝吹在空中。</p>
+      </text>
+      <bg img="BGPureWhite00"/>
+      <se id="02-04卡莲语音"/>
+      <dialog chara="099">「——我有一个心愿，只告诉你听，你别笑我呀。」</dialog>
+      <delay t="0.6"/>
+      <cg duration="0.5"/>
+      <text>
+        <p>声犹在耳，好似时间在那一刻凝固了，再也不曾前进过。[\s]</p>
+        <p>可是，那是三十多年前的事了。</p>
+      </text>
+      <text>恍然间，罗刹人眼中泪水盈盈。</text>
+      <bg img="PureBlack"/>
+      <dialog chara="001">「——李姑娘。」</dialog>
+      <text inline="true">罗刹人强迫自己回神，尽管他宁愿沉溺其中。</text>
+      <text>
+        <p/>
+        <p>谁又能明白，从往事回忆中抽身，所花费的力气竟比与虚空万藏的斗争更甚呢。</p>
+      </text>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <dialog chara="001">
+        <p>「这几日我持续使用法器，真气损耗极大；</p>
+        <p>曾听闻神州武学中有让渡真气的传功法门，你会么？」</p>
+      </dialog>
+      <motion chara="001" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <cg img="氛围_第二折_战场"/>
+      <mono pageend="true">
+        <p/>
+        <p>当年天命与神州一战时，罗刹人就察觉到了……[\s]</p>
+        <p/>
+        <p>同是『真气』这种玄妙的能量，东西方的运用方法却有诸多差别，</p>
+        <p>这件事令他觉得相当不可思议。</p>
+      </mono>
+      <bg img="BGDesert01"/>
+      <mono pageend="true">
+        <p/>
+        <p>西方将真气视为瘟疫，竭力摆脱它的沾染，</p>
+        <p>为了对抗它而发展出许多技术；[\s]</p>
+        <p/>
+        <p>东方人却试图容纳它，利用它，</p>
+        <p>将之转变为一种强化自身的力量。</p>
+      </mono>
+      <mono inline="true">
+        <p/>
+        <p>诚然，与天命相较，神州的科技居于落后地位；</p>
+        <p/>
+        <p>但论及对真气的理解，东方却反而在境界上更胜一筹。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>……为何会诞生这样的差异呢？</p>
+      </mono>
+      <transition mode="dissolve" in="1" stop="0.5" out="0" color="#000000"/>
+      <cg/>
+      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
+      <motion chara="001" action="show" pos="left" img="奥托-思索-中景"/>
+      <motion chara="002" action="show" pos="right" img="素裳-惊讶-普通-中景"/>
+      <dialog chara="002">「啊，这个嘛……」</dialog>
+      <text>李素裳苦恼地思考着，</text>
+      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
+      <dialog chara="002">
+        <p>「你说的传功，就是把自己的真气输给他人吧？</p>
+        <p>我得先告诉你，不是我们太虚剑气不行啊，</p>
+        <p>只是……它和别的功夫不一样。」</p>
+      </dialog>
+      <motion chara="002" action="img_trans" img="素裳-龇牙-普通-中景"/>
+      <dialog chara="002" inline="true">「自在门的祖师是赤鸢真人。据说她游方天下，为的正是消灭为祸世间的妖人异兽。故而真人平生最忌的，就是走火入魔。</dialog>
+      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
+      <dialog chara="002">
+        <p/>
+        <p>所以她创下的武功，是不练真气的。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-微悲-标准-中景"/>
+      <dialog chara="001">「哦？这说法，我还是头回听闻。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <dialog chara="002">「因为你是外国人嘛，没见识——哈哈！」</dialog>
+      <text>也不知哪里戳到了小姑娘的笑点，素裳乐得合不拢嘴，又续道：</text>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="002">「所以——嘿嘿——我们不像其他门派那样练内功，练丹田，而是将身体练成真气的通道。」</dialog>
+      <dialog chara="002">
+        <p>「你知道吗？所谓『先天一炁』的实质，即是生命的元气。</p>
+        <p>它无处不有，哪怕一片叶一朵花中，都有真气的存在。」</p>
+      </dialog>
+      <motion chara="001" action="img_trans" img="奥托-微笑奸-标准-中景"/>
+      <text>罗刹人微微一笑。在他看来，与其说崩坏——东方的『真气』是生命力的代名词，倒不如说它是生命的毁灭者更为恰当。可是，他没必要纠正女孩的观点。</text>
+      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
+      <dialog chara="002">「太虚剑心与剑形大成后，即可从周遭汲取真气，使之在经络中流转不滞，需时澎湃若海浪，亦可涓涓似细流，自在随心，不受限制。」</dialog>
+      <dialog chara="002">「故而比起其余诸般武学，太虚剑气的威力更强。但：我们的丹田内并不储存真气。」</dialog>
+      <text>李素裳两手一摊：</text>
+      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-茫然-标准-中景"/>
+      <dialog chara="002">「没法传功给你呀。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="001">「可是，依照你的说法。」</dialog>
+      <text>罗刹人思索着，</text>
+      <dialog chara="001">「你若能自行操控内力流转，岂不是可以从天地间汲取真气，再使之流入我的经络之中？」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
+      <dialog chara="002">「呃……好像行吧？但我不会呀。」</dialog>
+      <dialog chara="001">「我教你。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-惊讶-普通-中景"/>
+      <dialog chara="002">「你？」</dialog>
+      <text>素裳大奇，</text>
+      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
+      <dialog chara="002">「你会？」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-思索星-中景"/>
+      <dialog chara="001">
+        <p>「需要你稍加讲解，好针对你的武学系统作出适配；</p>
+        <p>东西方对真气的理解或有差别，但万变不离其宗。」</p>
+      </dialog>
+      <dialog chara="001">「我的头脑加上『虚空万藏』，只要理解了太虚剑气的本源，推演出渡气的法门相信不难。」</dialog>
+      <text>素裳愣愣地瞧着他，突然扑哧一笑：</text>
+      <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-微悲-标准-中景"/>
+      <dialog chara="002">「我差点没反应过来，喂，你们罗刹人……哦，对啦，你们只有一个天命派，难怪不懂江湖规矩：」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="002">
+        <p>「武功是不能随便传给外人的啦！这可是大忌！</p>
+        <p>要是谁都能学太虚剑气，神州不就乱套了嘛！」</p>
+      </dialog>
+      <text>罗刹人一愣，他确没想过神州有这样的规矩。</text>
+      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
+      <dialog chara="001">「……抱歉。」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-吓-背手-中景"/>
+      <dialog chara="002">「呃，不是责怪你啦……你……也是想医好内伤嘛。」</dialog>
+      <motion chara="001" action="img_trans" img="奥托-微悲-单空手-中景"/>
+      <dialog chara="001">「我明白的，李姑娘。待我休息半月，将内力调息完毕，自行医治也可。」</dialog>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p/>
+        <p>他这么说，其实却有算计；引起他这异象</p>
+        <p>的乃是天命珍藏的「黑渊白花」本尊，[\s]</p>
+        <p/>
+        <p>若要用拟似的仿冒品逆行法门，以自身的</p>
+        <p>修为决计做不到，最终还得着落在东方人</p>
+        <p>神奇的武功门道上。</p>
+      </mono>
+      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
+      <dialog chara="002">「哎——你，你太见外啦，叫我素裳就好了……」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
+      <text>李素裳下意识地嘟起小嘴，面色忽晴忽暗，很是窘迫。</text>
+      <text>
+        <p>许是想到了罗刹人不惜损耗自身的功力每日为她疗伤，</p>
+        <p>小姑娘想要帮上这个男人的忙。</p>
+        <p>但『太虚剑气』又是说什么也不能外传的绝密。</p>
+      </text>
+      <text>她忸怩片刻，突然腾身站起：</text>
+      <motion chara="002" action="img_trans" img="素裳-浅笑-抱手-中景"/>
+      <dialog chara="002">「罗刹人，我们这就动身，不要耽搁了！」</dialog>
+      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
+      <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景"/>
+      <dialog chara="002">
+        <p>「我估算着，大概还有半天路程，今晚就能到家。咱们还可以让马再跑快些……</p>
+        <p>等见到师父，我请她出手帮你医治。她要是不答应，我就……我就……」</p>
+      </dialog>
+      <motion chara="002" action="img_trans" img="素裳-嘟嘴-抱手-中景"/>
+      <text>素裳想了又想，咬住嘴唇，恨恨道：</text>
+      <dialog chara="002">「我就不理她！」</dialog>
+      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="goto" to="08"/>
+    </scene>
+    <scene id="08" prev="07" title="无上自在">
+      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
+      <bgm id="仙灵岛（水灵笛）"/>
+      <bg img="BGSky03"/>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>窗外仍是漆黑一片时，凌霜已经醒了；</p>
+        <p>她总是在这个时候醒来，既不早也不晚。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="凌霜小屋室内" duration="3"/>
+      <delay t="2.5"/>
+      <mono>
+        <p/>
+        <p/>
+        <p>打一盆清水梳洗更衣后，她在床上盘膝打坐，</p>
+        <p>默诵剑心诀，一念就是两个时辰，雷打不动。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>接着，她起身执帚扫地。待屋子打扫干净了，</p>
+        <p>便到附近的小市上买些烙饼和羊肉；[\s]</p>
+        <p>若是水用完了，还得去一旁的水井里打几桶水。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="织机" duration="3"/>
+      <delay t="3"/>
+      <bg img="织机" duration="9" scale="1.5"/>
+      <mono>
+        <p/>
+        <p>用过早饭，凌霜就在一架旧织机旁坐下，织罗绸。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>曾经，她只用一天就能织出一匹满意的绸子；</p>
+        <p>收了素裳后，进度就大大拖慢了。[\s]</p>
+        <p>迟则一周，再快也要四天。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="BGDesertWU" duration="3"/>
+      <delay t="3"/>
+      <mono>
+        <p/>
+        <p/>
+        <p>李素裳常常好奇她出门之后，</p>
+        <p>师父空余的时候会做什么事情，练什么功夫。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>两人相处了近十年，她还是没想到自己一走，</p>
+        <p>师父就把时间都交给那架有些陈旧的织机。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="织机" duration="3" scale="1.5"/>
+      <delay t="3"/>
+      <bg img="织机" duration="13"/>
+      <mono pageend="true">
+        <p/>
+        <p>起初，纺织与练功毫无关联，</p>
+        <p>它只是为了维持生计的便宜之举。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>可在凌霜眼中，众道归一，纺织与武学岂无相通之处？</p>
+        <p>无形间，纺织之于凌霜，亦成了淬炼剑心，磨练武技的手段。</p>
+      </mono>
+      <bg img="PureBlack"/>
+      <mono pageend="true">
+        <p/>
+        <p>剑之道，包罗万千，剑本身不过是凭依之物罢了。</p>
+        <p/>
+        <p>站卧坐躺，衣食住行……人生诸处莫不蕴藏武道，</p>
+        <p/>
+        <p>举手投足皆是习武，静极不动亦是练剑，此即『浑然天成』。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="心湖（4）太虚" duration="3"/>
+      <delay t="3"/>
+      <text>
+        <p>而素裳的师父，赤鸢的第五徒，『自在剑』凌霜——[\s]</p>
+        <p>正可谓：浑然天成人，举世无上剑。</p>
+      </text>
+      <text>赤鸢最具天赋的弟子，无疑是当今武林第一的高人，何故不声不响，在漠北隐居多年？</text>
+      <text>知者寥寥，唯有昔日的数位同门，但她们打定主意，决不外泄只字片语。</text>
+      <text>
+        <p>至于凌霜，她只是日复一日地诵剑心诀，纺丝罗绸。[\s]</p>
+        <p>无人知其所来，亦无人知其所往。</p>
+      </text>
+      <bgm id="仙灵岛（水灵笛）" looptimes="0"/>
+      <se id="02-02马奔跑（沙漠）"/>
+      <bg img="BGSky00" duration="1"/>
+      <text>
+        <p>……就这样，李素裳外出试剑的第八日，[\s]</p>
+        <p>凌霜坐在织机前，忽听得远方马蹄声响。</p>
+      </text>
+      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="goto" to="09"/>
+    </scene>
+    <scene id="09" prev="08" title="旅伴">
+      <transition mode="move" stop="0.2" out="1.5" color="#000000" direction="right" custom="default" in="0"/>
+      <bgm id="清晨赶集（轻快）"/>
+      <se id="01-36骆驼车队loop"/>
+      <bg img="PureBlack"/>
+      <event action="hide_ui" duration="1.5"/>
+      <cg img="CG_第二折_风中奇缘1"/>
+      <delay t="1.5"/>
+      <mono>
+        <p/>
+        <p>金沙帮最好的两匹马拉着一台板车，飞奔疾驰。</p>
+        <p/>
+        <p>李素裳趴在车上，哼着不成曲的调子，心情大好。</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「罗刹人，把你的神通收掉吧。你看你看，吹吹风不是很爽快嘛。」</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>疾行的马车带起劲风，吹动素裳的长辫，像两条漆黑的小溪。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>那边厢，罗刹人用无形的空气罩将自己层层围住。[\s]</p>
+        <p>在法宝「虚空万藏」制造的领域中，男人的长发静止不动，面色亦是从容不迫。</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘2" duration="1"/>
+      <delay t="1"/>
+      <mono chara="001">「你不热吗？」</mono>
+      <mono chara="002">
+        <p/>
+        <p>「热呀，不过，沙漠是这样的嘛～」</p>
+      </mono>
+      <mono chara="001">
+        <p/>
+        <p>「……嗯。」</p>
+      </mono>
+      <mono chara="-3" pageend="true">罗刹人本想扩展无形罩将少女拢住，闻听此言便罢了手。</mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘3" duration="1"/>
+      <delay t="1"/>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「你不高兴啦？哎，对不起嘛，谁叫你变那样……那样的马车。」</p>
+      </mono>
+      <cg/>
+      <text>
+        <p>若说头一日罗刹人变的戏法还算朴素，</p>
+        <p>第二天他的花样就已经超出了素裳的接受范围。</p>
+      </text>
+      <text>
+        <p>那马车圆圆的，坑坑洼洼，醒目的橙黄色极是惹眼。</p>
+        <p>罗刹人说这是西方的特产「南瓜」。还对着它左右观瞧，点头微笑。</p>
+      </text>
+      <text>李素裳心中大窘，宁可步行也不坐那种车子。</text>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘1" duration="1"/>
+      <delay t="1"/>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「再说，你不是有伤在身嘛，别冒险施法了…</p>
+        <p>…这样坐着就挺好的！」</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>素裳真心替罗刹人着想，生怕他空耗所剩无几的内力。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>可是，罗刹人似乎与风有着不共戴天的深仇大恨。</p>
+        <p/>
+        <p>即使让步坐在破旧的板车上，他也要保证仪表整洁，风度翩翩，那看似随意垂落的金色发丝绝不能被吹乱半根。</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘4" duration="1"/>
+      <delay t="1"/>
+      <mono chara="002">
+        <p/>
+        <p>「……你这么有本事，怎么会被抓进黑牢，</p>
+        <p>我是真的想不通哎。」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘5" duration="1"/>
+      <delay t="1"/>
+      <mono chara="001">
+        <p/>
+        <p>「抓？我是受了那头鹰的邀请，在他们的寨子里作客。」</p>
+      </mono>
+      <mono chara="002">
+        <p/>
+        <p/>
+        <p>                  「……作客？」</p>
+      </mono>
+      <text>李素裳眨眨眼睛，</text>
+      <mono chara="002" pageend="true">                  「在黑牢作客？」</mono>
+      <mono chara="001">
+        <p/>
+        <p>「……地方是怪了点。」</p>
+      </mono>
+      <text>罗刹人伸手摩擦下巴，陷入沉思。</text>
+      <mono chara="001">「可是，那头鹰对我说：『本地的一切都归我所有，而您的一切也尽托付于我。请您下车，随我的仆人去吧，繁杂的礼节尽可省去。』……这不是邀请吗？」</mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p>「……你对神州的语言是不是有啥误解。」</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>李素裳为难地挠挠头，</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「正常人哪有这么讲话的，他是怎么说的啊？」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘10" duration="1"/>
+      <delay t="1"/>
+      <mono chara="001" pageend="true">
+        <p>      「这里是我的。</p>
+        <p>          你也是我的。</p>
+        <p>              出来。</p>
+        <p>              跟他们走。</p>
+        <p>              别耍花样。」</p>
+      </mono>
+      <text>罗刹人模仿“老鹰”的声音，几可乱真。</text>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘6" duration="1"/>
+      <delay t="1"/>
+      <mono chara="002">
+        <p/>
+        <p>「……罗刹人，你的解读也太贴心啦……」</p>
+      </mono>
+      <mono chara="001" pageend="true">
+        <p/>
+        <p>「不怨我，是你们的语言太过复杂。」</p>
+      </mono>
+      <text>
+        <p>李素裳怀疑地盯着一脸淡然的金发男子，觉得罗刹人是在故意拿她逗乐子。</p>
+        <p>这人别看外表漂漂亮亮的，办事说话从来不按规矩来，叫她一点儿都捉摸不透。</p>
+      </text>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘7" duration="1"/>
+      <delay t="1"/>
+      <mono chara="002">
+        <p/>
+        <p>「哎，和你聊天还是太危险了。</p>
+        <p>好像句句都是坑，就等我跳进去看笑话。」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘8"/>
+      <delay t="1"/>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「要不，再给我讲讲天命派的事儿吧。」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘9" duration="1"/>
+      <delay t="1"/>
+      <mono chara="001" pageend="true">
+        <p/>
+        <p>「啊？」</p>
+      </mono>
+      <text>精致的脸蛋从手掌上滑了下去，磕在腕骨上发出闷响。罗刹人跳将起来，揉揉眼睛：</text>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘6" duration="1"/>
+      <delay t="1"/>
+      <mono chara="001">
+        <p/>
+        <p>「不了不了，这个真的费脑子……」</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「哎——」</p>
+      </mono>
+      <text>李素裳的俏脸上满是失望。</text>
+      <cg img="CG_第二折_风中奇缘12" duration="1"/>
+      <mono chara="001">
+        <p/>
+        <p>「那宽限几天，容我琢磨一下……</p>
+        <p>改天说给你听。」</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「可还有一会儿才到家。咱们都不讲话，很无聊呀。」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘5" duration="1"/>
+      <delay t="1"/>
+      <text>罗刹人沉吟片刻：</text>
+      <mono chara="001">
+        <p/>
+        <p>「不妨换你来讲故事吧？说说那位仙人如何？</p>
+        <p>记得你说过：你和赤鸢关系匪浅？」</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p/>
+        <p>「关系不浅的是师父和我娘啦，我……我没见过上仙。」</p>
+      </mono>
+      <event action="hide_ui" duration="1"/>
+      <cg img="CG_第二折_风中奇缘13" duration="1"/>
+      <delay t="1"/>
+      <mono>
+        <p/>
+        <p>素裳努力回忆，</p>
+      </mono>
+      <mono chara="002" pageend="true">
+        <p>「真的，我没见过她，爹娘和师父也从不提起仙人。</p>
+        <p>赤鸢真人的事，只有侍母跟我讲过。」</p>
+      </mono>
+      <bgm id="清晨赶集（轻快）" looptimes="0"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <event action="goto" to="10"/>
+    </scene>
     <scene id="10" type="block" prev="09" title="剑神？">
       <bgm id="国势倾危（燃）"/>
       <cg img="氛围_第二折_仙人"/>
@@ -2717,1802 +4513,6 @@
       <notification>传略馆解锁：「幻象」</notification>
       <delay t="1"/>
       <transition mode="fade" in="3" stop="2" out="0" color="#000000"/>
-    </scene>
-    <scene id="00" title="楔子">
-      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
-      <bg img="拂云观-侧面"/>
-      <bgm id="秋恋古道（慢抒情）"/>
-      <delay t="3"/>
-      <dialog chara="012">「呼……」</dialog>
-      <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center" duration="1"/>
-      <text>
-        <p>少年深吸一口气。</p>
-        <p>他伸手敲门，指节落在门前两寸，又定住了。</p>
-      </text>
-      <motion chara="012" action="img_trans" img="枕玉-标准-敲门-中景（汗）"/>
-      <dialog chara="012">「为什么是我啊……」</dialog>
-      <text>委屈与无奈涌上少年心头。</text>
-      <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="PureBlack"/>
-      <text>少年名为枕玉，是太虚剑派新入门的弟子，拜师至今不过三月，却被派来天穹峰顶敲掌门的屋门，预备承受她的雷霆之怒。</text>
-      <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-敲门-中景（汗）"/>
-      <dialog chara="012">（得罪掌门的事叫我来干，师姐师兄们太过分啦……）</dialog>
-      <text>少年想象着掌门的怒容，心中惴惴不安。</text>
-      <motion chara="012" action="hide"/>
-      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="拂云观-亮"/>
-      <event action="hide_ui" duration="1"/>
-      <motion chara="003" action="show" pos="right" img="林朝雨-标准-标准-中景" duration="1"/>
-      <delay t="1"/>
-      <mono pageend="true">
-        <p/>
-        <p>太虚派掌门——『轻尘剑』林朝雨，</p>
-        <p>今年五十又六，已过知天命之年。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>赤鸢上仙乘金光飞升，太虚山被凡火付之一炬</p>
-        <p>后，身为仙人首徒的她与六师弟在这天穹峰</p>
-        <p>重建了太虚剑派。</p>
-        <p/>
-        <p>只不过十余年的发展，太虚剑派已跻身</p>
-        <p>神州正道江湖六大宗门之列。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>林朝雨也因此声望极盛，与丈夫『逐驹剑』</p>
-        <p>马非马是为江湖中人人称羡的侠侣伉俪。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>贵为一派之主，林掌门的性情却并不乖戾；</p>
-        <p>正相反，她待人一向温婉冲和，不论尊卑，</p>
-        <p>总是一视同仁。</p>
-        <p/>
-        <p>唯有几个例外。[\s]</p>
-        <p/>
-        <p>一旦涉及到例外，林朝雨总会像变了</p>
-        <p>个人似的，一触即怒，火暴异常。</p>
-      </mono>
-      <motion chara="003" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="入云阶" pos="0,-600"/>
-      <text>早在少年来到天穹峰时，好心的师兄们就把他拉到一旁：</text>
-      <bg img="入云阶" duration="60" pos="0,0"/>
-      <dialog chara="-1">
-        <p>「枕玉你初来乍到，师兄教你点规矩，都是为你好：</p>
-        <p>在掌门师父面前，有一件事两个人千千万万不可提起。」</p>
-      </dialog>
-      <dialog chara="-1">
-        <p>「这一件事，就是副掌门的事；</p>
-        <p>副掌门在外面做了什么，你听到什么，都别和掌门师父讲，这两位的事轮不到咱们议论。」</p>
-      </dialog>
-      <dialog chara="012">「这个我理会得。」</dialog>
-      <text>
-        <p>少年枕玉连忙点头，俗话说——夫妻房内事，外人休掺和。</p>
-        <p>他并非多嘴多舌之人，决不蹚这浑水。</p>
-      </text>
-      <dialog chara="012">「两个人是？」</dialog>
-      <dialog chara="-1">「一个是咱们的祖师爷，太师父赤鸢真人……」</dialog>
-      <text>师兄们突然压低声音，左右看了看。</text>
-      <dialog chara="-1">「你们年纪小的可能都不晓得这名字了，太师父以前可是大大有名，神仙下凡千年不老。」</dialog>
-      <dialog chara="-1">「赤鸢真人二十年前重返仙班了，但你可别拿这事去刺激掌门，太师父飞升时没带上她，掌门师父始终惦念着呢。」</dialog>
-      <dialog chara="012">「唔唔。」</dialog>
-      <text>
-        <p>赤鸢真人的名字虽然随着时间渐渐淡去，但少年还是听过许多她的事迹，[\s]</p>
-        <p>更不如说正是『唯一真仙』的存在，才促使他千里迢迢来到天穹峰，拜入太虚派。</p>
-      </text>
-      <dialog chara="-1">
-        <p>「另一个就是『无双』苏湄。她是掌门的师妹，但两人势同水火……</p>
-        <p>这名字你非但别提，连听都不要听，遇上无双门人躲得远远的就对了，别和她们扯上任何关系。」</p>
-      </dialog>
-      <dialog chara="012">「啊？」</dialog>
-      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
-      <event action="hide_ui" duration="1.5"/>
-      <bg img="BGDarkRoom"/>
-      <motion chara="004" action="show" pos="right" duration="2" img="苏湄-自信-标准-中景"/>
-      <mono>
-        <p/>
-        <p>无双门——近二十年前，与新太虚剑派</p>
-        <p>几乎同时成立，规模却天差地别。</p>
-        <p/>
-        <p>太虚剑派如今位列六大宗门，无双</p>
-        <p>却仍是小宗小派。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>尽管如此，江湖中也没有人敢招惹无双门徒。</p>
-        <p>只因其门主乃是——『惊才绝艳』的苏湄。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>美貌绝伦，智计百出。</p>
-        <p/>
-        <p>苏湄虽为赤鸢真人的二弟子，武林却公认</p>
-        <p>她是太虚七剑中最可怕的一位，敬称之为</p>
-        <p>『女中诸葛』，『无双仙子』。</p>
-      </mono>
-      <motion chara="004" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="入云阶"/>
-      <dialog chara="012">「……这么可怕啊？」</dialog>
-      <text>师兄们面面相顾，一齐点头：</text>
-      <dialog chara="-1">「就这么可怕。」</dialog>
-      <event action="hide_ui" duration="2.1"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="拂云观-侧面（开门）" duration="2"/>
-      <motion chara="012" action="show" img="枕玉-闭眼张嘴-敲门-中景（汗）" pos="center"/>
-      <dialog chara="012">「…………」</dialog>
-      <text>他正愣神，屋里掌门的说话声已飘到了耳里。</text>
-      <motion chara="012" action="img_trans" img="枕玉-吃惊-敲门-中景（汗）"/>
-      <dialog chara="003">「枕玉，在门外发什么怔？」</dialog>
-      <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景"/>
-      <dialog chara="012">「啊……是！弟子枕玉拜见掌门。」</dialog>
-      <text>少年紧张不已，同时又有些激动。</text>
-      <motion chara="012" action="img_trans" img="枕玉-吃惊张嘴-标准-中景（多汗）"/>
-      <dialog chara="012">「掌门您……怎知道是弟子？」</dialog>
-      <dialog chara="003">「怎么？我还没老到连徒弟的名字都记不住吧。」</dialog>
-      <text>
-        <p>掌门道。</p>
-        <p>声音中自嘲多过责备。</p>
-      </text>
-      <dialog chara="003">
-        <p>「本派上下二百一十七人，我都记得清清楚楚；[\s]</p>
-        <p>来人内息不匀，脚步虚浮，显是根基不稳。</p>
-        <p>想来想去，也只有刚入门不久的你了。」</p>
-      </dialog>
-      <motion chara="012" action="img_trans" img="枕玉-标准-标准-中景"/>
-      <dialog chara="012">「……啊，是，是。弟子一定努力练功！」</dialog>
-      <text>
-        <p>枕玉瞬间汗流浃背。[\s]</p>
-        <p>他拜师刚刚三月，『太虚真诀』的入门功法『太易劲』尚未练成，爬上入云阶已是气喘吁吁。</p>
-      </text>
-      <text>师父这句话虽然平淡，但在少年枕玉听来，便像是指他练功不勤，顿觉惭愧无地。</text>
-      <dialog chara="004">「这孩子能登上这入云阶就不容易了，别吓着他啦。」</dialog>
-      <text>枕玉微诧：这并不是掌门的声音。</text>
-      <event action="hide_ui" duration="3.1"/>
-      <motion chara="012" action="hide"/>
-      <se id="01-71开门声"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="拂云观-亮"/>
-      <motion action="show" pos="800,0" chara="004" img="苏湄-自信-标准-远景"/>
-      <motion chara="004" action="move" pos="right" duration="2"/>
-      <text>屋门忽尔敞开，一位少年平生仅见的美貌女子含笑而立。</text>
-      <dialog chara="003">「……」</dialog>
-      <motion chara="003" action="show" pos="left" img="林朝雨-愤恨-标准-远景" duration="1"/>
-      <motion chara="004" action="show" pos="right" img="苏湄-自信-标准-远景" duration="1"/>
-      <text>在她身后，掌门林朝雨面沉似水。</text>
-      <dialog chara="003">「苏湄……我太虚派的弟子，何时轮到你无双门评点了？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-远景"/>
-      <dialog chara="004">「啊哟，是我多言了。」</dialog>
-      <text>美艳绝伦的女子冲枕玉眨眨眼。</text>
-      <text>林朝雨这才把视线转向少年：</text>
-      <motion action="img_trans" chara="003" img="林朝雨-微笑-标准-远景"/>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-远景"/>
-      <dialog chara="003">「枕玉。你有何事？说罢。」</dialog>
-      <motion chara="003" action="hide"/>
-      <motion chara="004" action="hide"/>
-      <motion chara="012" action="show" pos="center" duration="1" img="枕玉-吃惊张嘴-标准-中景（汗）"/>
-      <dialog chara="012">「啊……」</dialog>
-      <text>少年不禁踌躇，他本是来替师兄师姐向掌门师父请罪的。</text>
-      <mono pageend="true">
-        <p/>
-        <p>是日清晨，『无双仙子』苏湄不请自到天穹峰，</p>
-        <p>声称有副掌门的口信需转呈掌门。</p>
-        <p/>
-        <p>师姐与师兄们生怕惹得师父震怒，</p>
-        <p>谁也不敢擅作主张领人上山。</p>
-        <p/>
-        <p>正合计着，无双门主却已不知所踪。</p>
-        <p>……谁知道，竟然已经到了拂云观中。</p>
-      </mono>
-      <text>少年不知所措，干脆如实道来：</text>
-      <motion chara="012" action="img_trans" img="枕玉-闭眼张嘴-标准-中景（汗）"/>
-      <dialog chara="012">「回师父：无双门的苏门主求见。二师姐与玄离师兄不敢擅自做主，命我先行上山向您禀报。」</dialog>
-      <motion chara="012" action="hide" duration="0"/>
-      <motion chara="004" action="show" pos="right" img="苏湄-甜笑-标准-远景"/>
-      <motion chara="003" action="show" pos="left" img="林朝雨-惊讶-标准-远景"/>
-      <dialog chara="004">「嘻，」</dialog>
-      <text>一旁的苏门主不禁轻笑出声。</text>
-      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-远景"/>
-      <text>掌门面上显见不悦，冷冷道：</text>
-      <dialog chara="003">「人都在这了，还有什么可禀报的？你回去罢。」</dialog>
-      <dialog chara="012">「是……弟子告退。」</dialog>
-      <text>枕玉低头行礼。</text>
-      <motion action="img_trans" chara="003" img="林朝雨-认真-标准-远景"/>
-      <dialog chara="003">「再有，」</dialog>
-      <text>掌门叹了口气，柔声嘱咐：</text>
-      <motion chara="003" action="img_trans" img="林朝雨-微笑-标准-远景"/>
-      <dialog chara="003">「往后跑腿送信的事，你不必来了。让玄离好好教你太虚真诀，把太易劲和太初劲的根基打扎实，上山也不至于累成这般。」</dialog>
-      <dialog chara="012">「弟子明白。」</dialog>
-      <text>掌门实是体恤少年。枕玉心里感激，却不善言词，只垂首道：</text>
-      <dialog chara="012">「谢师父。」</dialog>
-      <dialog chara="003">「去吧。」</dialog>
-      <bgm looptimes="0"/>
-      <event action="goto" to="01"/>
-    </scene>
-    <scene id="01" type="block" prev="00" title="楔子2">
-      <text>少年行礼，转身下山。林朝雨目送弟子的身影消失在青石阶后，这才转身面对一言不发的苏湄。</text>
-      <bgm id="天穹"/>
-      <motion chara="003" action="hide"/>
-      <motion chara="004" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1.6" color="#000000"/>
-      <event action="hide_ui" duration="1.5"/>
-      <bg img="拂云观-亮" scale="1.2"/>
-      <motion chara="004" action="show" img="苏湄-自信-标准-中景" pos="right"/>
-      <motion chara="003" action="show" reversex="true" img="林朝雨-不悦-标准-中景" pos="left"/>
-      <delay t="1.4"/>
-      <dialog chara="003">「我仍当你是师妹，但在我太虚派，没有你说话的份。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「小妹知错啦。」</dialog>
-      <text>苏湄笑容不改，目光往远处投去，又转而打量这间小室。</text>
-      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"/>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
-      <dialog chara="004">「太虚派，拂云观……嘻，这些都是师姐你的了。」</dialog>
-      <text>林朝雨报以一声冷哼。</text>
-      <dialog chara="003">「总得把太虚一脉传下去，不能让它断在我们手里。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「唉，我们七个中，就数师姐最恋旧啦。」</dialog>
-      <text>两人闲言数语，始终不入正题。林朝雨耐心地等着，苏湄却似乎对琐事极感兴趣：</text>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
-      <dialog chara="004">「你的小徒弟资质不错，人也有胆量，只可惜是男子，武功很难练到小马儿的境界。」</dialog>
-      <dialog chara="003">「……我收徒不如师父那么看重天资。拿彦卿来说，他算得上万中无一的武学奇才了，我的徒儿不论男女，没一个能比得上他。」</dialog>
-      <motion action="img_trans" chara="003" img="林朝雨-怅然-标准-中景" reversex="true"/>
-      <dialog chara="003">「不过，枕玉确是个好苗子，太虚派终要传给后辈，或许他会是我的关门弟子罢。」</dialog>
-      <dialog chara="004">「师姐现在就想着关门弟子的事了？」</dialog>
-      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-中景" reversex="true"/>
-      <text>林朝雨一怔，忽然脸色铁青。</text>
-      <text>
-        <p>赤鸢七个徒弟中，数她年岁最长，足足比二师妹大上十五岁。[\s]</p>
-        <p>林朝雨起初不以为意，然而时日久了，又与最年轻的六师弟成婚，便格外忌讳年龄之事。</p>
-      </text>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤怒-标准-中景"/>
-      <dialog chara="003">「苏湄，别挑战我的耐性……言归正传。」</dialog>
-      <text>太虚掌门主动挑破两人心照不宣的薄纸，</text>
-      <dialog chara="003">
-        <p>「师父复生，师妹已死，接着就是我们——可你有什么打算？[\s]</p>
-        <p>时隔许久你又来找我，总不会是来闲谈的罢？你……要再杀师父一次么？」</p>
-      </dialog>
-      <dialog chara="004">「……」</dialog>
-      <text>林朝雨将师妹的平静当作默认：</text>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-愤恨-标准-中景"/>
-      <dialog chara="003">「苏湄，我不喜欢你，可毕竟曾当你作亲妹妹看待。有句话我要提醒你：」</dialog>
-      <dialog chara="003">「今时不同往日，我们七个也再聚不到一起。当年之事实是侥幸，再来一次，结果未必相同。」</dialog>
-      <text>林朝雨长叹一息，</text>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-心头一震-标准-中景"/>
-      <dialog chara="003">
-        <p>「二十年了，我从没忘记那一晚……</p>
-        <p>四妹和七妹险些死了，若不是你，彦卿脸上那一剑……怕是凶多吉少。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「我就说师姐最是恋旧～嘻，已经二十年了，没什么『若不是』啦。」</dialog>
-      <text>
-        <p>二师妹对已成定局的事物毫无兴趣，</p>
-        <p>林朝雨心知如此，却始终不能赞同。</p>
-      </text>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
-      <motion chara="003" action="img_trans" img="林朝雨-不悦-标准-中景" reversex="true"/>
-      <dialog chara="003">「哼，说吧，你的计划是什么？」</dialog>
-      <dialog chara="004">「我没有那样的东西。」</dialog>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-中景"/>
-      <text>武林中公认的聪明人，号称『智计无双』的苏湄却道：</text>
-      <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"/>
-      <dialog chara="004" inline="true">「计划再周详，又何曾尽如人意？若依着计算，师父现在应当已经死了，怎会重返世间……</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">不，我不作计划。变化时刻发生，人心太难算尽。」</dialog>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"/>
-      <text>林朝雨心中骤起一股凉意。</text>
-      <text inline="true">尽管厌憎苏湄，她的内心却始终相信这个女人总有法子；</text>
-      <text>
-        <p>正如二十年前，她能将七人集合起来，设计诛杀天下无敌的真仙赤鸢。</p>
-        <p>——明知时移世易，沧海桑田，太虚七剑已不同以往。</p>
-      </text>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-中景"/>
-      <dialog chara="003">「所以，你……」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">「唉，计划虽然没有，办法却有许多。」</dialog>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊讶-标准-中景"/>
-      <text>林朝雨讶然挑眉：</text>
-      <dialog chara="003">「办法？」</dialog>
-      <motion action="img_trans" chara="004" img="苏湄-闭目-标准-中景"/>
-      <dialog chara="004">「嗯。」</dialog>
-      <dialog chara="004">
-        <p>「二十年前，咱们葬了师父，一把火烧了太虚山。</p>
-        <p>事后我回山察看，却发现一桩蹊跷：」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">「师父的轩辕剑不见了。」</dialog>
-      <text>苏湄向前一步，注视着林朝雨的目光似有深意。</text>
-      <event action="hide_ui" duration="1.5"/>
-      <motion chara="003" action="hide"/>
-      <motion chara="004" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="拂云观-亮" scale="1.3"/>
-      <motion chara="003" action="show" reversex="true" img="林朝雨-惊恐-标准-近景" pos="left"/>
-      <motion chara="004" action="show" pos="right" img="苏湄-平静-标准-近景"/>
-      <dialog chara="003">「……不见了？」</dialog>
-      <dialog chara="004">「……」</dialog>
-      <text>苏湄的视线定定地落在林朝雨脸上，忽又移开。</text>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
-      <dialog chara="004">「……不是你。」</dialog>
-      <dialog chara="003">「咦？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"/>
-      <text>苏湄像想到了什么有趣的事，脸上浮现一丝笑意：</text>
-      <dialog chara="004">
-        <p>「我回去的时候，发现师父的棺木已被焚毁。棺中骸骨焦黑，面目全非。</p>
-        <p>可惜，灵柩的位置是我安排的，我知道那把火决计烧不到此处。</p>
-        <p>于是我查验了现场，结果不出所料——」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
-      <dialog chara="004">「棺材里的，并非师父的遗蜕。」</dialog>
-      <motion chara="003" action="img_trans" img="林朝雨-愤怒-标准-近景" reversex="true"/>
-      <dialog chara="003">「……什么？」</dialog>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-惊恐-标准-近景"/>
-      <dialog chara="004">「…………」</dialog>
-      <dialog chara="003">
-        <p>「所以……你早知道师父还活着？你……二十年前就知道了？</p>
-        <p>但你没有告诉我……你没有说，一个字也没说……」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"/>
-      <dialog chara="004">「……」</dialog>
-      <motion chara="003" action="img_trans" reversex="true" img="林朝雨-怅然-标准-近景"/>
-      <dialog chara="003">
-        <p>「我不知道，一直都不知道……彦卿呢？他也蒙在鼓里吗？婉兮和婉如……</p>
-        <p>还有素衣，你至少应该告诉素衣——」</p>
-      </dialog>
-      <dialog chara="004">「没有，我对谁也没说。」</dialog>
-      <motion chara="003" action="hide" img="林朝雨-怅然-标准-近景"/>
-      <text>
-        <p>林朝雨向后退去，直到这时，痛苦才爬上她满是细细皱纹的脸颊，让衰老突然击溃了太虚掌门的骄傲。</p>
-        <p>她看上去仿佛突然老去了十岁，时光就这样褪去了她的掩藏。</p>
-      </text>
-      <motion chara="003" action="show" img="林朝雨-愤怒-标准-近景" reversex="true" pos="left"/>
-      <dialog chara="003">
-        <p>「素衣一生孤苦。那孩子和我们不一样，我们做好了准备……无论如何，你总归不该这样对她。</p>
-        <p>到底是为什么？苏湄，为什么不告诉我们？」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
-      <dialog chara="004">「是啊……为什么呢？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"/>
-      <motion chara="003" action="img_trans" img="林朝雨-惊讶-标准-近景" reversex="true"/>
-      <text>苏湄喃喃道，眼中雾气升腾。</text>
-      <dialog chara="004">「……时间……」</dialog>
-      <text>
-        <p>含糊的字词从唇齿间滑出。</p>
-        <p>苏湄痴痴地望着一旁，仿佛失魂落魄，有如失去了记忆的老者，正在往事的旧物堆中寻找着自己也不清楚的宝物。</p>
-      </text>
-      <dialog chara="004">「只是想……一点……时间……」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-近景"/>
-      <text>
-        <p>说着，她闭上眼睛，好像这就意味着话题的终结。</p>
-        <p>当她再开口时，那老人的幻影消失了。</p>
-        <p>站在林朝雨面前的，又是镇定自若的无双门主。</p>
-      </text>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-近景"/>
-      <dialog chara="004" inline="true">「是的……我早知道了。二十年前，师父的遗体从太虚山消失不见。或许有人偷走了它，或许师父当时就已复生——谁知道呢？我只是，意识到一种『可能』：</dialog>
-      <dialog chara="004">
-        <p/>
-        <p>师父没有死，她还活着。」</p>
-      </dialog>
-      <dialog chara="004">
-        <p>「不论多么不可思议，它终归是种可能，我无法将之忽略。[\s]</p>
-        <p>所以我建立了无双门，将他们派去中原各地。除了斩妖除魔之外，他们还承担着打探师父下落，监视可疑之处的任务。」</p>
-      </dialog>
-      <dialog chara="004">
-        <p>「而我……</p>
-        <p>这些年来，我一直在思考和探索师父与轩辕剑的奥秘，多少有些收获。[\s]</p>
-        <p>虽无必胜的把握，但可用的手段已经足够了。」</p>
-      </dialog>
-      <text>『手段』……这个字眼让林朝雨有些不快。</text>
-      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"/>
-      <dialog chara="003">「别想对师父耍你的手腕，她可是赤鸢真人。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-瞥视-标准-近景"/>
-      <dialog chara="004">「嗯……我没有不敬师父的意思。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-近景"/>
-      <text>苏湄轻扬嘴角，笑容带着点点忧伤：</text>
-      <dialog chara="004">
-        <p>「师父若来杀我，那也理所应当呀，被杀者自有复仇的权利；[\s]</p>
-        <p>但是，弑师之事我从不后悔，若不迈出那一步，我们如今只有无尽的痛苦。</p>
-        <p>你呢？」</p>
-      </dialog>
-      <motion chara="003" action="img_trans" img="林朝雨-怅然-标准-近景" reversex="true"/>
-      <dialog chara="003">「……」</dialog>
-      <text>三十年的朝夕相处，化作细针在太虚剑派女掌座的心头轻扎。</text>
-      <dialog chara="003">「……我也不后悔。」</dialog>
-      <text>林朝雨轻声说道。</text>
-      <motion chara="003" action="img_trans" img="林朝雨-认真-标准-近景" reversex="true"/>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-近景"/>
-      <dialog chara="004">
-        <p>「好，我不会引颈就戮，接下来我会全力与师父一斗，生死由命，胜负在天——[\s]</p>
-        <p>这就是我来此的用意。师姐，我需要你的帮助。」</p>
-      </dialog>
-      <text inline="true">
-        <p>林朝雨定定地注视着眼前的红发女子，[\s]</p>
-        <p>她曾是自己的妹妹、亲友、伙伴、情敌与对头，一度成了陌路，以为老死终不相往来；</p>
-      </text>
-      <text>可现在，林朝雨的心里百感交集，没一种占了上风。</text>
-      <text>最后，她说道：</text>
-      <motion chara="003" action="img_trans" img="林朝雨-心头一震-标准-近景" reversex="true"/>
-      <dialog chara="003">「我听着。」</dialog>
-      <transition mode="fade" in="1" stop="0.1" out="0" color="#000000"/>
-      <motion chara="004" action="hide"/>
-      <motion chara="003" action="hide"/>
-      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
-      <cg img="CG_第二折_天穹苏湄" duration="1"/>
-      <text>苏湄走出拂云观，在天穹峰顶张开双臂，绕了个圈，回头道：</text>
-      <dialog chara="004">「我要你的太虚派。」</dialog>
-      <event action="hide_ui" duration="8"/>
-      <motion chara="004" action="hide" duration="2.5"/>
-      <transition mode="fade" in="2" stop="0.5" color="#000000" out="0"/>
-      <cg/>
-      <bgm looptimes="0"/>
-      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
-      <bg img="Chapter02"/>
-      <delay t="2.5"/>
-      <se id="01-10标题试剑"/>
-      <delay t="3"/>
-      <transition mode="fade" in="2" stop="3" out="0" color="#000000"/>
-      <event action="goto" to="02"/>
-    </scene>
-    <scene id="02" prev="01" title="西方的江湖">
-      <transition mode="eye" in="0" stop="0.5" out="0.5" color="#000000"/>
-      <bgm id="月下昆仑（慢灵）"/>
-      <bg img="沙漠-星空"/>
-      <dialog chara="002">「！！」</dialog>
-      <text>荒漠之中，小女孩忽然惊醒。</text>
-      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="沙漠-夜谈1"/>
-      <motion chara="002" action="show" img="素裳-疲惫无神-持剑-中景" pos="right"/>
-      <delay t="1"/>
-      <text>
-        <p>心脏突突疾跳，冷汗浸湿衣衫。</p>
-        <p>女孩下意识地摸向身旁的布包，握住轩辕剑，这才稍稍安心。</p>
-      </text>
-      <dialog chara="001">「你做噩梦了？」</dialog>
-      <text>一旁传来熟悉的声音。</text>
-      <motion chara="002" action="hide"/>
-      <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
-      <motion chara="001" action="show" pos="left" img="奥托-标准-单酒杯-中景"/>
-      <text>她扭头看向说话的罗刹人。</text>
-      <text>
-        <p>真奇怪。刚认识的时候，他的神州话还没这么流利，尚带着别扭的西域口音。</p>
-        <p>可这才不到两天光景，他已经说得和本地人差不多好了。</p>
-      </text>
-      <motion chara="002" action="show" img="素裳-嘟嘴-持剑-中景" pos="right"/>
-      <dialog chara="002">「……没，我没事。」</dialog>
-      <text>
-        <p>罗刹人耸耸肩，移开视线，举杯抿了口摇晃的红色液体。当他放下酒杯时，红水就立刻停止了晃动。它总是维持在同样的高度，不增也不减。</p>
-        <p>女孩时常好奇那是什么，她倒是有几个想法，却不敢说。</p>
-      </text>
-      <bg img="沙漠-夜谈2" duration="1"/>
-      <motion chara="001" action="hide"/>
-      <motion chara="002" action="hide"/>
-      <delay t="1"/>
-      <text>李素裳爬起来，睡意已一扫而空。她抖抖衣服，又在罗刹人身旁坐下，打量起西域的神秘妖火。</text>
-      <text inline="true">这东西邪得很。</text>
-      <cg img="氛围_通用_蓝色圆球"/>
-      <text>
-        <p/>
-        <p>它的外表看上去就像一颗发蓝的圆球，但不管怎么滚动，里面的火焰都不会动弹，只是持续散发着光和热。</p>
-      </text>
-      <text>大漠的夜晚温度极低，可两人双马围拢在这颗球旁，丝毫也不觉得寒冷。</text>
-      <dialog chara="002">（这家伙的戏法都好厉害啊……）</dialog>
-      <cg/>
-      <text>素裳不由得朝身边的金发男人看去。</text>
-      <bg img="沙漠-夜谈1"/>
-      <motion chara="002" action="show" img="素裳-浅笑-持剑-中景" pos="right"/>
-      <dialog chara="002">「喂，罗刹人。」</dialog>
-      <motion chara="001" action="show" img="奥托-汗苦笑-标准-中景" pos="left"/>
-      <dialog chara="001">「我有名字的。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
-      <motion chara="002" action="img_trans" img="素裳-大笑-持剑-中景"/>
-      <dialog chara="002">「你们那儿的名字怪怪的，我懒得记啦。」</dialog>
-      <text inline="true">罗刹人微微一笑，不予理会，目光投在身旁的一口棺材上。</text>
-      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
-      <text>
-        <p/>
-        <p>他一直带着这口硕大厚重的棺木，有时还对它喃喃低语，每次都让素裳很不舒服。</p>
-      </text>
-      <motion chara="002" action="img_trans" img="素裳-惊讶2-持剑-中景"/>
-      <text>李素裳等了一会儿，罗刹人还是没说话。</text>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"/>
-      <dialog chara="002">「喂……你为什么要找仙人呀？」</dialog>
-      <dialog chara="001">「……」</dialog>
-      <text>
-        <p>长长的沉默。</p>
-        <p>素裳正搜肠刮肚，寻找下一个话题时，罗刹人突然开口了。</p>
-      </text>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景"/>
-      <dialog chara="001">「我曾见过仙人一面。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"/>
-      <dialog chara="002">「咦？」</dialog>
-      <text>少女先是疑惑，接着白了他一眼：</text>
-      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
-      <dialog chara="002">
-        <p>「啊，你又骗我，之前你还问我仙人是谁呢。</p>
-        <p>啧啧，你们罗刹人不爱讲实话啊。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
-      <dialog chara="001">「没骗你。但，那是个很长的故事了。」</dialog>
-      <dialog chara="002">「没事呀。我有时间，反正一时半会儿也不想睡。」</dialog>
-      <text>罗刹人望着脚下的沙砾，</text>
-      <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"/>
-      <dialog chara="001">「你真的要听？」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-笑-持剑-中景"/>
-      <dialog chara="002">「嗯！不过别讲太难懂，就简单一点，尽量简单一点。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
-      <dialog chara="001">「好吧。二十年前……」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"/>
-      <dialog chara="002">「等一下，二十年前？你今年几岁？」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-单手扶额-中景"/>
-      <dialog chara="001">「……你这样打断我，我可没法说了。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-悲伤目前-持剑-中景"/>
-      <dialog chara="002">「呃，对不住，你继续。」</dialog>
-      <dialog chara="001">「唉……」</dialog>
-      <text>罗刹人长叹一息。</text>
-      <motion chara="001" action="img_trans" img="奥托-标准-单空手-中景"/>
-      <dialog chara="001">「二十年前，欧陆与神州曾经发生过一场战争。欧洲派出的远征军名为天命骑士团，而我正在其中。明帝国的实力很强，天命从未遇到过如此强大的对手，但凭借[em font=Arial]Walküre[/em]和[em font=Arial]Der Schlüssel Gottes[/em]，天命还是取得了上风——」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-惊讶-持剑-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
-      <dialog chara="002">「喂哎哎——再等等，什么娃儿，什么带耳？」</dialog>
-      <text>李素裳不满地嘟起嘴，</text>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-持剑-中景"/>
-      <dialog chara="002">「我都说了你们那儿的名字怪怪的，你还讲这么多！欺负我啊！？」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-汗苦笑-摊手-中景"/>
-      <dialog chara="001">「……实在抱歉，说得太顺口了。」</dialog>
-      <text>罗刹人无奈摊手。</text>
-      <motion chara="002" action="img_trans" img="素裳-专注-持剑-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <dialog chara="001">「我换用你们神州的语言解释吧。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-大笑潇洒-背手-中景"/>
-      <dialog chara="002">「噢噢，那敢情好～你讲，本姑娘这回绝不插嘴。」</dialog>
-      <dialog chara="001">「呃……」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-惊讶2-背手-中景"/>
-      <dialog chara="002">「呃？」</dialog>
-      <text>可能是不同语境的转换太过困难，罗刹人几度张口，都说不出话来。</text>
-      <motion chara="001" action="img_trans" img="奥托-思索星-中景"/>
-      <dialog chara="001">「总之……对。西方的骑士，就相当于你们的侠客。」</dialog>
-      <se id="02-10拍手"/>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
-      <text>罗刹人总算找到了思路，他拍了下手，露出无可奈何的表情，又不禁莞尔：</text>
-      <event action="goto" to="03"/>
-    </scene>
-    <scene id="03" type="block" prev="02" title="天命派">
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-摊手-中景"/>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="001">
-        <p>「容我从头说起：在神州的西边有片大陆，名唤欧罗巴。[\s]</p>
-        <p>你们神州的武林有各门各派，欧陆如今就只有一个，叫天命派。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
-      <dialog chara="001">「天命派由三人共同建立，据说祖师武功盖世，寰宇无敌。天命不消数年就成了欧陆不可小觑的势力，后又兼并了众神殿、英灵宫、荆冠门等诸派，声势极大。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-标准-中景"/>
-      <dialog chara="001">「天命总览欧陆，事务繁杂，穷尽单人之力不能尽掌。因此天命的大权由三大家族……三大宗门把持，至今已有千年之久。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-惊讶-抱手-中景"/>
-      <dialog chara="002">「哇，千年！」</dialog>
-      <text>李素裳惊讶极了，</text>
-      <motion chara="002" action="img_trans" img="素裳-元气-普通-中景"/>
-      <dialog chara="002">「啧啧，那是真的厉害，我们的六大派也没几家有千年历史呀！这个天命是剑派么，练的什么功夫？」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-笑容释然-标准-中景"/>
-      <dialog chara="001">「既有剑术，也有枪法；不过天命真正的独门绝学，乃是你所谓的『妖术』和『戏法』。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
-      <text>罗刹人抬起左手，展示黄金十字。</text>
-      <motion chara="002" action="img_trans" img="素裳-惊讶2-普通-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-微笑奸-单十字-中景"/>
-      <dialog chara="001">「考虑到你们的文化，或许称之为法器更贴切。」</dialog>
-      <event action="hide_ui" duration="1.1"/>
-      <motion chara="002" action="hide" duration="0"/>
-      <motion chara="001" action="hide" duration="0"/>
-      <cg img="氛围_通用_犹大誓约"/>
-      <delay t="0.1"/>
-      <cg img="氛围_通用_犹大誓约" duration="1" scale="1.5"/>
-      <cg img="氛围_通用_犹大誓约启动" duration="1" reset="true"/>
-      <text>
-        <p>金链闪烁。李素裳忽然感到身躯一软，内力尽失。</p>
-        <p>只不过短短一瞬，就又恢复如常。</p>
-      </text>
-      <cg duration="2"/>
-      <bg img="沙漠-夜谈1"/>
-      <text>她往罗刹人手掌望去，金色的十字形已迅速消散，化为烟气。</text>
-      <motion chara="002" action="show" pos="right" duration="1" img="素裳-疲惫无神-持剑-中景"/>
-      <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑释然-标准-中景"/>
-      <dialog chara="002">（咦，这感觉……）</dialog>
-      <dialog chara="001">
-        <p>「天命镇派三宝之一：『犹大誓约』；</p>
-        <p>它能束缚崩坏能——即『真气』的流转。」</p>
-      </dialog>
-      <dialog chara="001">
-        <p>「而昨晚用来救治你的，是另一件法宝『黑渊白花』；</p>
-        <p>它能治愈人体，生骨活肌。只要真气足够，再重的伤势也能医除。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-微笑奸-摊手-中景"/>
-      <dialog chara="001">「但其实，你所见过的两件法器，都并非真货，而是赝品。」</dialog>
-      <text>罗刹人纤细的手指轻点自己的太阳要穴。</text>
-      <cg/>
-      <motion chara="002" action="hide"/>
-      <motion chara="001" action="hide"/>
-      <bg img="BGNeuron03"/>
-      <dialog chara="001">「在这里，是连天命派都不知其存在，我独有的法器——『虚空万藏』。」</dialog>
-      <dialog chara="001">「举凡见过，接触，并理解的事物；虚空万藏都可以用真气『拟似』，将之具现为实体。[\s]正因如此，我才能模拟天命派三大法宝的少许力量。」</dialog>
-      <bg img="沙漠-夜谈1"/>
-      <motion chara="001" action="show" pos="left" duration="1" img="奥托-微笑自信-标准-中景"/>
-      <motion chara="002" action="show" pos="right" duration="1" img="素裳-嘟嘴-抱手-中景"/>
-      <dialog chara="002">「……」</dialog>
-      <text>
-        <p>李素裳抱臂歪头，下意识地轻咬嘴唇。[\s]</p>
-        <p>倒非是不信罗刹人的话，只是她的脑袋已经被一堆名词搅成了浆糊。</p>
-      </text>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-抱手-中景"/>
-      <dialog chara="002">「……停一下，停一下。天命派那儿还挺好玩的，法宝什么的就……」</dialog>
-      <text>素裳苦恼地嘟着嘴巴：</text>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="002">「怎么突然修真了？还是别解释啦，我知道你很厉害就对了。接着说天命派的事吧。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
-      <dialog chara="001">「嗯。」</dialog>
-      <text>罗刹人长吁一声，朝素裳看了眼：</text>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-单空手-中景"/>
-      <dialog chara="001">
-        <p>「天命牢牢掌握欧陆，时日久了，野心便膨胀起来，终于盯上了地大物博的邻邦。</p>
-        <p>二十多年前，天命派兵攻打——呃，访问神州，希望与神州——呃，比武切磋。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-汗严-单空手-中景"/>
-      <dialog chara="001">「你们神州的军队很强，但天命的女武——呃，女侠士身携玄妙法器，终于赢得了比试。」</dialog>
-      <text inline="true">罗刹人说说停停，显然把史实改述为李素裳能够理解的版本令他备受折磨。</text>
-      <text>
-        <p/>
-        <p>证据就是——即使在烈日下也不曾出汗的罗刹人，此刻已有几颗豆大的汗珠从精致的脸颊上缓缓流下。</p>
-      </text>
-      <motion action="img_trans" chara="002" img="素裳-元气-普通-中景"/>
-      <text>一旁的素裳瞧着他的窘样，乐不可支。</text>
-      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
-      <dialog chara="001">「天命原本胜券在握，可是，仙人出现了。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-悲伤-标准-中景"/>
-      <dialog chara="001">「我就是在那时见到了她……」</dialog>
-      <dialog chara="001">
-        <p>「该说不愧是仙人吗？……</p>
-        <p>她一挥手，天空雷声震震，大地凝结成冰，火焰无风自燃。[\s]</p>
-        <p>种种奇妙异象将天命的阵势击溃。圣骑士接连上前，可全不是她的对手。」</p>
-      </dialog>
-      <text>罗刹人苦笑，声音渐渐飘渺。</text>
-      <motion chara="001" action="img_trans" img="奥托-茫然-标准-中景"/>
-      <dialog chara="001">
-        <p>「就连最强的女武神……掌握了『犹大誓约』的天才，</p>
-        <p>在她面前，也败得心服口服……」</p>
-      </dialog>
-      <text>罗刹人的目光又飘向那具棺材。</text>
-      <motion chara="002" action="img_trans" img="素裳-悲伤目前-抱手-中景"/>
-      <text>
-        <p>李素裳注意着他的视线，[\s]</p>
-        <p>经过一日的相处，她已经发现这罗刹人虽然时而有说有笑，但只要望向棺木，就会陷入彻底排斥外界的孤独之中。</p>
-      </text>
-      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
-      <dialog chara="002">「那里头是什么啊？」</dialog>
-      <text>对打仗毫无兴趣的李素裳终于忍不住问道：</text>
-      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
-      <dialog chara="002">「你总是跟它说话，有人在里面吗？」</dialog>
-      <dialog chara="001">「没有……」</dialog>
-      <text>罗刹人摇头，他似乎很困惑，视线在棺材上下游移，又望了望自己的手掌。</text>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="002">「不知道？你都没有打开过？」</dialog>
-      <dialog chara="001">「……」</dialog>
-      <motion chara="001" action="hide" duration="0"/>
-      <motion chara="002" action="hide" duration="0"/>
-      <bg img="沙漠-夜谈2"/>
-      <text>罗刹人没有回答，他的思绪好似飞去了很远的地方，留在李素裳身边的只是一具空空的躯壳。</text>
-      <text>素裳耐心地等待，她撑着下巴，注视罗刹人与外表完全不符的空邃双眸，好奇他正在想什么。</text>
-      <dialog chara="002">[em italic]（在想家吗？）[/em]</dialog>
-      <text>
-        <p>思念那远隔千里，她完全想象不出模样的西域故国？[\s]</p>
-        <p>还是在想着什么人呢？</p>
-      </text>
-      <dialog chara="002">
-        <p>[em italic]（……他有爹娘吗？</p>
-        <p>啊，真傻，那肯定是有的啦～</p>
-        <p>总不能是石头里蹦出来的吧。）[/em]</p>
-      </dialog>
-      <dialog chara="002">
-        <p>[em italic]（朋友呢？恋人呢？</p>
-        <p>也会有吧……该不会已经成亲了？</p>
-        <p>他有师承吗？是那个天命派的弟子吗？）[/em]</p>
-      </dialog>
-      <text>少女突然发现自己对罗刹人一无所知。</text>
-      <text>
-        <p>虽然同行了两天，可少女并没和罗刹人说上几句有意义的话，[\s]</p>
-        <p>她虽然问过名字，但听到那叽里咕噜的奇怪发言就放弃了记忆，现在再怎么努力也想不起来。</p>
-      </text>
-      <notification>传略馆更新：「罗刹人」</notification>
-      <event action="achievement" aid="b57930735ac07c7c"/>
-      <dialog chara="002">[em italic]（应该多和他讲讲话的……）[/em]</dialog>
-      <text>素裳有些沮丧。</text>
-      <text>
-        <p>她忽然想起：原来带这罗刹人回到师父身边后，就要与他分别了。[\s]</p>
-        <p>和他相处的时间只剩下半日，说长不长；说短，真的非常之短。</p>
-      </text>
-      <dialog chara="002">「唉……师父能留他几天吗？」</dialog>
-      <text>少女莫名地怅然若失。</text>
-      <text>她在十五年的光阴中首次拥有了朋友，既享受着与之相处的快乐，也体会着与之离别的感伤。</text>
-      <text>长夜漫漫，两个睡不着的人并肩坐着，神不守舍，直到天光大亮。</text>
-      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
-      <event action="goto" to="04"/>
-    </scene>
-    <scene id="04" prev="03" title="马非马">
-      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
-      <bg img="沙漠-夜景3"/>
-      <cg img="CG_第二折_百里逐驹1"/>
-      <se id="02-02马奔跑（沙漠）" looptimes="-1"/>
-      <se id="02-01马嘶鸣"/>
-      <bgm id="国势倾危（燃）"/>
-      <text>同样睡不着的，在这莽莽沙海上还有一人，一马。</text>
-      <mono>
-        <p/>
-        <p>马乃是汗血金蹄马，生得头细颈高，赭身朱鬣，龙脊纤长。[\s]</p>
-        <p>宝驹日行岂止千里，马蹄在沙上轻踏，足印留而不陷，如履平地。</p>
-      </mono>
-      <mono inline="true">
-        <p/>
-        <p>人则是千锤百炼人，身材魁梧健硕，长发短髯，肌肉虬结。[\s]</p>
-        <p>面上一道狭长剑疤，虽毁去了此人的清秀容貌，却无碍豪杰气概。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>这一人一马的默契，似乎已超越了主仆，更像是多年的挚友。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>若在中原，武林人士遥遥见了这对奇特的组合，就该一面在心里骂娘，一面拱手抱拳，堆起笑脸迎上，口中直呼 「马掌门！」 或 「马兄！」</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>盖因他是赤鸢真人座下唯一的男弟子，</p>
-        <p>七剑排行第六，</p>
-        <p>赫赫有名的天穹峰太虚派副掌座：[\s]</p>
-        <p/>
-        <p>『逐驹剑』——马非马。</p>
-      </mono>
-      <se looptimes="0"/>
-      <event action="achievement" aid="c31bc0dbbdc1f3ee"/>
-      <notification>传略馆解锁：「马非马」</notification>
-      <mono>
-        <p/>
-        <p>明面上，他兼有诸多身份，名号响亮至极，江湖中人莫不想与之结交。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>背地里，人们说起这位马大侠，则称呼为『疯子』、『狂人』、『怪客』、『死不掉的马非马』，见之无不头痛，维持个点头友谊便好，</p>
-        <p>谁也不愿与之来往过密。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>因为马非马这个人，不单武功了得，行事作风更是大大的狂傲。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>尽管顶着太虚剑派副掌门的名头，马非马却是个独行豪侠。</p>
-        <p/>
-        <p>太虚门徒一年也见不到他几次；与爱马『夜血』同处的日子，怕是比与妻子林朝雨更多。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>天穹峰的马副掌门温文尔雅，谦卑有礼；</p>
-        <p>可一下了山，就跟换了个人似的，什么角都敢惹，什么祸都敢闯。</p>
-        <p>对方是名门之后也好，天王老子也罢，马非马全不在乎。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>行侠仗义？惩恶锄奸？</p>
-        <p>逐驹剑不需要这种名义。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>想打架就打架，想出手就出手；</p>
-        <p>爱使剑就使剑，爱用拳就用拳；</p>
-        <p>想帮谁就帮谁，想杀谁就杀谁；</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>一切从心所欲。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>正因如此，武林正道人人对他避之唯恐不及。太虚掌门林朝雨也没少为他惹的事端奔走。</p>
-        <p/>
-        <p>他的仇家遍布天下，谁都不愿公然得罪太虚七剑，但私下里悬赏要他命的人可不少。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>对此，马非马的态度是：来者不拒。</p>
-      </mono>
-      <mono chara="008">
-        <p/>
-        <p>「想杀我就来，老子随时恭候。</p>
-        <p>躲半步算我没种，杀不掉是你没用。」</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>来杀他的人真的接踵而至。</p>
-        <p>埋伏、暗算、陷阱、下毒、色诱、挑战、比武……</p>
-        <p>什么招数都用过了，马非马还是没死，除了留下无数触目惊心的伤疤以外，他活得很好。</p>
-      </mono>
-      <bgm looptimes="0"/>
-      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
-      <cg/>
-      <bg img="拂云观-亮"/>
-      <motion chara="003" action="show" pos="right" img="林朝雨-微笑-标准-中景"/>
-      <bgm id="红颜近落霞（慢哀）"/>
-      <dialog chara="003">
-        <p>「我丈夫并非恶人，他是喜好自由，散漫惯了，难免做事冲动。</p>
-        <p>诸位请看在我的三分薄面上，勿与他计较。</p>
-        <p>武林同道若有需要林某的地方，太虚剑派定然鼎力相助。」</p>
-      </dialog>
-      <text>
-        <p>数年前，林朝雨借五十岁寿辰之机，宴请武林各大门派。[\s]</p>
-        <p>席间敬酒发言，实则为丈夫请罪，希望他得罪的各方势力高抬贵手。</p>
-      </text>
-      <motion chara="008" action="show" pos="left" img="马非马-微笑-标准-中景"/>
-      <text>马副掌门含笑起立，自罚一十九杯，亦是连连道歉。</text>
-      <motion chara="008" action="hide"/>
-      <motion chara="003" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="PureBlack"/>
-      <mono>
-        <p/>
-        <p>酒入寒肠，尽化男儿泪。</p>
-        <p>泪不轻弹，孤夜雨滂沱。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>人人都视作真相的，却是世上最大的谎言。</p>
-        <p/>
-        <p>马非马既不喜好自由，也不拥有自由。</p>
-      </mono>
-      <motion chara="003" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="PureBlack"/>
-      <text>
-        <p>得知师父复生后，马非马星夜兼程，直奔无双门而去，</p>
-        <p>只为第一时间把此事告知二师姐。</p>
-      </text>
-      <se/>
-      <bgm id="国势倾危（燃）" looptimes="0"/>
-      <bgm id="十大恶人（阴谋）"/>
-      <bg img="BGDarkRoom"/>
-      <motion chara="008" action="show" pos="left" duration="1" img="马非马-微惊-标准-中景"/>
-      <motion chara="004" action="show" pos="right" img="苏湄-自信-标准-中景" duration="1"/>
-      <dialog chara="004">「我知道。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">
-        <p>「那里有我的门徒，自有一套传递信息的法子。不过，也只比你稍快半日而已。</p>
-        <p>你来得正好，我的情报略嫌简单，正要听听你的说法。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <text>『无双仙子』苏湄不动声色，听完又让他复述一遍，询问种种细节。</text>
-      <motion chara="008" action="img_trans" img="马非马-标准-标准-中景"/>
-      <dialog chara="008">
-        <p>「事态紧急，我仅在附近稍作打听。</p>
-        <p>从种种描述来看，应是师父无疑。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
-      <dialog chara="004">「仍是二十年前，甚至更早时的模样？」</dialog>
-      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
-      <dialog chara="008">「是的。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「师父容颜不老啊～」</dialog>
-      <text>太虚第二徒一笑，马非马的心也跟着跳了起来。</text>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">
-        <p>「……有古怪，时间和地点都有蹊跷。</p>
-        <p>不过，这恰恰说明我的猜测是对的……」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-忧郁-别过-中景"/>
-      <text>说罢，苏湄沉吟不语，视线习惯性地飘上高空。</text>
-      <dialog chara="004">
-        <p>「你的语气有些反常，小马儿。</p>
-        <p>……哪里不合情理，是吗？」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
-      <dialog chara="008">
-        <p>「杀人焚庄。</p>
-        <p>……这并非师父的性格。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
-      <dialog chara="004">「啊。」</dialog>
-      <text>苏湄轻叹道，</text>
-      <motion chara="008" action="img_trans" img="马非马-瞥目-标准-中景"/>
-      <dialog chara="004">
-        <p>「不错，我也觉着奇怪，本怀疑情报有误，背后另有隐情……</p>
-        <p>但据你所说，『师父』她确实出现了。」</p>
-      </dialog>
-      <dialog chara="004">「………………」</dialog>
-      <dialog chara="004">
-        <p>「『杀人焚庄……这并非师父的性格。』，你刚刚这么说。</p>
-        <p>那么，师父是什么性格？我犹记得年少时，她曾带着师姐火烧望山，杀死了许多圣火教民。」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
-      <dialog chara="008">
-        <p>「阎世罗以邪术操控教徒，他们已走火入魔；至于望山……</p>
-        <p>朝雨说，那里真气弥漫。若是放任不管，必然催生妖兽，为祸一方。」</p>
-      </dialog>
-      <dialog chara="004">
-        <p>「嗯，师父只杀走火入魔之人，只焚妖气过盛之地。</p>
-        <p>因此杀之无错，焚之有理？」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-沉思-标准-中景"/>
-      <dialog chara="008">
-        <p>「……对错道理，我说不清。</p>
-        <p>但斩妖除魔是太虚门人的职责。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
-      <text>苏湄的视线投在马非马的脸上。</text>
-      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
-      <dialog chara="004">「走火入魔、化妖、尸变……称呼虽多，本质却是相同：那就是真气超出了人体能够承受的负荷。过量的真气使人失去理智，狂性发作，沦为只知杀戮与破坏的野兽。这过程一旦开始，便再无逆转之法。」</dialog>
-      <dialog chara="004">
-        <p>「故而杀之为救。取一只妖魔性命，如同保护千百无辜免受其害。</p>
-        <p>嗯，太虚的职责说来就是这样：见化妖入魔者，杀之无赦。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
-      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
-      <dialog chara="004">
-        <p>「……我恪守此道，不曾违背。</p>
-        <p>二十年来，我无双门斩除的怪物何止千数。</p>
-        <p>可我不引以为豪，相反，我厌憎这条戒律。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
-      <dialog chara="004">
-        <p>「……它们当真该死么？[\s]</p>
-        <p>走火入魔者往往是从未接触过武功的百姓，江湖子弟反是少数。他们多为普通人，并无大奸大恶，只是……不幸被『真气』所祸而已。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">
-        <p>「『真气』无眼，『天意』不仁，于是人为刍狗。</p>
-        <p>你说师父杀人无错，我说也对。但错必是存在的。</p>
-        <p>若错不在师父，不在我，亦不在死者，则其错在天。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
-      <dialog chara="004">
-        <p>「小马儿，太虚不过是个囚笼。师父武功盖世，却也是『天』的囚徒。</p>
-        <p>如今身死道消二十载，这『斩妖除魔』的戒律是否还能将她束缚？」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">「别以旧有的印象判断新事，那会吃大亏的。」</dialog>
-      <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"/>
-      <dialog chara="008">「……」</dialog>
-      <text>
-        <p>马非马凝望着她精致的面容。[\s]</p>
-        <p>往昔的痛苦又在心底翻涌，而他已习以为常。</p>
-        <p>这个女人，从少时起就是这样，总是冷静几近无情，处变不惊。</p>
-      </text>
-      <text>
-        <p>[em italic]可是，今时不同往日……[/em]</p>
-        <p>他的双眼熔得滚烫，直有种冲动，想向她说出很多年前曾说过的那段话。</p>
-      </text>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
-      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
-      <dialog chara="004">「我不能答应你。」</dialog>
-      <text>苏湄突然开口。</text>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">「我知道你在想什么，小马儿，我一瞧就知道了。」</dialog>
-      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
-      <dialog chara="008">「——」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「你啊，你啊。」</dialog>
-      <text>苏湄轻轻地摇头，这并不是在责难他。</text>
-      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">
-        <p>「你是这世上最懂我的男人，可是，还不够懂；</p>
-        <p>我是这世上最懂你的女人，可是，那并非爱。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">
-        <p>「我不爱你，也不爱任何人～</p>
-        <p>唉，这不是你的错，也不是你能改变的事儿。」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-苦笑-标准-中景"/>
-      <dialog chara="008">「……哈哈。」</dialog>
-      <text>马非马苦笑，</text>
-      <dialog chara="008">「你还有事要拜托我，对吧？说不定你骗骗我，讲几句谎话，我会更加死心塌地呢。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <motion chara="008" action="img_trans" img="马非马-瞥目-标准-中景"/>
-      <dialog chara="004">「别傻了，小马儿。你既不会被我骗，我也不会骗你。」</dialog>
-      <text>苏湄晃晃手指，他的目光情不自禁地随着那根白净的手指游移。</text>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <motion chara="008" action="img_trans" img="马非马-悲伤-标准-中景"/>
-      <dialog chara="004">
-        <p>「你值得一份尊重，小马儿——你是个好男人啦，早就不是缠着我的小娃娃了。</p>
-        <p>一切本不必如此，是的，我明白的。你本不必犯下那些错，更不用吃这么多苦……我明白的。」</p>
-      </dialog>
-      <dialog chara="004">
-        <p>「所以，我不希望你做任何不情愿的事，</p>
-        <p>可你知道吗？无论我要你做什么，你都心甘情愿。」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-闭目-标准-中景"/>
-      <motion chara="008" action="img_trans" img="马非马-微笑-标准-中景"/>
-      <dialog chara="004">
-        <p>「……但情愿，不等于快乐。</p>
-        <p>这必须由你自己取舍。」</p>
-      </dialog>
-      <text>马非马耸耸肩，他不快乐，他知道，她也知道。</text>
-      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
-      <dialog chara="004">
-        <p>「罢啦。我给你的是选择，选择的是你。</p>
-        <p>接下来我要说的话，你也有选择——」</p>
-      </dialog>
-      <dialog chara="008">「我要留下来。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
-      <text>
-        <p>苏湄瞧着面前的男人，先看他的眼睛，再看他的喉咙，接着是手。[\s]</p>
-        <p>这视线让他非常喜悦，也给了他说下去的勇气。</p>
-      </text>
-      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
-      <dialog chara="008">「师父会来找你，我不能让你死。」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-痛苦-别过-中景"/>
-      <dialog chara="004" inline="true">「……</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
-      <dialog chara="004">不要紧，我不会死的。」</dialog>
-      <text>苏湄轻描淡写地答道。</text>
-      <motion chara="008" action="img_trans" img="马非马-沉思-标准-中景"/>
-      <text>
-        <p>马非马沉默了，这一句话就将他哽住。[\s]</p>
-        <p>因为，『无双』苏湄的话总会成真。</p>
-      </text>
-      <text>她可是苏湄啊。从不做没把握的事情，从不许没意义的承诺。</text>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
-      <dialog chara="004">
-        <p>「我早有准备，师父的归来并不在我意料之外。</p>
-        <p>至于你嘛，我希望你去把这消息告诉其他人。」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-微惊-标准-中景"/>
-      <dialog chara="008">「我……你要我回去通知朝雨？」</dialog>
-      <motion action="img_trans" chara="004" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">「不必了，她那儿我亲自去说。你得去个更远的地方。」</dialog>
-      <dialog chara="008">「三师姐我可以顺路……五师姐？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">「对啦。」</dialog>
-      <se id="02-10拍手"/>
-      <text>苏湄拍手合掌，笑得很快活。</text>
-      <dialog chara="004">
-        <p>「我想请你去趟漠北。以夜血的速度，不出半月必至。[\s]</p>
-        <p>我需要你找到五妹，告诉她师父回来了——」</p>
-      </dialog>
-      <motion chara="004" action="img_trans" img="苏湄-自信-标准-中景"/>
-      <dialog chara="004">「——再帮我留意一下，她有没有轩辕剑。」</dialog>
-      <motion chara="008" action="img_trans" img="马非马-疑惑-标准-中景"/>
-      <dialog chara="008">「唔？她的剑不是……？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-甜笑-标准-中景"/>
-      <dialog chara="004">
-        <p>「对，所以，帮我留意一下吧。</p>
-        <p>轩辕剑的下落至关重要，我希望能全部掌握。」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-闭目-标准-中景"/>
-      <text>
-        <p>马非马低下头，咀嚼苏湄话中的意思。</p>
-        <p>他知道她既然提出此事，必然有其用意，可他不明白。</p>
-      </text>
-      <text>
-        <p>但他毕竟和苏湄相识了三十多年，</p>
-        <p>知道一个聪明的女人，并不喜欢向男人作解释。</p>
-      </text>
-      <motion chara="008" action="img_trans" img="马非马-认真-标准-中景"/>
-      <dialog chara="008">「好。只要告诉她？不用让她回中原？」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-平静-标准-中景"/>
-      <dialog chara="004">
-        <p>「嗯，传个话就够了，要怎么做是五妹的自由。</p>
-        <p>接着，你就回天穹峰吧，我会在那儿和你碰头。」</p>
-      </dialog>
-      <motion chara="008" action="img_trans" img="马非马-标准-标准-中景"/>
-      <dialog chara="008">「好。」</dialog>
-      <text>大汉回答，却没有动身。</text>
-      <dialog chara="008">「朝雨她……」</dialog>
-      <motion chara="004" action="img_trans" img="苏湄-标准-标准-中景"/>
-      <dialog chara="004">「我知道。」</dialog>
-      <text>她的回答恰到准处，就像男人的三个字已把疑虑与担忧交待得干干净净，再不需要多余的言语。</text>
-      <text>马非马应了一声，转身欲走。</text>
-      <motion chara="008" action="hide"/>
-      <motion chara="004" action="img_trans" img="苏湄-微笑-别过-中景"/>
-      <bgm id="十大恶人（阴谋）" looptimes="0"/>
-      <dialog chara="004">「小马儿～」</dialog>
-      <text>苏湄在身后唤他，</text>
-      <motion chara="004" action="img_trans" img="苏湄-瞥视-别过-中景"/>
-      <dialog chara="004">「我不骗你，我不会死的。」</dialog>
-      <text>男人不说话，他点点头，这就够了。</text>
-      <motion chara="004" action="hide" duration="1.5"/>
-      <transition mode="fade" in="2" stop="0.5" out="2" color="#000000"/>
-      <cg img="CG_第二折_百里逐驹1"/>
-      <bgm looptimes="0"/>
-      <se id="02-01马嘶鸣"/>
-      <se id="02-02马奔跑（沙漠）" looptimes="-1"/>
-      <text>当夜，马非马乘夜血径入大漠。按照苏湄的指示寻访太虚第五剑。</text>
-      <text>长夜漫漫，一人一马疾驰不休，直到天光大亮。</text>
-      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
-      <event action="goto" to="06"/>
-    </scene>
-    <scene id="06" prev="04" title="数据之海">
-      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
-      <bgm id="久远时光中"/>
-      <bg img="BGNeuron03" duration="3"/>
-      <delay t="2"/>
-      <mono pageend="true">
-        <p/>
-        <p>潮起，[\s]潮落。[\s]</p>
-        <p>潮起，[\s]潮落。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>眼前所见的，是穷尽万世也不得全览的知识之库。[\s]</p>
-        <p>虚体所在的，是凡骨肉胎绝不能透彻的数据之海。</p>
-      </mono>
-      <transition mode="eye" in="2" stop="0.5" out="2" color="#000000"/>
-      <delay t="1.5"/>
-      <mono>
-        <p/>
-        <p>潮起，潮落。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>信息的薄浪冲刷着男人的意识，反反复复，反反复复。[\s]</p>
-        <p>他竭力维持清醒。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>在这片海洋之中，不可说不可说转的资讯沉沉浮浮。</p>
-        <p>男人所能摘取的，不过是百亿分之一的碎末罢了。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>而信手取来的信息中，可用的又是寥寥；[\s]</p>
-        <p/>
-        <p>若不进行细致漫长的筛选，</p>
-        <p>坐拥无限的知识又与愚人何异呢？</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>于是他仍在寻找。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>在趋于不可知的某处，他曾击败过的对手——「虚空万藏」本尊，仍然觊觎着他的肉身。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>无限的知识是它的诱饵，慷慨的馈赠是它的武器，</p>
-        <p>男人知道它在等待，等待着他松懈的那一念。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>但他仍在寻找。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>寻找是不会止步的。</p>
-        <p>这一切都是为了救回那个人——</p>
-        <p>为此，辛苦算得了什么？[\s]</p>
-        <p>危险算得了什么？[\s]</p>
-        <p>时间算得了什么？</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>永恒……又算得了什么？</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>潮起，[\s]潮落。[\s]</p>
-        <p>潮起，[\s]潮落。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>男人的意志不曾动摇。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>                      潮起——</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>                    他仍在寻找。</p>
-      </mono>
-      <transition mode="eye" in="3" stop="0.5" out="0" color="#000000"/>
-      <event action="goto" to="07"/>
-    </scene>
-    <scene id="07" prev="06" title="真气">
-      <transition mode="eye" in="0" stop="0.5" out="3" color="#000000"/>
-      <bgm id="侠女之声（女抒情）"/>
-      <bg img="氛围_第一折_烈阳"/>
-      <text>太阳爬上高空，罗刹人的眼里又现出了神采。</text>
-      <text>他极慢地呼了口气。声音很轻，但却逃不过歪头瞧着他的李素裳的耳朵。</text>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <bg img="BGDesert01"/>
-      <motion chara="002" action="show" img="素裳-元气-背手-中景" pos="right"/>
-      <dialog chara="002">「醒啦？」</dialog>
-      <motion chara="001" action="show" pos="left" img="奥托-微悲-标准-中景" duration="1"/>
-      <dialog chara="001">「嗯，醒了。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
-      <text>罗刹人应道，勉强地笑了笑。</text>
-      <motion chara="002" action="img_trans" img="素裳-标准-背手-中景"/>
-      <text>李素裳张口又抿上，反复数次后还是忍不住问：</text>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
-      <dialog chara="002">「那个，你们罗刹人都是睁着眼睛睡觉的吗？」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-汗苦笑-标准-中景"/>
-      <dialog chara="001">「……唔？」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
-      <dialog chara="002">「你话说了一半就睡着啦，但眼睛还睁着，吓着我了，拿手晃你都没反应。」</dialog>
-      <text>少女说着，白净的手掌就在罗刹人眼前晃了起来。</text>
-      <motion chara="001" action="img_trans" img="奥托-苦笑-单空手-中景"/>
-      <dialog chara="001">
-        <p>「……不，那是因为我的神识遁入了『虚空万藏』之中。</p>
-        <p>我有些疑惑，需得从中找寻答案。抱歉，让你担心了。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-标准-标准-中景"/>
-      <dialog chara="001">
-        <p>「我必须集中精神。这些法器威力强大，但力量总伴随着巨大的代价。</p>
-        <p>『虚空万藏』蕴藏大道至理，每一次探寻都危机重重。</p>
-        <p>若是心智不坚，意识便有被『虚空万藏』吞噬之虞。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-严肃-单空手-中景"/>
-      <dialog chara="001">「又如天命的第三至宝『天火圣裁』，其威力可开山断海。可神火既出，必遭反噬，持有者自身也难以幸免。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-悲伤-摊手-中景"/>
-      <dialog chara="001">
-        <p>「……用于医治你的『黑渊白花』亦然，它的异能连我也无法完全地掌握。</p>
-        <p>我曾用它治疗自己，结果落下后遗症——用你们的话说，大抵就是内伤吧。</p>
-        <p>现在每过一段时日，我就会衰老或还童，需得数十日方可复原……」</p>
-      </dialog>
-      <dialog chara="002">「内伤？……」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-悲伤目下-背手-中景"/>
-      <dialog chara="002">（因真气紊乱而返老还童……似乎在哪里听过……）</dialog>
-      <text>[em italic]……是走火入魔的前兆？[/em]</text>
-      <bgm looptimes="0"/>
-      <bg img="PureBlack" duration="0.3"/>
-      <motion chara="002" action="img_trans" img="素裳-呆滞刺激-背手-中景"/>
-      <text>念头闪动，跃入李素裳的脑海，如同魔种。</text>
-      <text>——！！</text>
-      <text>
-        <p>一种突如其来的情绪摄住少女的心神。</p>
-        <p>在短暂的惊讶、惋惜、与痛苦之下，是强烈到令人绝望的杀意。</p>
-      </text>
-      <text>
-        <p>走火入魔者，杀之无赦——</p>
-        <p>这是娘亲与师父从小就不厌其烦地教导她的，太虚一脉的使命，也是百无禁忌的『自在门』唯一的铁律。</p>
-      </text>
-      <bg img="心湖（3）明镜"/>
-      <text>
-        <p>素裳的『剑心』在一瞬间攀升至明镜境。</p>
-        <p>右掌骤然伸直，启剑『裂空』刹那成形。</p>
-        <p>此刻她的手掌，正是无坚不摧的除魔之器——</p>
-      </text>
-      <bg img="BGDesert01"/>
-      <bgm id="佛心禅悟"/>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-摊手-中景"/>
-      <dialog chara="001">
-        <p>「不……没那么可怕，这只是法器的副作用而已。</p>
-        <p>它的化解之法我已在『虚空万藏』中寻获了。」</p>
-      </dialog>
-      <motion chara="002" action="img_trans" img="素裳-疲惫无神-普通-中景"/>
-      <text>罗刹人伸出手，姿态优雅。</text>
-      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
-      <dialog chara="001">
-        <p>「只要依当时的功率逆转『黑渊白花』即可，难点在于控制精度。</p>
-        <p>我的法器是拟似而成，效率不如原版，因此要进行大量的运算……」</p>
-      </dialog>
-      <text>说着说着，罗刹人的用词又让素裳难以理解了。</text>
-      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
-      <dialog chara="002">
-        <p>「哎，能治好就行。你可千万不要走火入魔喔……</p>
-        <p>真想不出，你是受了什么伤啊，能把法宝用成这样？」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-严肃-标准-中景"/>
-      <text>罗刹人愣住，想了一想才道：</text>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <dialog chara="001">「不告诉你。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
-      <dialog chara="002">「嘁。」</dialog>
-      <text>
-        <p>看着嘟嘴的素裳，罗刹人面露微笑，心中却是一痛。[\s]</p>
-        <p>明明相似之处寥寥，可与这东方少女相处时，他总会情不自禁地想起『她』。</p>
-      </text>
-      <text>[em italic]啊啊，曾几何时，也是这般年岁……[/em]</text>
-      <motion chara="001" action="hide"/>
-      <motion chara="002" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <cg img="氛围_第二折_卡莲" scale="2" origin="80%,80%"/>
-      <delay t="0.6"/>
-      <bg img="BGDesert03"/>
-      <text>[em italic]卡莲……[/em]</text>
-      <text>罗刹人怔怔望着杏黄的枯沙，眼前又依稀看见了那个巧笑明眸的少女。</text>
-      <cg img="氛围_第二折_卡莲" duration="15" origin="80%,80%"/>
-      <se id="02-03卡莲语音"/>
-      <dialog chara="099">「喂，大发明家——」</dialog>
-      <delay t="0.3"/>
-      <text>
-        <p>是了，她是这样称呼他的……[\s]</p>
-        <p>记忆中的少女背手而立，轻风把银色的发丝吹在空中。</p>
-      </text>
-      <bg img="BGPureWhite00"/>
-      <se id="02-04卡莲语音"/>
-      <dialog chara="099">「——我有一个心愿，只告诉你听，你别笑我呀。」</dialog>
-      <delay t="0.6"/>
-      <cg duration="0.5"/>
-      <text>
-        <p>声犹在耳，好似时间在那一刻凝固了，再也不曾前进过。[\s]</p>
-        <p>可是，那是三十多年前的事了。</p>
-      </text>
-      <text>恍然间，罗刹人眼中泪水盈盈。</text>
-      <bg img="PureBlack"/>
-      <dialog chara="001">「——李姑娘。」</dialog>
-      <text inline="true">罗刹人强迫自己回神，尽管他宁愿沉溺其中。</text>
-      <text>
-        <p/>
-        <p>谁又能明白，从往事回忆中抽身，所花费的力气竟比与虚空万藏的斗争更甚呢。</p>
-      </text>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <dialog chara="001">
-        <p>「这几日我持续使用法器，真气损耗极大；</p>
-        <p>曾听闻神州武学中有让渡真气的传功法门，你会么？」</p>
-      </dialog>
-      <motion chara="001" action="hide"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <cg img="氛围_第二折_战场"/>
-      <mono pageend="true">
-        <p/>
-        <p>当年天命与神州一战时，罗刹人就察觉到了……[\s]</p>
-        <p/>
-        <p>同是『真气』这种玄妙的能量，东西方的运用方法却有诸多差别，</p>
-        <p>这件事令他觉得相当不可思议。</p>
-      </mono>
-      <bg img="BGDesert01"/>
-      <mono pageend="true">
-        <p/>
-        <p>西方将真气视为瘟疫，竭力摆脱它的沾染，</p>
-        <p>为了对抗它而发展出许多技术；[\s]</p>
-        <p/>
-        <p>东方人却试图容纳它，利用它，</p>
-        <p>将之转变为一种强化自身的力量。</p>
-      </mono>
-      <mono inline="true">
-        <p/>
-        <p>诚然，与天命相较，神州的科技居于落后地位；</p>
-        <p/>
-        <p>但论及对真气的理解，东方却反而在境界上更胜一筹。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>……为何会诞生这样的差异呢？</p>
-      </mono>
-      <transition mode="dissolve" in="1" stop="0.5" out="0" color="#000000"/>
-      <cg/>
-      <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
-      <motion chara="001" action="show" pos="left" img="奥托-思索-中景"/>
-      <motion chara="002" action="show" pos="right" img="素裳-惊讶-普通-中景"/>
-      <dialog chara="002">「啊，这个嘛……」</dialog>
-      <text>李素裳苦恼地思考着，</text>
-      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
-      <dialog chara="002">
-        <p>「你说的传功，就是把自己的真气输给他人吧？</p>
-        <p>我得先告诉你，不是我们太虚剑气不行啊，</p>
-        <p>只是……它和别的功夫不一样。」</p>
-      </dialog>
-      <motion chara="002" action="img_trans" img="素裳-龇牙-普通-中景"/>
-      <dialog chara="002" inline="true">「自在门的祖师是赤鸢真人。据说她游方天下，为的正是消灭为祸世间的妖人异兽。故而真人平生最忌的，就是走火入魔。</dialog>
-      <motion chara="002" action="img_trans" img="素裳-浅笑-背手-中景"/>
-      <dialog chara="002">
-        <p/>
-        <p>所以她创下的武功，是不练真气的。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-微悲-标准-中景"/>
-      <dialog chara="001">「哦？这说法，我还是头回听闻。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <dialog chara="002">「因为你是外国人嘛，没见识——哈哈！」</dialog>
-      <text>也不知哪里戳到了小姑娘的笑点，素裳乐得合不拢嘴，又续道：</text>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="002">「所以——嘿嘿——我们不像其他门派那样练内功，练丹田，而是将身体练成真气的通道。」</dialog>
-      <dialog chara="002">
-        <p>「你知道吗？所谓『先天一炁』的实质，即是生命的元气。</p>
-        <p>它无处不有，哪怕一片叶一朵花中，都有真气的存在。」</p>
-      </dialog>
-      <motion chara="001" action="img_trans" img="奥托-微笑奸-标准-中景"/>
-      <text>罗刹人微微一笑。在他看来，与其说崩坏——东方的『真气』是生命力的代名词，倒不如说它是生命的毁灭者更为恰当。可是，他没必要纠正女孩的观点。</text>
-      <motion chara="002" action="img_trans" img="素裳-笑-背手-中景"/>
-      <dialog chara="002">「太虚剑心与剑形大成后，即可从周遭汲取真气，使之在经络中流转不滞，需时澎湃若海浪，亦可涓涓似细流，自在随心，不受限制。」</dialog>
-      <dialog chara="002">「故而比起其余诸般武学，太虚剑气的威力更强。但：我们的丹田内并不储存真气。」</dialog>
-      <text>李素裳两手一摊：</text>
-      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-茫然-标准-中景"/>
-      <dialog chara="002">「没法传功给你呀。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="001">「可是，依照你的说法。」</dialog>
-      <text>罗刹人思索着，</text>
-      <dialog chara="001">「你若能自行操控内力流转，岂不是可以从天地间汲取真气，再使之流入我的经络之中？」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-欸真的吗-背手-中景"/>
-      <dialog chara="002">「呃……好像行吧？但我不会呀。」</dialog>
-      <dialog chara="001">「我教你。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-惊讶-普通-中景"/>
-      <dialog chara="002">「你？」</dialog>
-      <text>素裳大奇，</text>
-      <motion chara="001" action="img_trans" img="奥托-思索-中景"/>
-      <dialog chara="002">「你会？」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-思索星-中景"/>
-      <dialog chara="001">
-        <p>「需要你稍加讲解，好针对你的武学系统作出适配；</p>
-        <p>东西方对真气的理解或有差别，但万变不离其宗。」</p>
-      </dialog>
-      <dialog chara="001">「我的头脑加上『虚空万藏』，只要理解了太虚剑气的本源，推演出渡气的法门相信不难。」</dialog>
-      <text>素裳愣愣地瞧着他，突然扑哧一笑：</text>
-      <motion chara="002" action="img_trans" img="素裳-大笑-背手-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-微悲-标准-中景"/>
-      <dialog chara="002">「我差点没反应过来，喂，你们罗刹人……哦，对啦，你们只有一个天命派，难怪不懂江湖规矩：」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="002">
-        <p>「武功是不能随便传给外人的啦！这可是大忌！</p>
-        <p>要是谁都能学太虚剑气，神州不就乱套了嘛！」</p>
-      </dialog>
-      <text>罗刹人一愣，他确没想过神州有这样的规矩。</text>
-      <motion chara="001" action="img_trans" img="奥托-微笑释然-标准-中景"/>
-      <dialog chara="001">「……抱歉。」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-吓-背手-中景"/>
-      <dialog chara="002">「呃，不是责怪你啦……你……也是想医好内伤嘛。」</dialog>
-      <motion chara="001" action="img_trans" img="奥托-微悲-单空手-中景"/>
-      <dialog chara="001">「我明白的，李姑娘。待我休息半月，将内力调息完毕，自行医治也可。」</dialog>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p>他这么说，其实却有算计；引起他这异象</p>
-        <p>的乃是天命珍藏的「黑渊白花」本尊，[\s]</p>
-        <p/>
-        <p>若要用拟似的仿冒品逆行法门，以自身的</p>
-        <p>修为决计做不到，最终还得着落在东方人</p>
-        <p>神奇的武功门道上。</p>
-      </mono>
-      <motion chara="002" action="img_trans" img="素裳-元气-背手-中景"/>
-      <dialog chara="002">「哎——你，你太见外啦，叫我素裳就好了……」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-背手-中景"/>
-      <text>李素裳下意识地嘟起小嘴，面色忽晴忽暗，很是窘迫。</text>
-      <text>
-        <p>许是想到了罗刹人不惜损耗自身的功力每日为她疗伤，</p>
-        <p>小姑娘想要帮上这个男人的忙。</p>
-        <p>但『太虚剑气』又是说什么也不能外传的绝密。</p>
-      </text>
-      <text>她忸怩片刻，突然腾身站起：</text>
-      <motion chara="002" action="img_trans" img="素裳-浅笑-抱手-中景"/>
-      <dialog chara="002">「罗刹人，我们这就动身，不要耽搁了！」</dialog>
-      <motion chara="002" action="img_trans" img="素裳-大笑-抱手-中景"/>
-      <motion chara="001" action="img_trans" img="奥托-微笑自信-标准-中景"/>
-      <dialog chara="002">
-        <p>「我估算着，大概还有半天路程，今晚就能到家。咱们还可以让马再跑快些……</p>
-        <p>等见到师父，我请她出手帮你医治。她要是不答应，我就……我就……」</p>
-      </dialog>
-      <motion chara="002" action="img_trans" img="素裳-嘟嘴-抱手-中景"/>
-      <text>素裳想了又想，咬住嘴唇，恨恨道：</text>
-      <dialog chara="002">「我就不理她！」</dialog>
-      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
-      <event action="goto" to="08"/>
-    </scene>
-    <scene id="08" prev="07" title="无上自在">
-      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
-      <bgm id="仙灵岛（水灵笛）"/>
-      <bg img="BGSky03"/>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>窗外仍是漆黑一片时，凌霜已经醒了；</p>
-        <p>她总是在这个时候醒来，既不早也不晚。</p>
-      </mono>
-      <event action="hide_ui" duration="3"/>
-      <bg img="凌霜小屋室内" duration="3"/>
-      <delay t="2.5"/>
-      <mono>
-        <p/>
-        <p/>
-        <p>打一盆清水梳洗更衣后，她在床上盘膝打坐，</p>
-        <p>默诵剑心诀，一念就是两个时辰，雷打不动。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>接着，她起身执帚扫地。待屋子打扫干净了，</p>
-        <p>便到附近的小市上买些烙饼和羊肉；[\s]</p>
-        <p>若是水用完了，还得去一旁的水井里打几桶水。</p>
-      </mono>
-      <event action="hide_ui" duration="3"/>
-      <bg img="织机" duration="3"/>
-      <delay t="3"/>
-      <bg img="织机" duration="9" scale="1.5"/>
-      <mono>
-        <p/>
-        <p>用过早饭，凌霜就在一架旧织机旁坐下，织罗绸。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>曾经，她只用一天就能织出一匹满意的绸子；</p>
-        <p>收了素裳后，进度就大大拖慢了。[\s]</p>
-        <p>迟则一周，再快也要四天。</p>
-      </mono>
-      <event action="hide_ui" duration="3"/>
-      <bg img="BGDesertWU" duration="3"/>
-      <delay t="3"/>
-      <mono>
-        <p/>
-        <p/>
-        <p>李素裳常常好奇她出门之后，</p>
-        <p>师父空余的时候会做什么事情，练什么功夫。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>两人相处了近十年，她还是没想到自己一走，</p>
-        <p>师父就把时间都交给那架有些陈旧的织机。</p>
-      </mono>
-      <event action="hide_ui" duration="3"/>
-      <bg img="织机" duration="3" scale="1.5"/>
-      <delay t="3"/>
-      <bg img="织机" duration="13"/>
-      <mono pageend="true">
-        <p/>
-        <p>起初，纺织与练功毫无关联，</p>
-        <p>它只是为了维持生计的便宜之举。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>可在凌霜眼中，众道归一，纺织与武学岂无相通之处？</p>
-        <p>无形间，纺织之于凌霜，亦成了淬炼剑心，磨练武技的手段。</p>
-      </mono>
-      <bg img="PureBlack"/>
-      <mono pageend="true">
-        <p/>
-        <p>剑之道，包罗万千，剑本身不过是凭依之物罢了。</p>
-        <p/>
-        <p>站卧坐躺，衣食住行……人生诸处莫不蕴藏武道，</p>
-        <p/>
-        <p>举手投足皆是习武，静极不动亦是练剑，此即『浑然天成』。</p>
-      </mono>
-      <event action="hide_ui" duration="3"/>
-      <bg img="心湖（4）太虚" duration="3"/>
-      <delay t="3"/>
-      <text>
-        <p>而素裳的师父，赤鸢的第五徒，『自在剑』凌霜——[\s]</p>
-        <p>正可谓：浑然天成人，举世无上剑。</p>
-      </text>
-      <text>赤鸢最具天赋的弟子，无疑是当今武林第一的高人，何故不声不响，在漠北隐居多年？</text>
-      <text>知者寥寥，唯有昔日的数位同门，但她们打定主意，决不外泄只字片语。</text>
-      <text>
-        <p>至于凌霜，她只是日复一日地诵剑心诀，纺丝罗绸。[\s]</p>
-        <p>无人知其所来，亦无人知其所往。</p>
-      </text>
-      <bgm id="仙灵岛（水灵笛）" looptimes="0"/>
-      <se id="02-02马奔跑（沙漠）"/>
-      <bg img="BGSky00" duration="1"/>
-      <text>
-        <p>……就这样，李素裳外出试剑的第八日，[\s]</p>
-        <p>凌霜坐在织机前，忽听得远方马蹄声响。</p>
-      </text>
-      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
-      <event action="goto" to="09"/>
-    </scene>
-    <scene id="09" prev="08" title="旅伴">
-      <transition mode="move" stop="0.2" out="1.5" color="#000000" direction="right" custom="default" in="0"/>
-      <bgm id="清晨赶集（轻快）"/>
-      <se id="01-36骆驼车队loop"/>
-      <bg img="PureBlack"/>
-      <event action="hide_ui" duration="1.5"/>
-      <cg img="CG_第二折_风中奇缘1"/>
-      <delay t="1.5"/>
-      <mono>
-        <p/>
-        <p>金沙帮最好的两匹马拉着一台板车，飞奔疾驰。</p>
-        <p/>
-        <p>李素裳趴在车上，哼着不成曲的调子，心情大好。</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「罗刹人，把你的神通收掉吧。你看你看，吹吹风不是很爽快嘛。」</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>疾行的马车带起劲风，吹动素裳的长辫，像两条漆黑的小溪。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>那边厢，罗刹人用无形的空气罩将自己层层围住。[\s]</p>
-        <p>在法宝「虚空万藏」制造的领域中，男人的长发静止不动，面色亦是从容不迫。</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘2" duration="1"/>
-      <delay t="1"/>
-      <mono chara="001">「你不热吗？」</mono>
-      <mono chara="002">
-        <p/>
-        <p>「热呀，不过，沙漠是这样的嘛～」</p>
-      </mono>
-      <mono chara="001">
-        <p/>
-        <p>「……嗯。」</p>
-      </mono>
-      <mono chara="-3" pageend="true">罗刹人本想扩展无形罩将少女拢住，闻听此言便罢了手。</mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘3" duration="1"/>
-      <delay t="1"/>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「你不高兴啦？哎，对不起嘛，谁叫你变那样……那样的马车。」</p>
-      </mono>
-      <cg/>
-      <text>
-        <p>若说头一日罗刹人变的戏法还算朴素，</p>
-        <p>第二天他的花样就已经超出了素裳的接受范围。</p>
-      </text>
-      <text>
-        <p>那马车圆圆的，坑坑洼洼，醒目的橙黄色极是惹眼。</p>
-        <p>罗刹人说这是西方的特产「南瓜」。还对着它左右观瞧，点头微笑。</p>
-      </text>
-      <text>李素裳心中大窘，宁可步行也不坐那种车子。</text>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘1" duration="1"/>
-      <delay t="1"/>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「再说，你不是有伤在身嘛，别冒险施法了…</p>
-        <p>…这样坐着就挺好的！」</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>素裳真心替罗刹人着想，生怕他空耗所剩无几的内力。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>可是，罗刹人似乎与风有着不共戴天的深仇大恨。</p>
-        <p/>
-        <p>即使让步坐在破旧的板车上，他也要保证仪表整洁，风度翩翩，那看似随意垂落的金色发丝绝不能被吹乱半根。</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘4" duration="1"/>
-      <delay t="1"/>
-      <mono chara="002">
-        <p/>
-        <p>「……你这么有本事，怎么会被抓进黑牢，</p>
-        <p>我是真的想不通哎。」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘5" duration="1"/>
-      <delay t="1"/>
-      <mono chara="001">
-        <p/>
-        <p>「抓？我是受了那头鹰的邀请，在他们的寨子里作客。」</p>
-      </mono>
-      <mono chara="002">
-        <p/>
-        <p/>
-        <p>                  「……作客？」</p>
-      </mono>
-      <text>李素裳眨眨眼睛，</text>
-      <mono chara="002" pageend="true">                  「在黑牢作客？」</mono>
-      <mono chara="001">
-        <p/>
-        <p>「……地方是怪了点。」</p>
-      </mono>
-      <text>罗刹人伸手摩擦下巴，陷入沉思。</text>
-      <mono chara="001">「可是，那头鹰对我说：『本地的一切都归我所有，而您的一切也尽托付于我。请您下车，随我的仆人去吧，繁杂的礼节尽可省去。』……这不是邀请吗？」</mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>「……你对神州的语言是不是有啥误解。」</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>李素裳为难地挠挠头，</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「正常人哪有这么讲话的，他是怎么说的啊？」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘10" duration="1"/>
-      <delay t="1"/>
-      <mono chara="001" pageend="true">
-        <p>      「这里是我的。</p>
-        <p>          你也是我的。</p>
-        <p>              出来。</p>
-        <p>              跟他们走。</p>
-        <p>              别耍花样。」</p>
-      </mono>
-      <text>罗刹人模仿“老鹰”的声音，几可乱真。</text>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘6" duration="1"/>
-      <delay t="1"/>
-      <mono chara="002">
-        <p/>
-        <p>「……罗刹人，你的解读也太贴心啦……」</p>
-      </mono>
-      <mono chara="001" pageend="true">
-        <p/>
-        <p>「不怨我，是你们的语言太过复杂。」</p>
-      </mono>
-      <text>
-        <p>李素裳怀疑地盯着一脸淡然的金发男子，觉得罗刹人是在故意拿她逗乐子。</p>
-        <p>这人别看外表漂漂亮亮的，办事说话从来不按规矩来，叫她一点儿都捉摸不透。</p>
-      </text>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘7" duration="1"/>
-      <delay t="1"/>
-      <mono chara="002">
-        <p/>
-        <p>「哎，和你聊天还是太危险了。</p>
-        <p>好像句句都是坑，就等我跳进去看笑话。」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘8"/>
-      <delay t="1"/>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「要不，再给我讲讲天命派的事儿吧。」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘9" duration="1"/>
-      <delay t="1"/>
-      <mono chara="001" pageend="true">
-        <p/>
-        <p>「啊？」</p>
-      </mono>
-      <text>精致的脸蛋从手掌上滑了下去，磕在腕骨上发出闷响。罗刹人跳将起来，揉揉眼睛：</text>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘6" duration="1"/>
-      <delay t="1"/>
-      <mono chara="001">
-        <p/>
-        <p>「不了不了，这个真的费脑子……」</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「哎——」</p>
-      </mono>
-      <text>李素裳的俏脸上满是失望。</text>
-      <cg img="CG_第二折_风中奇缘12" duration="1"/>
-      <mono chara="001">
-        <p/>
-        <p>「那宽限几天，容我琢磨一下……</p>
-        <p>改天说给你听。」</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「可还有一会儿才到家。咱们都不讲话，很无聊呀。」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘5" duration="1"/>
-      <delay t="1"/>
-      <text>罗刹人沉吟片刻：</text>
-      <mono chara="001">
-        <p/>
-        <p>「不妨换你来讲故事吧？说说那位仙人如何？</p>
-        <p>记得你说过：你和赤鸢关系匪浅？」</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p/>
-        <p>「关系不浅的是师父和我娘啦，我……我没见过上仙。」</p>
-      </mono>
-      <event action="hide_ui" duration="1"/>
-      <cg img="CG_第二折_风中奇缘13" duration="1"/>
-      <delay t="1"/>
-      <mono>
-        <p/>
-        <p>素裳努力回忆，</p>
-      </mono>
-      <mono chara="002" pageend="true">
-        <p>「真的，我没见过她，爹娘和师父也从不提起仙人。</p>
-        <p>赤鸢真人的事，只有侍母跟我讲过。」</p>
-      </mono>
-      <bgm id="清晨赶集（轻快）" looptimes="0"/>
-      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <event action="goto" to="10"/>
     </scene>
   </scripts>
 </data>
