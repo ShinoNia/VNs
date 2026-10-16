@@ -2,7 +2,7 @@
 .home {
   position: relative;
   height: 100%;
-  background: url(/novels/7s/en-US/bg.png) 50% 50% no-repeat;
+  background: url(./bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 .home .avg-button-back {
@@ -31,7 +31,7 @@
   margin-left: 0.3rem;
   width: 4.81rem;
   height: 0.05rem;
-  background: url(/novels/7s/common/menu-border.png) bottom no-repeat;
+  background: url(./common/menu-border.png) bottom no-repeat;
   background-size: contain;
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
@@ -62,7 +62,7 @@
   height: 0.67rem;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url(/novels/7s/common/arrow.png);
+  background-image: url(./common/arrow.png);
   background-size: cover;
 }
 .pager__prev {
@@ -71,7 +71,7 @@
   transform: rotate(180deg);
 }
 .pager__btn--disabled {
-  background-image: url(/novels/7s/common/arrow-disabled.png);
+  background-image: url(./common/arrow-disabled.png);
 }
 .chapter {
   position: relative;
@@ -142,7 +142,7 @@
   content: '';
   width: 2.26rem;
   height: 0.73rem;
-  background: url(/novels/7s/common/chapter-selected.png) 50% 50% no-repeat;
+  background: url(./common/chapter-selected.png) 50% 50% no-repeat;
   background-size: cover;
   display: block;
   position: absolute;
@@ -157,7 +157,7 @@
   content: '';
   width: 0.04rem;
   height: 0.46rem;
-  background: url(/novels/7s/common/scene-bar.png) 50% 50% no-repeat;
+  background: url(./common/scene-bar.png) 50% 50% no-repeat;
   background-size: cover;
   display: block;
   position: absolute;
@@ -178,7 +178,7 @@
   position: absolute;
   width: 2.09rem;
   height: 0.65rem;
-  background: url(/novels/7s/en-US/chapter-load.png) 50% 50% no-repeat;
+  background: url(./chapter-load.png) 50% 50% no-repeat;
   background-size: cover;
   right: 0.8rem;
   bottom: 0.3rem;
@@ -203,7 +203,7 @@
 }
 .chapter-list {
   height: 100%;
-  background: url(/novels/7s/en-US/chapter-bg.png) 50% 50% no-repeat;
+  background: url(./chapter-bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 .chapter-list__content {
@@ -333,7 +333,7 @@
   content: '';
   width: 2.15rem;
   height: 2px;
-  background: url(/novels/7s/common/menu-border.png) 50% 50% no-repeat;
+  background: url(./common/menu-border.png) 50% 50% no-repeat;
   background-size: contain;
   display: block;
   position: absolute;
@@ -383,7 +383,7 @@
 .cg-list .gal-collection-container .gal-collection-close {
   width: 1.54rem;
   height: 1.81rem;
-  background: url(/novels/7s/common/close.png) 50% 50% no-repeat;
+  background: url(./common/close.png) 50% 50% no-repeat;
   background-size: cover;
   right: 0.4rem;
   top: 0.4rem;
@@ -408,20 +408,20 @@
   cursor: pointer;
 }
 .cg-list .gal-collection-container .gal-collection-pager-prev {
-  background-image: url(/novels/7s/common/arrow.png);
+  background-image: url(./common/arrow.png);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
   margin-right: 2.5rem;
 }
 .cg-list .gal-collection-container .gal-collection-pager-next {
-  background-image: url(/novels/7s/common/arrow.png);
+  background-image: url(./common/arrow.png);
   margin-left: 2.5rem;
 }
 .cg-list .gal-collection-container .gal-collection-pager-disabled {
   cursor: default;
   opacity: 1;
-  background-image: url(/novels/7s/common/arrow-disabled.png);
+  background-image: url(./common/arrow-disabled.png);
 }
 .cg-list .gal-collection-container .gal-collection-list li {
   padding: 0.15rem 0.36rem;
@@ -627,7 +627,7 @@ p {
   position: absolute;
   width: 1.54rem;
   height: 1.81rem;
-  background: url(/novels/7s/common/close.png) 50% 50% no-repeat;
+  background: url(./common/close.png) 50% 50% no-repeat;
   background-size: cover;
   right: 0.4rem;
   top: 0.4rem;
@@ -695,11 +695,11 @@ p {
   bottom: 0.3rem;
   width: 1.26rem;
   height: 1.26rem;
-  background: url(/novels/7s/common/fullscreen-inactive.png) 50% 50% no-repeat;
+  background: url(./common/fullscreen-inactive.png) 50% 50% no-repeat;
   background-size: 0.86rem 0.86rem;
 }
 .gal-btn-fullscreen--active {
-  background-image: url(/novels/7s/common/fullscreen.png);
+  background-image: url(./common/fullscreen.png);
 }
 .gal-popup {
   position: fixed;
@@ -753,7 +753,7 @@ p {
 .gal-popup__confirm {
   width: 3.06rem;
   height: 0.96rem;
-  background: url(/novels/7s/en-US/yes.png) 50% no-repeat;
+  background: url(./yes.png) 50% no-repeat;
   background-size: cover;
   position: absolute;
   bottom: 0.7rem;
@@ -834,69 +834,69 @@ p {
 .stage-scene .stage-btn-save {
   top: 0.15rem;
   left: 0.5rem;
-  background-image: url(/novels/7s/en-US/save.png);
+  background-image: url(./save.png);
 }
 .stage-scene .stage-btn-load {
   top: 0.15rem;
   left: 2.18rem;
-  background-image: url(/novels/7s/en-US/load.png);
+  background-image: url(./load.png);
 }
 .stage-scene .stage-btn-skip {
   top: 0.15rem;
   left: 3.86rem;
-  background-image: url(/novels/7s/en-US/skip-inactive.png);
+  background-image: url(./skip-inactive.png);
 }
 .stage-scene .stage-btn-skip.stage-btn-active {
-  background-image: url(/novels/7s/en-US/skip.png);
+  background-image: url(./skip.png);
 }
 .stage-scene .stage-btn-auto {
   top: 0.15rem;
   left: 5.54rem;
-  background-image: url(/novels/7s/en-US/auto-inactive.png);
+  background-image: url(./auto-inactive.png);
 }
 .stage-scene .stage-btn-auto.stage-btn-active {
-  background-image: url(/novels/7s/en-US/auto.png);
+  background-image: url(./auto.png);
 }
 .stage-scene .stage-btn-log {
   top: 0.15rem;
   left: 7.22rem;
-  background-image: url(/novels/7s/en-US/log.png);
+  background-image: url(./log.png);
 }
 .stage-scene .stage-btn-cgmode {
   top: 0.15rem;
   left: 8.9rem;
-  background-image: url(/novels/7s/en-US/hide.png);
+  background-image: url(./hide.png);
 }
 .stage-scene .stage-btn-panel {
   top: 0.15rem;
   right: 0.5rem;
-  background-image: url(/novels/7s/common/menu.png);
+  background-image: url(./common/menu.png);
 }
 .stage-scene .stage-btn-panel.stage-btn-active {
-  background-image: url(/novels/7s/common/menu.png);
+  background-image: url(./common/menu.png);
 }
 .stage-scene .stage-btn-exit {
   top: 0.15rem;
   left: 10.58rem;
-  background-image: url(/novels/7s/en-US/exit.png);
+  background-image: url(./exit.png);
 }
 .stage-scene .stage-btn-close {
   top: 0;
   right: 0;
   width: 1.54rem;
   height: 1.81rem;
-  background-image: url(/novels/7s/common/close.png);
+  background-image: url(./common/close.png);
 }
 .stage-scene .stage-btn-remark {
   bottom: 2.5rem;
   right: 0.5rem;
-  background-image: url(/novels/7s/common/remark.png);
+  background-image: url(./common/remark.png);
 }
 .stage-popup-container.stage-popup-load-confirm .stage-popup-content {
-  background-image: url(/novels/7s/en-US/quickload.png);
+  background-image: url(./quickload.png);
 }
 .stage-popup-container.stage-popup-save-confirm .stage-popup-content {
-  background-image: url(/novels/7s/en-US/quicksave.png);
+  background-image: url(./quicksave.png);
 }
 .stage-popup-container .stage-popup-mask {
   position: fixed;
@@ -944,9 +944,9 @@ p {
   outline: none;
 }
 .stage-popup-container .stage-popup-btn.stage-popup-btn-confirm {
-  background-image: url(/novels/7s/en-US/yes.png);
+  background-image: url(./yes.png);
 }
 .stage-popup-container .stage-popup-btn.stage-popup-btn-cancel {
-  background-image: url(/novels/7s/en-US/no.png);
+  background-image: url(./no.png);
   margin-right: 0.6rem;
 }
