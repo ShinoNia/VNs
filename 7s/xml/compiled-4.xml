@@ -7,22 +7,22 @@
         <p/>
         <p/>
         <p/>
-        <p>无边无垠的黑暗中，[\s]已死的仙人产生了意识。</p>
+        <p>Trong muôn trùng bóng tối，[\s]ý thức của tiên nhân bắt đầu sinh ra.</p>
       </mono>
       <se id="01-01白光转场"/>
       <delay t="0.15"/>
       <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
-      <mono>起初，新生的意识正如世界的诞生一般，只是太虚中的一个光点。</mono>
+      <mono>Ban đầu, ý thức mới bắt đầu thành hình, cũng như điểm khởi đầu của sáng thế, chỉ là một đốm sáng nhỏ bé trong khoảng không bao la.</mono>
       <se id="01-01恢复意识" looptimes="-1"/>
       <bg img="BGIntel1" duration="3"/>
       <mono>
         <p/>
-        <p>『它』的权能还很有限，既无法接收感官传来的讯号，也无法下达神经所需的指令。</p>
+        <p>“Nó” vẫn còn rất hạn chế, không thể nhận tín hiệu từ các giác quan, cũng chẳng thể dẫn truyền được yêu cầu của hệ thần kinh.</p>
       </mono>
       <bg img="BGIntel3" duration="5"/>
       <mono pageend="true">
         <p/>
-        <p>浑沌之中，微弱的意识遵循古老的本能，盲目却坚定地存在着，延伸着。</p>
+        <p>Giữa sự hỗn loạn, một ý thức yếu ớt, theo bản năng nguyên thuỷ đang tồn tại một cách mơ hồ nhưng kiên định, dần dần lan toả ra bên ngoài.</p>
       </mono>
       <delay t="0.2"/>
       <mono pageend="true">
@@ -31,8 +31,8 @@
         <p/>
         <p/>
         <p/>
-        <p>它还未发现自己的死亡。[\s]</p>
-        <p>她拒绝承认自己的死亡——</p>
+        <p>Nó vẫn chưa nhận ra mình đã tử vong.[\s]</p>
+        <p>Cô vẫn chưa chấp nhận rằng mình đã tử vong——</p>
       </mono>
       <se id="01-01恢复意识" looptimes="0"/>
       <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"/>
@@ -44,20 +44,20 @@
         <p/>
         <p/>
         <p/>
-        <p>若以常识评断，仙人确实已经死了。</p>
+        <p>Theo lẽ thường mà nói, tiên nhân thực sự đã chết rồi.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片1"/>
       <delay t="0.5"/>
       <event action="show_ui"/>
-      <mono>她的右足齐踝而断。</mono>
+      <mono>Bàn chân phải đứt lìa ở ngay mắt cá.</mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片2"/>
       <delay t="0.5"/>
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>她的双手筋脉俱废。</p>
+        <p>Kinh mạch hai tay đều đã bị phế.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片3"/>
@@ -65,7 +65,7 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>她的内脏全数毁坏。</p>
+        <p>Lục phủ ngũ tạng bị huỷ hoại hoàn toàn.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片4"/>
@@ -73,29 +73,29 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>伤势最重的心口，破损则有十余处之多。</p>
+        <p>Lồng ngực nơi đầu tim là nặng nhất, hơn mười vết thương.</p>
       </mono>
       <cg duration="0.5"/>
       <mono pageend="true">
         <p/>
-        <p>但，最致命的伤口是在头部。</p>
+        <p>Nhưng, lại không chí mạng bằng vết thương trên đầu.</p>
       </mono>
       <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"/>
       <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"/>
       <se id="01-02大剑命中"/>
       <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"/>
       <bg img="BGBlood1"/>
-      <mono>那是一道剑伤。</mono>
+      <mono>Một vết chém bởi kiếm gây ra.</mono>
       <mono inline="true">
         <p/>
-        <p>剑刺中她的前额，</p>
+        <p>Thanh kiếm đâm xuyên trán,</p>
       </mono>
-      <mono inline="true">破坏了她的脑部，</mono>
-      <mono>接着穿颅而过。</mono>
-      <mono>若换作普通人，其中任一道伤势就足以令其殒命。</mono>
+      <mono inline="true">tổn hại đến não bộ,</mono>
+      <mono>xuyên cả qua hộp sọ.</mono>
+      <mono>Đối với phàm nhân, bất kỳ vết nào trong số những vết thương này cũng đủ để dồn vào cửa tử.</mono>
       <mono pageend="true">
         <p/>
-        <p>可“仙人”并不普通。</p>
+        <p>nhưng “tiên nhân” nào phải người bình thường.</p>
       </mono>
       <transition mode="eye" in="2" stop="0" out="2" color="#000000"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
@@ -103,22 +103,22 @@
       <delay t="2.2"/>
       <bg/>
       <event action="show_ui"/>
-      <mono pageend="true">仙人不死，亦不灭。</mono>
+      <mono pageend="true">Bất tử tiên nhân, cũng chẳng phải là bất diệt.</mono>
       <event action="show_ui"/>
       <mono>
-        <p>身经千年而不死。[\s]</p>
-        <p>魂历万年而不灭。[\s]</p>
+        <p>Nghìn năm cơ thể vẫn bất lão.[\s]</p>
+        <p>Vạn năm linh hồn vẫn trường tồn.[\s]</p>
         <p/>
-        <p>彻底颠覆衰亡的法则，</p>
-        <p>神州独一无二的仙人。</p>
+        <p>Hoàn toàn đảo lộn sinh lão bệnh tử,</p>
+        <p>Tiên nhân độc nhất vô nhị của vùng đất Thần Châu.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>如今静静躺在石室中的这具残躯，当初正是这样的存在。</p>
+        <p>Thi thể bị tàn phá nằm lặng yên trong căn phòng đá ngay lúc này đã từng hiển hách như vậy đấy.</p>
       </mono>
-      <mono>于是， </mono>
+      <mono>Thế là,</mono>
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
@@ -126,12 +126,12 @@
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
-        <p>从一个个神经元开始，</p>
-        <p>仙人的大脑和肉体开始了漫长的修复与重组。</p>
+        <p>Bắt đầu từ từng tế bào thần kinh đơn lẻ,</p>
+        <p>não bộ và cơ thể của tiên nhân bắt đầu một quá trình phục hồi dài từng chút một.</p>
       </mono>
       <event action="show_ui"/>
       <delay t="7"/>
-      <mono pageend="true">汲取周遭的每一分真气，</mono>
+      <mono pageend="true">Hấp thụ từng chút chân khí từ bên ngoài,</mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
       <delay t="2"/>
@@ -139,7 +139,7 @@
       <se id="01-05痊愈"/>
       <mono>
         <p/>
-        <p>织补剥裂的皮肤，</p>
+        <p>chữa lành những vết nứt trên da thịt,</p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡3" duration="2"/>
@@ -147,7 +147,7 @@
       <se id="01-06痊愈"/>
       <mono>
         <p/>
-        <p>接续断裂的骨骼，</p>
+        <p>liền lại xương cốt đã gãy,</p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡4" duration="2"/>
@@ -155,7 +155,7 @@
       <se id="01-07痊愈"/>
       <mono>
         <p/>
-        <p>连延破碎的肌肉，</p>
+        <p>nối lại gân cơ bị rách,</p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡5" duration="2"/>
@@ -164,7 +164,7 @@
       <se id="01-05痊愈"/>
       <mono pageend="true">
         <p/>
-        <p>修复损毁的器官……</p>
+        <p>phục hồi cơ quan bị huỷ hoại……</p>
       </mono>
       <delay t="2"/>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
@@ -178,43 +178,43 @@
         <p/>
         <p/>
         <p/>
-        <p>             逐渐地，仙人的『意识』获得了知觉。</p>
+        <p>             Dần dần, “ý thức” của tiên nhân đã chạm đến nhận thức.</p>
       </mono>
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <letterbox action="show_letterbox" height="400" duration="0"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
       <bg img="BGSky00"/>
-      <mono>她看见光影交织而成的线从这石室的小窗中自东向西，又自西返东。</mono>
+      <mono>Cô nhìn thấy những vệt sáng và tối đan xen nhau từ ô cửa sổ nhỏ của căn phòng đá, chiếu từ đông sang tây rồi quay ngược trở về.</mono>
       <letterbox action="show_letterbox" height="300" duration="1"/>
       <bg img="BGSky01"/>
       <mono>
         <p/>
-        <p>她嗅到蚁虫尸体的腐臭夹杂着枯萎草木的衰香，在石室中絮绕不休。</p>
+        <p>Cô ngửi thấy mùi hôi thối của kiến ​​và côn trùng đang phân hủy hoà lẫn với mùi mục rữa của cỏ cây khô héo, lẩn quẩn mãi trong căn phòng đá.</p>
       </mono>
       <letterbox action="show_letterbox" height="200" duration="1"/>
       <bg img="BGSky02"/>
       <mono>
         <p/>
-        <p>她听见夏去秋至时落叶触地的声响，也察觉枝桠拥抱雪花的轻轻摇摆。</p>
+        <p>Cô nghe thấy tiếng lá rơi bên thềm khi hạ sang thu, và cũng nhìn thấy cành cây khẽ đong đưa khi hứng tuyết trời.</p>
       </mono>
       <letterbox action="show_letterbox" duration="1" height="100"/>
       <bg img="BGSky04"/>
       <mono pageend="true">
         <p/>
-        <p>她还感到了疼、痛、酸、麻、胀、痒……在身体各处喑哑不停。</p>
+        <p>Cô cũng cảm nhận được đủ mọi cơn đau nhức, ê ẩm, tê bì, sưng tấy, ngứa ngáy... khắp toàn thân.</p>
         <p/>
-        <p>千劫加身，百苦在体，这份折磨似乎永无止境。</p>
+        <p>Ngàn đau vạn khổ quấn thân, sự tra tấn này dường như không hề có hồi kết.</p>
       </mono>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <letterbox action="hide_letterbox" duration="0"/>
       <bg img="PureBlack" duration="3"/>
       <mono>
         <p/>
-        <p>……无止境的修复，无止境的痛楚。</p>
+        <p>……sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>仙人一声不吭。</p>
+        <p>Tiên nhân không hé nửa lời.</p>
       </mono>
       <se id="01-08扰乱心神杂音loop" looptimes="-1"/>
       <bg img="BGNeuron03" duration="3"/>
@@ -223,29 +223,29 @@
         <p/>
         <p/>
         <p/>
-        <p>「       我               谁          ？      」</p>
+        <p>「       Ta               là            ai             ？      」</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>头脑仍是一片混沌，记得一些事情，忘记的却更多。</p>
+        <p>Đầu óc rối bời, nhớ được đôi ba chuyện, quên lại càng nhiều hơn.</p>
       </mono>
       <mono chara="000" pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>「       此               何处          ？      」</p>
+        <p>「       Đây               là đâu          ？      」</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>记忆只剩只字片语，拼凑不出她想要的答案。</p>
+        <p>Những ký ức vỡ vụn từng mảnh, không thể nào ghép lại được thành câu trả lời mà cô đang kiếm tìm.</p>
       </mono>
       <mono chara="000" pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>「       ……              为            ？      」</p>
+        <p>「       ……              Tại            ？      」</p>
       </mono>
       <bgm id="千年之羽" looptimes="0"/>
       <se id="01-08扰乱心神杂音loop" looptimes="0"/>
@@ -256,27 +256,27 @@
         <p/>
         <p/>
         <p/>
-        <p>            思及此，磨灭已久的情感忽在胸中激荡。</p>
+        <p>            Khi nhớ ra thì, những cảm xúc đã ngủ yên từ lâu bỗng chực trào trở lại.</p>
       </mono>
       <se id="01-09心跳loop" looptimes="-1"/>
       <event action="hide_ui" duration="0.5"/>
       <motion action="shake" chara="-4" range="30" direction="default" duration="0.1" delay="0.1"/>
       <mono>
         <p/>
-        <p>七……</p>
+        <p>Bảy……</p>
       </mono>
       <delay t="0.2"/>
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>七个与她相处最近的人。</p>
+        <p>Bảy người thân cận nhất của cô.</p>
       </mono>
-      <mono>七柄与她相伴最久的剑。</mono>
+      <mono>Bảy thanh kiếm đã đồng hành cùng cô lâu nhất.</mono>
       <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"/>
       <mono pageend="true" inline="true">
         <p/>
-        <p>七个人合谋一处，诱她入彀。[\s]</p>
-        <p>七柄剑布下罗网，将她杀死。</p>
+        <p>Bảy người cùng nhau lập mưu, dụ cô vào bẫy.[\s]</p>
+        <p>Bảy thanh kiếm giăng một mẻ lưới, và giết chết cô.</p>
       </mono>
       <se id="01-09心跳loop" looptimes="0"/>
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"/>
@@ -287,30 +287,30 @@
         <p/>
         <p/>
         <p/>
-        <p>「       ……              为      什么       ？      」</p>
+        <p>「       ……              Tại      sao       ？      」</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGNeuron01"/>
       <cg img="CG_第一折_赤鸢沉睡end"/>
       <mono pageend="true" inline="true">
-        <p>汹涌的情感翻腾不休，[\s]</p>
-        <p>有愤恨，[\s]</p>
-        <p>有疑惑，[\s]</p>
-        <p>有忿怨，[\s]</p>
-        <p>有恼怒，[\s]</p>
-        <p>也有悲伤。</p>
+        <p>Cảm xúc bắt đầu trào dâng lên,[\s]</p>
+        <p>có sự căm phẫn,[\s]</p>
+        <p>có sự nghi hoặc,[\s]</p>
+        <p>có sự oán hận,[\s]</p>
+        <p>có sự tức giận,[\s]</p>
+        <p>và cả sự bi thương.</p>
       </mono>
       <mono chara="000">
         <p/>
         <p/>
-        <p>                      「……为什么？」</p>
+        <p>                      「……Cớ làm sao？」</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>                没有答案，只有追寻答案的渴望。</p>
+        <p>                Chẳng có lời hồi đáp, chỉ có khát vọng tìm ra sự thật.</p>
       </mono>
       <event action="hide_ui" duration="3"/>
       <cg img="CG_第一折_赤鸢苏醒end" duration="3"/>
@@ -320,52 +320,52 @@
         <p/>
         <p/>
         <p/>
-        <p>……仙人决定等待。</p>
+        <p>……Tiên nhân quyết định chờ đại.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>她曾守望长似无尽的岁月，时间于她已不再重要。</p>
+        <p>Cô đã từng đi qua năm dài tháng rộng, thời gian giờ đây không còn quan trọng nữa.</p>
       </mono>
       <mono pageend="true" inline="true">
         <p/>
         <p/>
         <p/>
-        <p>她要继续等待下去，等到躯体痊愈的一日。[\s]</p>
+        <p>Cô sẽ tiếp tục đợi cho đến khi cơ thể hoàn toàn bình phục.[\s]</p>
         <p/>
-        <p>她要找到那七个人，问出杀死自己的缘由。</p>
+        <p>Cô muốn đi tìm bảy người đó và biết lý do tại sao họ lại giết cô.</p>
       </mono>
       <mono>
         <p/>
         <p/>
         <p/>
-        <p>强烈的冲动烙印在飘渺的意识中，</p>
+        <p>Một động lực mạnh mẽ in sâu vào tiềm thức mơ hồ,</p>
         <p/>
-        <p>催促着她，敲打着她，改变着她，</p>
+        <p>nó thúc giục, lôi kéo và cố gắng phục hồi cho cô,</p>
         <p/>
-        <p>让等待成为习惯，煎熬变为自然。</p>
+        <p>biến sự chờ đợi trở thành thói quen, và để việc chịu đựng trở thành bình lặng.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>然后……</p>
+        <p>Và rồi……</p>
       </mono>
       <transition mode="clock" in="2" stop="0.5" out="0" color="#000000"/>
       <transition mode="fade" in="0" stop="0" out="2" color="#000000"/>
       <cg/>
       <mono>
-        <p>疼痛</p>
-        <p>       疼痛</p>
-        <p>              疼痛</p>
-        <p>                     疼痛</p>
+        <p>Đau đớn</p>
+        <p>       Đau đớn</p>
+        <p>              Đau đớn</p>
+        <p>                     Đau đớn</p>
       </mono>
       <mono>
         <p/>
-        <p>无止境的修复，无止境的痛楚。</p>
+        <p>Sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>仙人一声不吭。</p>
+        <p>Tiên nhân chẳng hé nửa lời.</p>
       </mono>
       <transition in="1" stop="0.1" out="1" color="#000000" mode="dissolve"/>
       <bg img="PureBlack"/>
@@ -373,9 +373,9 @@
         <p/>
         <p/>
         <p/>
-        <p>她已经忍耐了很久，</p>
+        <p>Cô đã nhẫn nại chịu đựng rất lâu,</p>
       </mono>
-      <mono pageend="true">她还可以忍耐很久。</mono>
+      <mono pageend="true">cũng có thể tiếp tục như vậy thêm rất lâu nữa.</mono>
       <bgm looptimes="0"/>
       <event action="hide_ui"/>
       <transition in="1" stop="0.5" out="1" color="#000000" mode="fade"/>
@@ -393,7 +393,7 @@
       <delay t="2"/>
       <mono pageend="true">
         <p/>
-        <p>这只是沙漠中的一座小驿站。</p>
+        <p>Đây chỉ là một trạm dừng chân nhỏ giữa sa mạc.</p>
       </mono>
       <mono inline="true">
         <p/>
