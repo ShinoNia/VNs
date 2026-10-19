@@ -397,47 +397,47 @@
       </mono>
       <mono inline="true">
         <p/>
-        <p>距今一千四百年前，流浪的图伊克人在此发现了绿洲。</p>
+        <p>Một ngàn bốn trăm năm trước, người Tuik du mục đã phát hiện ra một ốc đảo ở đây.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>他们感谢神明的护佑，尽情啜饮清水，然而并未停留。</p>
+        <p>Họ cảm tạ sự che chở của các vị thần và uống nước thỏa thuê, nhưng cũng không nán lại lâu.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>又三百年过去，一支颜国商队路经此地。</p>
+        <p>Ba trăm năm sau, lại một đoàn lữ hành từ nước Yên đi ngang qua nơi này.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>商队满载珠宝玉器与丝绸织锦，还有一位外交使节随行。</p>
-        <p>此人的价值超过商队所有货物之和，因他肩负着出使西域，交流联盟的重任。</p>
+        <p>Đoàn lữ hành mang theo đầy những châu ngọc quý giá, gấm vóc lụa là, và có cả một phái viên ngoại giao đi cùng.</p>
+        <p>Người này còn có giá trị hơn tất thảy báu vật kia, bởi lẽ ngài được giao nhiệm vụ quan trọng là đi về phía Tây thiết lập liên minh.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>商人们在此歇脚，第二天启程离去。</p>
-        <p>他们从未走出漠北，没有人知晓其下落。</p>
+        <p>Các thương nhân dừng chân nghỉ ở đây trước khi khởi hành vào ngày hôm sau.</p>
+        <p>Rồi họ mất hút ở sa mạc phía Bắc, tung tích bất minh.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>七百四十年前，班俞族的游牧民在这片绿洲旁扎下营地。</p>
+        <p>Bảy trăm bốn mươi năm trước, người Banyu du mục đã từng dựng trại bên cạnh ốc đảo này.</p>
         <p/>
-        <p>族长对她的人民说：因了这片水源，班俞人将永不再漂泊。</p>
+        <p>Vị tù trưởng nói với người dân của mình: Nhờ ơn nguồn nước này, người Banyu sẽ không cần phải tha vong nữa.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>一百年后，匈人从北方来。他们扫荡了班俞的村落，杀死所有的老人与壮年男子，带走女人和年幼的孩童，前往遥远的西域。</p>
+        <p>Một trăm năm sau, người Hung từ phương Bắc đổ xuống. Chúng càn quét các làng mạc nơi đây, giết chết đàn ông trưởng thành khỏe mạnh, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
         <p/>
-        <p>……绿洲被留在匈人的身后，再次被世界遗忘。</p>
+        <p>……Ốc đảo bị người Hung vứt bỏ và lại một lần nữa bị thế giới lãng quên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>岁月悠悠，白云苍狗。[\s]</p>
+        <p>Thời gian vùn vụt trôi, thế sự cũng đổi dời.[\s]</p>
         <p/>
-        <p>文明兴起，继而灭亡；人们来来去去，终于湮没在久远的历史长河之中。</p>
+        <p>Lớp lớp nền văn minh trỗi dậy rồi lại suy tàn; con người cứ đến rồi đi, cuối cùng đều hòa mình vào dòng sông dài của lịch sử.</p>
       </mono>
       <bgm looptimes="0"/>
       <transition mode="fade" in="2" stop="1" out="2" color="#000000"/>
@@ -458,7 +458,7 @@
       <delay t="3"/>
       <event action="show_ui"/>
       <se id="01-12沙漠环境（无风沙）" looptimes="0"/>
-      <text>环顾四周，只见蒸腾的热气中，层层沙丘好似海浪起伏不休。</text>
+      <text>Nhìn ra xa, có thể thấy tầng tầng cồn cát nhấp nhô như sóng biển giữa cái nóng như thiêu như đốt.</text>
       <event action="hide_ui" duration="2"/>
       <motion chara="095" action="show" pos="right" img="砂匪2-中-普通" duration="2"/>
       <delay t="2"/>
