@@ -92,7 +92,7 @@
       </mono>
       <mono inline="true">tổn hại đến não bộ, </mono>
       <mono>xuyên cả qua hộp sọ.</mono>
-      <mono>Đối với phàm nhân, bất kỳ vết nào trong số những vết thương này cũng đủ để dồn vào cửa tử.</mono>
+      <mono>Đối với phàm nhân, bất kỳ vết nào trong số những vết thương này cũng đã chí tử.</mono>
       <mono pageend="true">
         <p/>
         <p>Nhưng “tiên nhân” nào phải người bình thường.</p>
@@ -118,7 +118,7 @@
         <p/>
         <p>Thân thể bị tàn phá nằm lặng yên trong căn phòng đá ngay lúc này, đã từng hiển hách như vậy đấy.</p>
       </mono>
-      <mono>Thế là,</mono>
+      <mono>Thế là, </mono>
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
@@ -127,7 +127,7 @@
       <mono pageend="true">
         <p/>
         <p>Từ từng tế bào thần kinh đơn lẻ, </p>
-        <p>não bộ và cơ thể của tiên nhân bắt đầu một quá trình phục hồi dài từng chút một.</p>
+        <p>Não bộ và cơ thể của tiên nhân bắt đầu một quá trình phục hồi dài từng chút một.</p>
       </mono>
       <event action="show_ui"/>
       <delay t="7"/>
@@ -139,7 +139,7 @@
       <se id="01-05痊愈"/>
       <mono>
         <p/>
-        <p>chữa lành những vết nứt trên da thịt, </p>
+        <p>Chữa lành những vết nứt trên da thịt, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡3" duration="2"/>
@@ -147,7 +147,7 @@
       <se id="01-06痊愈"/>
       <mono>
         <p/>
-        <p>liền lại xương cốt đã gãy, </p>
+        <p>Liền lại xương cốt đã gãy, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡4" duration="2"/>
@@ -155,7 +155,7 @@
       <se id="01-07痊愈"/>
       <mono>
         <p/>
-        <p>nối đoạn gân cơ đứt lìa, </p>
+        <p>Nối đoạn gân cơ đứt lìa, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡5" duration="2"/>
@@ -164,7 +164,7 @@
       <se id="01-05痊愈"/>
       <mono pageend="true">
         <p/>
-        <p>phục hồi cơ quan bị huỷ hoại……</p>
+        <p>Phục hồi cơ quan bị huỷ hoại……</p>
       </mono>
       <delay t="2"/>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
@@ -210,11 +210,11 @@
       <bg img="PureBlack" duration="3"/>
       <mono>
         <p/>
-        <p>……sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
+        <p>……Sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>Tiên nhân không hé nửa lời.</p>
+        <p>Tiên nhân chẳng hé nửa lời.</p>
       </mono>
       <se id="01-08扰乱心神杂音loop" looptimes="-1"/>
       <bg img="BGNeuron03" duration="3"/>
@@ -294,11 +294,11 @@
       <cg img="CG_第一折_赤鸢沉睡end"/>
       <mono pageend="true" inline="true">
         <p>Cảm xúc bắt đầu trào dâng lên, [\s]</p>
-        <p>có sự căm phẫn, [\s]</p>
-        <p>có sự nghi hoặc, [\s]</p>
-        <p>có sự oán hận, [\s]</p>
-        <p>có sự tức giận, [\s]</p>
-        <p>và cả sự bi thương.</p>
+        <p>Có sự căm phẫn, [\s]</p>
+        <p>Có sự nghi hoặc, [\s]</p>
+        <p>Có sự oán hận, [\s]</p>
+        <p>Có sự tức giận, [\s]</p>
+        <p>Và cả sự bi thương.</p>
       </mono>
       <mono chara="000">
         <p/>
@@ -342,9 +342,9 @@
         <p/>
         <p>Một động lực mạnh mẽ in sâu vào tiềm thức mơ hồ, </p>
         <p/>
-        <p>nó thúc giục, lôi kéo và cố gắng phục hồi cho cô, </p>
+        <p>Nó thúc giục, lôi kéo và cố gắng phục hồi cho cô, </p>
         <p/>
-        <p>biến sự chờ đợi trở thành thói quen, và để việc chịu đựng trở thành bình lặng.</p>
+        <p>Biến chờ đợi trở thành thói quen, và làm chịu đựng trở thành bình lặng.</p>
       </mono>
       <mono pageend="true">
         <p/>
@@ -411,13 +411,13 @@
       <mono inline="true">
         <p/>
         <p>Đoàn lữ hành mang theo đầy những châu ngọc quý giá, gấm vóc lụa là, và có cả một phái viên ngoại giao đi cùng.</p>
-        <p>Người này còn có giá trị hơn tất thảy báu vật kia, bởi lẽ ngài được giao nhiệm vụ quan trọng là đi về phía Tây thiết lập liên minh.</p>
+        <p>Người này còn có giá trị hơn tất thảy báu vật kia cộng lại, bởi lẽ ngài được giao nhiệm vụ quan trọng là đi về phía Tây thiết lập liên minh.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p>Các thương nhân dừng chân nghỉ ở đây trước khi khởi hành vào ngày hôm sau.</p>
-        <p>Rồi họ mất hút ở sa mạc phía Bắc, tung tích bất minh.</p>
+        <p>Rồi họ mất hút ở sa mạc phía bắc, tung tích bất minh.</p>
       </mono>
       <mono inline="true">
         <p/>
@@ -429,7 +429,7 @@
         <p/>
         <p/>
         <p/>
-        <p>Một trăm năm sau, người Hung từ phương Bắc đổ xuống. Chúng càn quét các làng mạc nơi đây, giết chết đàn ông trưởng thành khỏe mạnh, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
+        <p>Một trăm năm sau, người Hung từ phương bắc đổ xuống. Chúng càn quét các làng mạc, giết chết đàn ông trưởng thành, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
         <p/>
         <p>……Ốc đảo bị người Hung vứt bỏ và lại một lần nữa bị thế giới lãng quên.</p>
       </mono>
@@ -466,7 +466,7 @@
       <se id="01-14男气声哎"/>
       <dialog chara="095">「……Hầy.」</dialog>
       <text>
-        <p>Những cư dân hiện tại của ốc đảo đang thở dài thườn thượt trong bóng tối của những bức tường cổ.[\s]</p>
+        <p>Những kẻ ngụ cư hiện tại của ốc đảo đang thở dài thườn thượt trong bóng tối của những bức tường cổ.[\s]</p>
         <p>Mặt trời vẫn cứ chói chang đốt cháy biển cát, sự ngột ngạt này hắn ta đã phải chịu ròng rã ba tháng liền rồi.</p>
       </text>
       <se id="01-13男气声哎"/>
@@ -487,7 +487,7 @@
       <bg img="BGDesert02"/>
       <motion chara="094" action="show" pos="left" img="砂匪1-远-普通"/>
       <dialog chara="094">「…………」</dialog>
-      <text>Phía xa, người bạn đồng hành không trả lời, mà chỉ lắc đầu, ra hiệu rằng không có vấn đề.</text>
+      <text>Phía xa, người bạn đồng hành không trả lời, mà chỉ lắc đầu, ra hiệu không có vấn đề.</text>
       <text>
         <p>Người kia biết; họ đều hiểu chỉ là bắt chuyện bâng quơ cho đỡ nhàm chán.</p>
         <p>Trong cái lò nung nóng bỏng của cát vàng, nói chuyện cũng là một điều xa xỉ.</p>
@@ -502,7 +502,7 @@
       <motion chara="095" action="show" pos="right" img="砂匪2-中-普通"/>
       <remark>
         <p>ㅤ</p>
-        <p>注：</p>
+        <p>Ghi chú: </p>
         <p>ㅤ</p>
         <p>Các ký tự được đánh dấu bằng 『※』 ban đầu chứa ngôn từ tục tĩu; ẩn đi để tránh tác động tiêu cực. Người đọc có thể tự tưởng tượng hoặc bỏ qua.</p>
         <p>ㅤ</p>
@@ -511,13 +511,13 @@
       <dialog chara="095">「Được, được lắm……※※, hiểu rồi.」</dialog>
       <text>Hắn ta quay mặt đi và liếm môi đầy chán nản.</text>
       <text>
-        <p>Hắn ta vẫn chỉ là tân bình, mới gia nhập 『Kim Sa Bang』 vài tháng trước và chưa hiểu hết quy luật.</p>
-        <p>Nếu không, hắn ta đã biết tầm quan trọng của nước, học cách để im lặng và biết đứng dựa vào bức tường cũ, ẩn mình trong bóng tối cho đến khi thủ lĩnh mang vinh quang trở về.</p>
+        <p>Hắn ta vẫn chỉ là tân binh, mới gia nhập 『Kim Sa Bang』 vài tháng trước và chưa hiểu hết quy luật.</p>
+        <p>Nếu không, hắn ta đã biết tầm quan trọng của nước, học cách để im lặng và đứng dựa vào bức tường cũ, ẩn mình trong bóng tối cho đến khi thủ lĩnh thắng trận trở về.</p>
       </text>
       <motion chara="095" action="img_trans" img="砂匪2-中-微笑"/>
       <remark>
         <p>ㅤ</p>
-        <p>注：</p>
+        <p>Ghi chú: </p>
         <p>ㅤ</p>
         <p>Các ký tự được đánh dấu bằng 『※』 ban đầu chứa ngôn từ tục tĩu; ẩn đi để tránh tác động tiêu cực. Người đọc có thể tự tưởng tượng hoặc bỏ qua.</p>
         <p>ㅤ</p>
@@ -540,13 +540,13 @@
         <p>Sự kịch tính của ​​những thanh kiếm lóe sáng và cảnh máu văng tung tóe mới chính là phần thưởng mà hắn khát khao.</p>
       </text>
       <text>
-        <p>Hắn rất tin tưởng vào giá trị của bản thân: ㅤ[em bold color=#ff0000]Chiến đấu [/em]ㅤvà ㅤ[em bold color=#ff0000]chém giết[/em]ㅤ.[\s]</p>
+        <p>Hắn rất tin tưởng vào giá trị của bản thân: [em bold color=#ff0000]Chiến đấu [/em] và [em bold color=#ff0000]chém giết[/em].[\s]</p>
         <p>Nếu 『cái ác』 có thể phân loại thật giả, cao thượng hay thấp hèn, thì hắn ta quả thực là một kẻ độc ác và tàn nhẫn.[\s]</p>
         <p>Hắn ta không hề xấu hổ về việc dùng bạo lực; ngược lại, còn coi đó là minh chứng của năng lực.</p>
       </text>
       <text>
         <p>Bởi vậy, nên mới bị loại khỏi 『thương vụ lớn』 đã lên kế hoạch từ lâu, </p>
-        <p>Dẫn đến cảm giác nhục nhã và oán giận nảy nở trong lòng hắn.[\s]</p>
+        <p>Dẫn đến cảm giác nhục nhã và oán hận nảy nở trong lòng hắn.[\s]</p>
         <p>Chính sự tức giận đó đã khiến hắn đứng ngồi không yên.</p>
       </text>
       <motion chara="095" action="hide"/>
@@ -554,7 +554,7 @@
       <bg img="PureBlack"/>
       <se id="01-15喝水"/>
       <dialog chara="095">「Ực ực——」</dialog>
-      <text>Tâm tình tồi tệ, hắn cầm lấy túi nước và uống một ngụm lớn.</text>
+      <text>Tâm tình tồi tệ, hắn túm lấy túi nước và uống một hơi lớn.</text>
       <dialog chara="095">「Hừ——」</dialog>
       <bg img="氛围-1-素裳过曝-1" duration="5"/>
       <event action="hide_ui" duration="4"/>
@@ -567,8 +567,8 @@
       <event action="show_ui"/>
       <text>Ở ngay phía trước, có một cô gái đang đi về phía hắn ta.</text>
       <text>
-        <p>Không hề nhìn nhầm, cũng chắc chắn không phải là thứ ảo ảnh thường thấy ở sa mạc phía Bắc.[\s]</p>
-        <p>Cô gái đó…… từ đắng xa của sa mạc chậm rãi tiến lại gần, chắc chắn là người thật, không còn nghi ngờ gì nữa.</p>
+        <p>Không hề nhìn nhầm, cũng chắc chắn không phải là thứ ảo ảnh thường thấy ở sa mạc phía bắc.[\s]</p>
+        <p>Cô gái đó…… từ đằng xa của sa mạc chậm rãi tiến lại gần, chắc chắn là người thật, không còn nghi ngờ gì nữa.</p>
       </text>
       <dialog chara="095">「Lão, lão Vinh——！」</dialog>
       <text>
@@ -593,7 +593,7 @@
       <bg img="氛围-1-素裳过曝-3" duration="3"/>
       <delay t="3"/>
       <event action="show_ui"/>
-      <dialog chara="095">「Người phụ nữ…… rốt cuộc là ai？」</dialog>
+      <dialog chara="095">「Người phụ nữ này…… rốt cuộc là ai？」</dialog>
       <bgm looptimes="0"/>
       <transition mode="fade" in="3" stop="2" out="0" color="#000000"/>
       <event action="goto" to="02"/>
@@ -616,7 +616,7 @@
       <text inline="true">Cô ấy tên là Lý Tố Thường.</text>
       <text>
         <p/>
-        <p>Thiếu trang chủ của 『Ức Kiếm Sơn Trang』, cũng là con gái duy nhất của 『Nhiễm Hương Kiếm』 Tần Tố Y  - đồ đệ thứ bảy của Xích Diên Chân Nhân.</p>
+        <p>Thiếu trang chủ của 『Ức Kiếm Sơn Trang』, cũng là con gái duy nhất của 『Nhiễm Hương Kiếm』 Tần Tố Y - đồ đệ thứ bảy của Xích Diên Chân Nhân.</p>
       </text>
       <event action="hide_ui" duration="3"/>
       <bg img="氛围-1-素裳渐近-1" duration="5" scale="2" origin="80%,65%"/>
@@ -646,10 +646,10 @@
         <p>Nhưng khi nói đến việc luyện kiếm, bà lại nghiêm khắc hơn kỳ ai.</p>
       </text>
       <text>Tố Thường đã phải trải qua bao phen khổ luyện. Cô thường xuyên bị sưng đau ở thắt lưng và đầu gối, bị cứng khớp. Thậm chí, có lúc còn thức giấc giữa đêm vì quá đau.</text>
-      <text inline="true">Cô đến than phiền với phụ thân, kết quả chỉ nhận lại những lời trách mắng gay gắt hơn—— Ngay khi phụ thân nhắc đến việc con gái phải luyện tập quá nhiều, Tần Tố Y liền liếc một cái.</text>
+      <text inline="true">Cô đến than phiền với phụ thân, kết quả chỉ nhận lại những lời trách mắng gay gắt hơn—— Ngay khi phụ thân động nhắc đến việc nữ nhi phải luyện tập quá nhiều, Tần Tố Y liền liếc một cái.</text>
       <text>
         <p/>
-        <p>Đường đường là trang chủ của Ức Kiếm Sơn Trang, nhưng ngay cả 『Xuyên Công Tử』Lý Thân thấy ánh nhìn ấy cũng lập tức không nói nên lời và lúng túng bỏ đi.</p>
+        <p>Đường đường là trang chủ của Ức Kiếm Sơn Trang, nhưng ngay cả 『Xuyên Công Tử』 Lý Thân thấy ánh nhìn ấy cũng lập tức không nói nên lời và lúng túng bỏ đi.</p>
       </text>
       <text>
         <p>Từ đó trở đi, Tố Thường càng dốc sức luyện kiếm, thuần thục mười hai chiêu thức của 『Ức Tâm Kiếm Pháp』 gia truyền.</p>
@@ -657,7 +657,7 @@
       </text>
       <text>
         <p>Tố Thường không hiểu vấn đề nằm ở đâu. Phải chăng cô ấy vẫn chưa đủ nỗ lực?</p>
-        <p>Tại sao mình không bao giờ đạt được kỳ vọng của mẫu thân?</p>
+        <p>Tại sao bản thân lại không bao giờ đạt được kỳ vọng của mẫu thân?</p>
       </text>
       <text>Rồi một ngày, cô vô tình nghe được cuộc trò chuyện buổi khuya của song thân.</text>
       <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
@@ -688,16 +688,16 @@
       <dialog chara="009">「——Thái Hư Kiếm Khí.」</dialog>
       <text>Bốn chữ ấy như có sức mạnh kỳ diệu; vừa thốt ra, là mọi âm thanh khác đều biến mất, và căn phòng trở nên im lặng.</text>
       <dialog chara="009">「Sau khi sư phụ qua đời, trên đời này chỉ còn một mình Lăng Sương nắm rõ đệ Ngũ Uẩn Thái Hư.」</dialog>
-      <dialog chara="009">「Tố Thường muốn học kiếm thuật, hà cớ gì không học kiếm pháp đỉnh cao nhất?」</dialog>
+      <dialog chara="009">「Tố Thường nếu đã học kiếm thuật, hà cớ gì không học kiếm pháp đỉnh cao nhất?」</dialog>
       <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="氛围-1-素裳过曝-1"/>
       <text>
         <p>Mẫu thân nói được làm được.</p>
-        <p>Vào sinh nhật thứ năm của Tố Thường, phụ mẫu đã tặng cô một món quà rất có ý nghĩa.</p>
+        <p>Vào sinh nhật thứ năm của Tố Thường, phụ mẫu đã tặng cô một món quà vô cùng ý nghĩa.</p>
       </text>
       <text>
         <p>Từ biệt Ức Kiếm Sơn Trang, từ biệt Tứ Xuyên, từ biệt 『ngôi nhà』 cô chưa từng rời khỏi, </p>
-        <p>Lý Tố Thường đến sa mạc phía bắc, tu luyện mười năm 『kiếm pháp đỉnh cao nhất』。</p>
+        <p>Lý Tố Thường đến sa mạc phía bắc, tu luyện mười năm 『kiếm pháp đỉnh cao nhất』.</p>
       </text>
       <notification>Mở khoá tiểu sử: 「Lý Tố Thường」</notification>
       <event action="achievement" aid="8300c8e546c9292b"/>
@@ -711,25 +711,25 @@
       </text>
       <text>
         <p>Kiếm pháp đã tiến bộ chưa?</p>
-        <p>Võ công đạt đến đâu rồi?</p>
-        <p>Liệu mình bây giờ, đã đáp ứng được kỳ vọng của mẫu thân?</p>
+        <p>Võ công đạt đến cảnh giới nào rồi?</p>
+        <p>Liệu ta hiện tại, đã đáp ứng được kỳ vọng của mẫu thân?</p>
       </text>
       <text>……Tố Thường không biết, và cô cần chút minh chứng.</text>
       <motion chara="002" action="img_trans" img="素裳-专注-持剑-远景"/>
-      <text>而证明的方式，就是『试剑』。</text>
+      <text>Mà cách để chứng mình, chính là 『Thử kiếm』.</text>
       <event action="hide_ui" duration="1"/>
       <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景" duration="1"/>
       <delay t="1"/>
       <event action="show_ui"/>
-      <text inline="true">故此，眼见手持刀剑的敌人呈包围之势逼近时，</text>
+      <text inline="true">Vì thế, nên khi kẻ thù có vũ trang thập diện bao vây, </text>
       <text>
         <p/>
-        <p>李素裳的嘴角扬起了一道意味深长的弧度。</p>
+        <p>Một nụ cười đầy ẩn ý hiện lên trên môi Lý Tố Thườn.</p>
       </text>
-      <text inline="true">无需多言，这笑容已说明了一切：</text>
+      <text inline="true">Không cần thêm câu từ gì; bởi nụ cười ấy đã nói lên tất cả.</text>
       <text>
         <p/>
-        <p>少女首次『试剑』，正在今日！</p>
+        <p>Lần 『Thử kiếm』 đầu tiên, chính là hôm nay!</p>
       </text>
       <motion chara="002" action="hide" delay="2"/>
       <bgm looptimes="0"/>
@@ -740,60 +740,60 @@
       <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"/>
       <bgm id="竹林伏兵"/>
       <bg img="BGDesert00"/>
-      <text>                           （一、）</text>
+      <text>                           (Một, )</text>
       <se id="01-18男性沙漠疾行_01"/>
       <event action="hide_ui" duration="2"/>
       <motion chara="099" action="show" pos="right" img="山贼3号远景" duration="3"/>
       <delay t="2"/>
       <event action="show_ui"/>
-      <text>少女在心中默念数字。</text>
-      <text>                           （二、）</text>
+      <text>Cô ấy lặng lẽ đếm số trong đầu.</text>
+      <text>                           (Hai, )</text>
       <event action="hide_ui" duration="2"/>
       <se id="01-19男性沙漠疾行_02"/>
       <motion chara="095" action="show" pos="left" img="砂匪2-远-微笑" duration="3" reversex="true"/>
       <delay t="2"/>
       <event action="show_ui"/>
       <text>
-        <p>两条大汉从左方靠近。</p>
-        <p>其中一位，正是最早发现少女，出声示警的男子。</p>
+        <p>Hai gã đàn ông vạm vỡ đang tiến đến từ bên trái.</p>
+        <p>Một trong số họ là người đầu tiên phát hiện ra cô gái và báo động.</p>
       </text>
       <text>
-        <p>他持剑在手，面露喜色。</p>
-        <p>就像注视猎物跌入陷阱的猎人，笑容如在诉说死亡。</p>
+        <p>Hắn ta cầm kiếm trong tay, vẻ mặt rạng rỡ vui mừng.</p>
+        <p>Giống như thợ săn đang rình mồi sa bẫy, nụ cười của hắn toát lên mùi vị chết chóc.</p>
       </text>
-      <text>但，少女不为所动。</text>
+      <text>Nhưng, cô gái vẫn đứng yên bất động.</text>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <motion chara="099" action="hide"/>
       <motion chara="095" action="hide"/>
-      <text>她将视线投向另一侧。</text>
-      <text>                           （三、）</text>
+      <text>Cô ấy đảo mắt nhìn phía bên kia.</text>
+      <text>                           (Ba, )</text>
       <event action="hide_ui" duration="2"/>
       <se id="01-19男性沙漠疾行_03"/>
       <motion chara="099" action="show" pos="right" duration="3" img="山贼4号中景"/>
       <delay t="2"/>
       <event action="show_ui"/>
       <text>
-        <p>右侧稍后的大汉本不在女孩的视线内，</p>
-        <p>他是听到示警声后奔跑而来。</p>
+        <p>Một gã đàn ông to khỏe khác đứng chếch phía sau bên phải ban đầu không lọt vào tầm nhìn của cô gái.</p>
+        <p>Hắn chạy đến sau khi nghe thấy tiếng báo động.</p>
       </text>
-      <text>                           （四。）</text>
+      <text>                           (Bốn.)</text>
       <event action="hide_ui" duration="2"/>
       <motion chara="094" action="show" pos="-200,0" duration="3" img="砂匪1-近-坏笑" reversex="true"/>
       <delay t="2"/>
       <event action="show_ui"/>
-      <text>离得最近的匪人，与女孩只有大约五步距离。</text>
-      <text>那是个手持大刀，肌肉结实的壮汉。在四人中，数他最是年长，功夫也最扎实。</text>
+      <text>Tên cướp gần nhất chỉ cách cô gái khoảng năm bước chân.</text>
+      <text>Ông ta cũng khỏe mạnh cường tráng, tay cầm một thanh đao lớn. Trong số bốn người, ông ta là người lớn tuổi nhất và cũng có võ công thâm hậu nhất.</text>
       <motion chara="099" action="hide"/>
       <motion chara="094" action="hide"/>
       <transition mode="move" in="0.3" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
       <bg img="BGDesert01"/>
       <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"/>
-      <text>……女孩这辈子只与师父交过手，毫无实战的经验。</text>
-      <text>如若不然，她就会知道武功再强的高手，都应极力避免以一敌多的状况。</text>
-      <text>而孤身对战四名训练有素的沙匪，更与引颈就戮无异。</text>
+      <text>……Cô gái chỉ từng giao đấu với sư phụ và không hề có kinh nghiệm thực chiến đấu.</text>
+      <text>Nếu không, cô đã biết rằng ngay cả những bậc thầy mạnh mẽ cũng nên hạn chế tình huống bị áp đảo về số lượng.</text>
+      <text>Đối mặt với bốn tên cướp được huấn luyện bài bản một mình chẳng khác nào đầu hàng trước lưỡi hái tử thần.</text>
       <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"/>
-      <text>可惜，女孩并不知晓这种『常识』，她那天性凉薄的师父更对此一无所知。</text>
-      <text>于是她并不惧怕，反而雀跃不已。</text>
+      <text>Thật không may, cô gái không hề biết đến 『lẽ thường』 này, và sư phụ lạnh lùng của cô còn vô tâm hơn.</text>
+      <text>Vì vậy, cô hoàn toàn không sợ hãi; ngược lại, thậm chí còn mừng rỡ.</text>
       <bgm looptimes="0"/>
       <motion chara="002" action="hide"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
@@ -801,7 +801,7 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>                  ——沙匪离她只有五步。</p>
+        <p>                  ——Bọn cướp sa mạc chỉ cách cô ấy năm bước chân.</p>
       </mono>
       <event action="hide_ui" duration="1"/>
       <transition mode="fade" in="0.1" stop="0.1" out="0.1" color="#FFFFFF"/>
@@ -814,7 +814,7 @@
         <p/>
         <p/>
         <p/>
-        <p>少女抖开布包，反手握住古剑『轩辕』。</p>
+        <p>Cô gái mở chiếc túi vải ra, nắm chặt cổ kiếm 『Hiên Viên』.</p>
       </mono>
       <motion chara="002" action="hide"/>
       <cg scale="2.7" origin="75%,10%" img="CG_通用_李素裳战斗-1"/>
@@ -828,7 +828,7 @@
         <p/>
         <p/>
         <p/>
-        <p>执剑在手的感觉，总会让她非常安心。</p>
+        <p>Cảm giác kiếm trong tay, luôn khiến cô thấy an lòng hơn.</p>
       </mono>
       <delay t="0.1"/>
       <event action="hide_ui" duration="1"/>
@@ -836,9 +836,9 @@
       <delay t="1"/>
       <event action="show_ui"/>
       <mono pageend="true">
-        <p>随后发生的事，</p>
+        <p>Những chuyện tiếp theo, </p>
         <p/>
-        <p>大致如此：</p>
+        <p>Đại khái là: </p>
       </mono>
       <transition mode="move" in="0.2" stop="1" out="1" color="#000000" direction="right" custom="default"/>
       <cg/>
@@ -847,7 +847,7 @@
       <motion chara="-5" action="show" pos="center" img="速度线左右1"/>
       <mono pageend="true">
         <p/>
-        <p>少女一跃而起，身姿翩若惊鸿。</p>
+        <p>Cô gái khẽ nhảy lên, dáng người uyển chuyển nhẹ nhàng như bay.</p>
       </mono>
       <motion chara="-5" action="hide"/>
       <delay t="0.1"/>
@@ -858,12 +858,12 @@
       <delay t="0.1"/>
       <mono>
         <p/>
-        <p>待落地时，剑锋已插在大汉胸口。</p>
+        <p>Khi đáp xuống, thanh kiếm đã cắm sâu vào ngực gã đàn ông to lớn.</p>
       </mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>抽剑、回身——速度之快，血液尚且不及溅出。</p>
+        <p>Cô rút kiếm và xoay người lại—— tốc độ nhanh tới mức máu còn chưa kịp văng ra.</p>
       </mono>
       <se id="01-02大剑命中"/>
       <motion chara="-4" action="shake" duration="0.1" range="60" direction="vertical"/>
@@ -872,21 +872,21 @@
         <p/>
         <p/>
         <p/>
-        <p>随即递出一剑，看着狰狞的笑容在男子的脸上凝固。</p>
+        <p>Khoảnh khắc rút kiếm ra, cô nhìn thấy nụ cười hung tợn đông cứng trên khuôn mặt gã đàn ông.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>这样，四个敌人就只剩下两个了——轻而易举。</p>
+        <p>Như vậy, bốn chỉ còn hai—— thật quá dễ dàng.</p>
       </mono>
       <transition mode="dissolve" in="3" stop="0.5" out="0" color="#000000"/>
       <bg img="PureBlack"/>
       <motion chara="002" action="show" pos="center" img="素裳-标准-持剑-远景"/>
       <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
-      <text>……女孩在瞬间构想出了这份剧本。</text>
+      <text>……Cô gái đã nghĩ ra kịch bản này chỉ trong nháy mắt.</text>
       <text>
-        <p>以她的武功造诣，以古剑轩辕之利——</p>
-        <p>——将这份幻想化为现实，并非难事。</p>
+        <p>Với võ công của cô và sức mạnh của cổ kiếm Hiên Viên——</p>
+        <p>——Biến giấc mơ này thành hiện thực không khó.</p>
       </text>
       <bgm looptimes="0"/>
       <motion chara="002" action="hide"/>
@@ -894,18 +894,19 @@
         <p/>
         <p/>
         <p/>
-        <p>                  ——沙匪离她还有四步。</p>
+        <p>                  ——Bọn cướp sa mạc chỉ cách cô ấy bốn bước chân.</p>
       </mono>
       <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"/>
-      <text>可少女没有采取行动。</text>
-      <text>……不配。</text>
+      <text>Nhưng cô gái vẫn bất động.</text>
+      <text>……Không đáng.</text>
       <motion chara="002" action="hide"/>
       <se id="01-21轩辕剑氛围声" looptimes="-1"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <text inline="true">古剑轩辕——它并非用来应付这种对手的兵刃。</text>
+      <text inline="true">Cổ kiếm Hiên Viên—— không phải được chế tạo để đối phó với loại đối thủ như vậy.
+</text>
       <text>
         <p/>
-        <p>眼前这四个人，甚至不配一睹宝剑真容。</p>
+        <p>Bốn tên này thậm chí không xứng đáng được diện kiến thanh kiếm.</p>
       </text>
       <cg img="氛围_通用_轩辕剑"/>
       <text>
