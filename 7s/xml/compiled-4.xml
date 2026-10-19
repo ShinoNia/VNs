@@ -716,7 +716,7 @@
       </text>
       <text>……Tố Thường không biết, và cô cần chút minh chứng.</text>
       <motion chara="002" action="img_trans" img="素裳-专注-持剑-远景"/>
-      <text>Mà cách để chứng mình, chính là 『Thử kiếm』.</text>
+      <text>Mà cách để chứng minh, chính là 『Thử kiếm』.</text>
       <event action="hide_ui" duration="1"/>
       <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景" duration="1"/>
       <delay t="1"/>
@@ -724,7 +724,7 @@
       <text inline="true">Vì thế, nên khi kẻ thù có vũ trang thập diện bao vây, </text>
       <text>
         <p/>
-        <p>Một nụ cười đầy ẩn ý hiện lên trên môi Lý Tố Thườn.</p>
+        <p>Một nụ cười đầy ẩn ý hiện lên trên môi Lý Tố Thường.</p>
       </text>
       <text inline="true">Không cần thêm câu từ gì; bởi nụ cười ấy đã nói lên tất cả.</text>
       <text>
@@ -788,7 +788,7 @@
       <transition mode="move" in="0.3" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
       <bg img="BGDesert01"/>
       <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"/>
-      <text>……Cô gái chỉ từng giao đấu với sư phụ và không hề có kinh nghiệm thực chiến đấu.</text>
+      <text>……Cô gái chỉ từng giao đấu với sư phụ và không hề có kinh nghiệm thực chiến.</text>
       <text>Nếu không, cô đã biết rằng ngay cả những bậc thầy mạnh mẽ cũng nên hạn chế tình huống bị áp đảo về số lượng.</text>
       <text>Đối mặt với bốn tên cướp được huấn luyện bài bản một mình chẳng khác nào đầu hàng trước lưỡi hái tử thần.</text>
       <motion chara="002" action="img_trans" img="素裳-浅笑-持剑-远景"/>
@@ -801,7 +801,7 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>                  ——Bọn cướp sa mạc chỉ cách cô ấy năm bước chân.</p>
+        <p>                  ——Bọn cướp sa mạc chỉ còn cách cô ấy năm bước chân.</p>
       </mono>
       <event action="hide_ui" duration="1"/>
       <transition mode="fade" in="0.1" stop="0.1" out="0.1" color="#FFFFFF"/>
@@ -894,7 +894,7 @@
         <p/>
         <p/>
         <p/>
-        <p>                  ——Bọn cướp sa mạc chỉ cách cô ấy bốn bước chân.</p>
+        <p>                  ——Bọn cướp sa mạc chỉ còn cách cô ấy bốn bước chân.</p>
       </mono>
       <motion chara="002" action="show" pos="center" img="素裳-专注-持剑-远景"/>
       <text>Nhưng cô gái vẫn bất động.</text>
@@ -902,7 +902,7 @@
       <motion chara="002" action="hide"/>
       <se id="01-21轩辕剑氛围声" looptimes="-1"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
-      <text inline="true">Cổ kiếm Hiên Viên—— không phải được chế tạo để đối phó với loại đối thủ như vậy.
+      <text inline="true">Cổ kiếm Hiên Viên—— không phải được chế tạo để xử lý loại đối thủ này.
 </text>
       <text>
         <p/>
