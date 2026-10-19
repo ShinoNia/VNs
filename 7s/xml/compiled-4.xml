@@ -88,14 +88,14 @@
       <mono>Một vết chém bởi kiếm gây ra.</mono>
       <mono inline="true">
         <p/>
-        <p>Thanh kiếm đâm xuyên trán,</p>
+        <p>Thanh kiếm đâm xuyên trán, </p>
       </mono>
-      <mono inline="true">tổn hại đến não bộ,</mono>
+      <mono inline="true">tổn hại đến não bộ, </mono>
       <mono>xuyên cả qua hộp sọ.</mono>
       <mono>Đối với phàm nhân, bất kỳ vết nào trong số những vết thương này cũng đủ để dồn vào cửa tử.</mono>
       <mono pageend="true">
         <p/>
-        <p>nhưng “tiên nhân” nào phải người bình thường.</p>
+        <p>Nhưng “tiên nhân” nào phải người bình thường.</p>
       </mono>
       <transition mode="eye" in="2" stop="0" out="2" color="#000000"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
@@ -109,14 +109,14 @@
         <p>Nghìn năm cơ thể vẫn bất lão.[\s]</p>
         <p>Vạn năm linh hồn vẫn trường tồn.[\s]</p>
         <p/>
-        <p>Hoàn toàn đảo lộn sinh lão bệnh tử,</p>
+        <p>Hoàn toàn đảo lộn sinh lão bệnh tử, </p>
         <p>Tiên nhân độc nhất vô nhị của vùng đất Thần Châu.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>Thi thể bị tàn phá nằm lặng yên trong căn phòng đá ngay lúc này đã từng hiển hách như vậy đấy.</p>
+        <p>Thân thể bị tàn phá nằm lặng yên trong căn phòng đá ngay lúc này, đã từng hiển hách như vậy đấy.</p>
       </mono>
       <mono>Thế là,</mono>
       <event action="show_ui"/>
