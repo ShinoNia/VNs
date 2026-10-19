@@ -126,12 +126,12 @@
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
-        <p>Bắt đầu từ từng tế bào thần kinh đơn lẻ,</p>
+        <p>Từ từng tế bào thần kinh đơn lẻ, </p>
         <p>não bộ và cơ thể của tiên nhân bắt đầu một quá trình phục hồi dài từng chút một.</p>
       </mono>
       <event action="show_ui"/>
       <delay t="7"/>
-      <mono pageend="true">Hấp thụ từng chút chân khí từ bên ngoài,</mono>
+      <mono pageend="true">Hấp thụ từng chút chân khí từ bên ngoài, </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
       <delay t="2"/>
@@ -139,7 +139,7 @@
       <se id="01-05痊愈"/>
       <mono>
         <p/>
-        <p>chữa lành những vết nứt trên da thịt,</p>
+        <p>chữa lành những vết nứt trên da thịt, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡3" duration="2"/>
@@ -147,7 +147,7 @@
       <se id="01-06痊愈"/>
       <mono>
         <p/>
-        <p>liền lại xương cốt đã gãy,</p>
+        <p>liền lại xương cốt đã gãy, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡4" duration="2"/>
@@ -155,7 +155,7 @@
       <se id="01-07痊愈"/>
       <mono>
         <p/>
-        <p>nối lại gân cơ bị rách,</p>
+        <p>nối đoạn gân cơ đứt lìa, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡5" duration="2"/>
@@ -276,7 +276,7 @@
       <mono pageend="true" inline="true">
         <p/>
         <p>Bảy người cùng nhau lập mưu, dụ cô vào bẫy.[\s]</p>
-        <p>Bảy thanh kiếm giăng một mẻ lưới, và giết chết cô.</p>
+        <p>Bảy thanh kiếm giăng một mẻ lưới, và sát hại cô.</p>
       </mono>
       <se id="01-09心跳loop" looptimes="0"/>
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"/>
@@ -293,11 +293,11 @@
       <bg img="BGNeuron01"/>
       <cg img="CG_第一折_赤鸢沉睡end"/>
       <mono pageend="true" inline="true">
-        <p>Cảm xúc bắt đầu trào dâng lên,[\s]</p>
-        <p>có sự căm phẫn,[\s]</p>
-        <p>có sự nghi hoặc,[\s]</p>
-        <p>có sự oán hận,[\s]</p>
-        <p>có sự tức giận,[\s]</p>
+        <p>Cảm xúc bắt đầu trào dâng lên, [\s]</p>
+        <p>có sự căm phẫn, [\s]</p>
+        <p>có sự nghi hoặc, [\s]</p>
+        <p>có sự oán hận, [\s]</p>
+        <p>có sự tức giận, [\s]</p>
         <p>và cả sự bi thương.</p>
       </mono>
       <mono chara="000">
@@ -320,13 +320,13 @@
         <p/>
         <p/>
         <p/>
-        <p>……Tiên nhân quyết định chờ đại.</p>
+        <p>……Tiên nhân quyết định chờ đợi.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>Cô đã từng đi qua năm dài tháng rộng, thời gian giờ đây không còn quan trọng nữa.</p>
+        <p>Đã từng đi qua năm dài tháng rộng, thời gian giờ đây chẳng còn quan trọng nữa.</p>
       </mono>
       <mono pageend="true" inline="true">
         <p/>
@@ -340,9 +340,9 @@
         <p/>
         <p/>
         <p/>
-        <p>Một động lực mạnh mẽ in sâu vào tiềm thức mơ hồ,</p>
+        <p>Một động lực mạnh mẽ in sâu vào tiềm thức mơ hồ, </p>
         <p/>
-        <p>nó thúc giục, lôi kéo và cố gắng phục hồi cho cô,</p>
+        <p>nó thúc giục, lôi kéo và cố gắng phục hồi cho cô, </p>
         <p/>
         <p>biến sự chờ đợi trở thành thói quen, và để việc chịu đựng trở thành bình lặng.</p>
       </mono>
@@ -373,7 +373,7 @@
         <p/>
         <p/>
         <p/>
-        <p>Cô đã nhẫn nại chịu đựng rất lâu,</p>
+        <p>Cô đã nhẫn nại chịu đựng rất lâu, </p>
       </mono>
       <mono pageend="true">cũng có thể tiếp tục như vậy thêm rất lâu nữa.</mono>
       <bgm looptimes="0"/>
