@@ -1666,7 +1666,7 @@
     <c id="012" name="Chẩm Ngọc" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-3b4e99c6-438a-4f5d-81b5-176312af42c5"></c>
     <c id="013" name="Liu Junyan" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-ca6e645f-a563-4f97-928d-acd69fe8bb19"></c>
     <c id="014" name="Diêm Thế La" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-1673a1cb-1f6c-4c6a-973c-bc7336ed7073"></c>
-    <c name="「Lão Ưng」" id="015" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-b5567dc6-c1b6-4675-a4ac-36ac2e7a8171"></c>
+    <c id="015" name="「Lão Ưng」" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-b5567dc6-c1b6-4675-a4ac-36ac2e7a8171"></c>
     <c id="016" name="Kallen" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-ca29454a-f5a0-4fb1-a195-a8133e49bdfa"></c>
     <c id="099" name="???" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-5dcdbce9-4dbf-4c1e-8bce-fcf00e588659"></c>
     <c id="091" name="Lý Tố Thường" font="'Times New Roman', Times, serif" color="#FAFAD2" key="gal-chara-290c2c73-9d41-4a43-8b3a-931e9ba8ec8c"></c>
@@ -1676,6 +1676,6 @@
     <c id="095" name="Người đàn ông" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-a92f73fa-7f86-4815-9fda-e3cee0e29866"></c>
     <c id="096" name="「Lão Ưng」- Đặc biệt" font="'Times New Roman', Times, serif" color="#FAFAD2" key="gal-chara-6b73f826-93cd-4f24-9d8b-f602aff4fbc9"></c>
     <c id="097" name="Lý Tố Thường - Đặc biệt" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-e69dc85f-ab45-4269-989d-4703f3ee6781"></c>
-    <c id="100" color="#FAFAD2" font="'Times New Roman', Times, serif" name="Vật phẩm" key="gal-chara-f1f003b5-4c8f-4f15-8bfc-524b7ece78c9"></c>
+    <c id="100" name="Vật phẩm" color="#FAFAD2" font="'Times New Roman', Times, serif" key="gal-chara-f1f003b5-4c8f-4f15-8bfc-524b7ece78c9"></c>
   </characters>
 </data>
