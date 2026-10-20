@@ -327,6 +327,7 @@
   line-height: 0.9rem;
   height: 0.9rem;
   /*width: 2.15rem;*/
+  min-width: 2.15rem;
   cursor: pointer;
   position: relative;
 }
