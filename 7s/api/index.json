@@ -5,8 +5,8 @@
         "id": "1",
         "intro": "",
         "is_finished": "0",
-        "xml_url": "https:\/\/act-webstatic.mihoyo.com\/upload-static-galgame\/novel\/bd31daf10cb8625b64b2d6d1d73f74b9\/resources.xml",
-        "name": "神州折剑录",
+        "xml_url": ./xml/resources.xml",
+        "name": "Thần Châu Chiết Kiếm Lục",
         "chapters": [
             {
                 "id": "103",
@@ -59,7 +59,7 @@
                 "type": "0",
                 "start_time": "2019-11-17 15:00:00",
                 "end_time": "2035-01-01 00:00:00",
-                "xml_url": "https:\/\/uploadstatic.mihoyo.com\/galgame\/novel\/23e7ea709b675b2840e0747d0d2fa44d4c0e0d9c\/chapters\/5a006eaff6e59fd26f110d386b1597d317eb63f7.xml",
+                "xml_url": "./xml/compiled-7.xml",
                 "parts": [
                     {
                         "part_id": "50",
@@ -101,7 +101,7 @@
                 "type": "0",
                 "start_time": "2019-02-20 20:56:31",
                 "end_time": "2035-01-01 00:00:00",
-                "xml_url": "https:\/\/uploadstatic.mihoyo.com\/galgame\/novel\/23e7ea709b675b2840e0747d0d2fa44d4c0e0d9c\/chapters\/fc580e9caf5ef641b27aeb2fb641290d33524778.xml",
+                "xml_url": "./xml/compiled-6.xml",
                 "parts": [
                     {
                         "part_id": "51",
@@ -123,7 +123,7 @@
                 "type": "0",
                 "start_time": "2019-02-20 20:56:25",
                 "end_time": "2035-01-01 00:00:00",
-                "xml_url": "https:\/\/uploadstatic.mihoyo.com\/galgame\/novel\/23e7ea709b675b2840e0747d0d2fa44d4c0e0d9c\/chapters\/189fe6fdf9fdd408534dafa8281ff08732f2e3c5.xml",
+                "xml_url": "./xml/compiled-11.xml",
                 "parts": [
                     {
                         "part_id": "45",
@@ -325,7 +325,7 @@
                 "type": "0",
                 "start_time": "2019-11-17 15:00:00",
                 "end_time": "2035-01-01 00:00:00",
-                "xml_url": "https:\/\/uploadstatic.mihoyo.com\/galgame\/novel\/23e7ea709b675b2840e0747d0d2fa44d4c0e0d9c\/chapters\/d5ad265091032746d025c58b09fe88c599d41776.xml",
+                "xml_url": "./xml/compiled-4.xml",
                 "parts": [
                     {
                         "part_id": "19",
