@@ -241,7 +241,7 @@
 .archive__back {
   width: 2.56rem;
   height: 0.75rem;
-  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/back.1e8d18de.png)
+  background: url("images/archive back.png")
     50% 50% no-repeat;
   background-size: cover;
   left: 10.3rem;
@@ -326,7 +326,7 @@
   text-align: center;
   line-height: 0.9rem;
   height: 0.9rem;
-  width: 2.15rem;
+  /*width: 2.15rem;*/
   cursor: pointer;
   position: relative;
 }

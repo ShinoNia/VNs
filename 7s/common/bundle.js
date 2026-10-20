@@ -2840,11 +2840,23 @@
  * @returns
  */
 function handleAchievement(t) {
-  const archiveItemId = getArchiveItemIdByAid(t)
+  console.log('[Archive] Achievement event:', t);
+
+  const archiveItemId = getArchiveItemIdByAid(t);
+
+  console.log('[Archive] Resolved item ID:', archiveItemId);
+
   if (archiveItemId == null) {
-    return
+    console.warn('[Archive] Unknown achievement ID:', t);
+    return;
   }
-  addArchiveItemId(archiveItemId)
+
+  addArchiveItemId(archiveItemId);
+
+  console.log(
+    '[Archive] Saved IDs:',
+    getArchiveItemIds()
+  );
 }
 
 /**
@@ -2862,33 +2874,33 @@ function appendExtraAchievements(existingList) {
 
 function getArchiveItemIdByAid(aid) {
   switch (aid) {
-    case 'fdc3d5e2f6d96f8d': // sushang
+    case '8300c8e546c9292b': // sushang
       return '2'
-    case 'c6045ef06bed0a3f': // eagle
+    case '85be8edc975a81e6': // eagle
       return '13'
-    case 'otto':
+    case '95fb4c6cca82c5c9': // otto/la sát
       return '3'
-    case '0587835ecd47f23d': // otto update #1
+    case 'ead4b7d7a93814d2': // otto update #1
       return '20'
-    case '809d736ce396e092': // sumei
+    case '2a5c8f711ae50c1b': // sumei
       return '5'
-    case 'fcf2a1388f09b18b': // lin zhaoyu
+    case 'a2fd0a0f33cc1c19': // lin zhaoyu
       return '4'
-    case 'f264952df7ffa72c': // qin suyi
+    case 'd37f324061f2598a': // qin suyi
       return '10'
-    case 'c6df415ec80024b4': //otto update #2
+    case 'b57930735ac07c7c': //otto update #2
       return '19'
-    case 'f2980e56d3697a89': // ma feima
+    case 'c31bc0dbbdc1f3ee': // ma feima
       return '9'
-    case '0ecde88422bfcefe': // ma update
+    case '0e9109f519b5deec': // ma update
       return '21'
-    case 'c6a6ddc0c3d637d9': // lingshuang
+    case '8f4613680c307503': // lingshuang
       return '8'
-    case '96d0ac44fb43c563': // jingwei
+    case 'f3df608a1e830b3f': // jingwei
       return '1'
-    case 'abf384293a81b6c7': // phantom
+    case 'e263bb8b7a512d53': // phantom
       return '12'
-    case '2e4bba1abf781c9f': // li shin
+    case 'f86512558bbf8ac5': // li shin
       return '11'
     default:
       return null
