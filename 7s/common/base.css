@@ -1,4 +1,5 @@
 /*! Copyright © 2011 - 2022 miHoYo. All Rights Reserved */
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap');
 .stage-scene {
   position: absolute;
   top: 50%;
@@ -10,7 +11,7 @@
   background-color: #000;
   color: #fff;
   overflow: hidden;
-  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap');
+
 }
 .stage-scene * {
   outline: none;
