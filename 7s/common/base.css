@@ -10,6 +10,7 @@
   background-color: #000;
   color: #fff;
   overflow: hidden;
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap');
 }
 .stage-scene * {
   outline: none;
