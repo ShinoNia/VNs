@@ -111,7 +111,7 @@
   position: absolute;
 }
 .chapter__scene {
-  width: 2rem;
+  min-width: 2rem;
   height: 0.73rem;
   font-size: 0.24rem;
   font-weight: 700;
@@ -119,6 +119,7 @@
   position: relative;
   display: inline-block;
   vertical-align: top;
+  padding: 0.1rem;
 }
 .chapter__scene span {
   display: -webkit-box;
@@ -140,7 +141,7 @@
 }
 .chapter__scene--selected:after {
   content: '';
-  width: 2.26rem;
+  width: 2.16rem;
   height: 0.73rem;
   background: url(./common/chapter-selected.png) 50% 50% no-repeat;
   background-size: cover;
@@ -441,7 +442,7 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-}
+}86rem
 body {
   margin: 0;
 }
@@ -573,7 +574,7 @@ textarea {
   -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
+  -webkit-appearance: button;86rem
   font: inherit;
 }
 details {
