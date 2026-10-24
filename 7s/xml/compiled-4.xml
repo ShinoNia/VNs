@@ -1083,19 +1083,19 @@
       <delay t="1"/>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
       <bg img="PureBlack"/>
-      <mono inline="true">Ở phía bên kia, thiếu nữ đang phục trên cát bỗng nhiên bật dậy,</mono>
+      <mono inline="true">Ở phía bên kia, thiếu nữ đang phục trên cát bỗng nhiên bật dậy, </mono>
       <se id="01-25沙子飞溅"/>
       <motion chara="-5" action="show" pos="center" img="砂石如瀑"/>
       <motion chara="-5" action="hide" delay="0.8"/>
       <bg img="飞沙走石2"/>
-      <mono>Bàn chân trái đá mạnh vào lớp cát, cát đá bắn tung lên mù mịt.</mono>
+      <mono>bàn chân trái đá mạnh vào lớp cát, cát đá bắn tung lên mù mịt.</mono>
       <mono>
         <p/>
         <p>Mượn cát sỏi che khuất tầm mắt địch, đổi lấy lợi thế thời gian quý giá.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>Tận dụng từng yếu tố của địa hình, nâng khả năng chiến thắng lên mức tối đa.</p>
+        <p>Tận dụng từng chút yếu tố của địa hình, nâng khả năng chiến thắng lên mức tối đa.</p>
         <p/>
         <p>Ý đồ của thiếu nữ là vậy.</p>
       </mono>
@@ -1297,7 +1297,7 @@
       </mono>
       <mono pageend="true">
         <p/>
-        <p>Người sáng tỏ kiếm tâm như nàng, cảm thấy đường đao pháp chậm chạp của đám này hoàn toàn chẳng cần né tránh</p>
+        <p>Người sáng tỏ kiếm tâm như nàng, cảm thấy đường đao pháp chậm chạp của đám này hoàn toàn chẳng cần phải né.</p>
       </mono>
       <bg img="PureBlack"/>
       <cg/>
