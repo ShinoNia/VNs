@@ -1,5 +1,5 @@
 /*! Copyright © 2011 - 2022 miHoYo. All Rights Reserved */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400&display=swap');.home {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');.home {
   position: relative;
   height: 100%;
   background: url(./bg.png) 50% 50% no-repeat;
@@ -505,7 +505,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -593,7 +593,7 @@ html {
   position: relative;
   background-color: #000;
   color: #333;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
     Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;
 }
 * {
