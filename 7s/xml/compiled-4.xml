@@ -7,7 +7,7 @@
         <p/>
         <p/>
         <p/>
-        <p>Trong muôn trùng bóng tối，[\s]ý thức của tiên nhân bắt đầu sinh ra.</p>
+        <p>Trong muôn trùng bóng tối, [\s]ý thức của tiên nhân bắt đầu sinh ra.</p>
       </mono>
       <se id="01-01白光转场"/>
       <delay t="0.15"/>
@@ -429,7 +429,7 @@
         <p/>
         <p/>
         <p/>
-        <p>Một trăm năm sau, người Hung từ phương bắc đổ xuống. Chúng càn quét các làng mạc, giết chết đàn ông trưởng thành, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
+        <p>Một trăm năm sau, người Hung từ phương bắc đổ xuống. Chúng càn quét các làng mạc, giết chết đàn ông và người già, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
         <p/>
         <p>……Ốc đảo bị người Hung vứt bỏ và lại một lần nữa bị thế giới lãng quên.</p>
       </mono>
@@ -494,7 +494,7 @@
       </text>
       <text>
         <p>Việc nói chuyện đồng nghĩa với tâm trí đang mất tập trung và kéo theo bị mất nước.</p>
-        <p>Các vệ sĩ của 『Kim Sa Bang』 đều không muốn mất sức.</p>
+        <p>Những kẻ ở lại bảo vệ của 『Kim Sa Bang』 đều không muốn mất sức.</p>
       </text>
       <motion chara="094" action="hide"/>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"/>
@@ -1066,16 +1066,16 @@
       <bg img="BGDesert02"/>
       <motion chara="095" action="show" pos="left" img="砂匪2-中-普通" reversex="true"/>
       <dialog chara="095">「※！」</dialog>
-      <text>男人晚踏一步，恰好被老荣的身躯挡住，幸运地与女孩隔开。</text>
+      <text>Gã đàn ông bước chậm một bước, vừa khéo bị thân hình Lão Vinh chắn lại, may mắn được tách khỏi thiếu nữ.</text>
       <motion chara="094" action="show" pos="right" img="山贼4号近景"/>
       <motion chara="099" action="show" pos="center" img="山贼3号中景"/>
-      <text>余下的三人合为一处，迅速地调整步伐。</text>
+      <text>Ba người còn lại tụ lại một chỗ, nhanh chóng điều chỉnh bước chân.</text>
       <motion chara="095" action="img_trans" img="砂匪2-中-微笑" reversex="true"/>
-      <dialog chara="095">「这女娃是练家子！」</dialog>
-      <text>两旁没有应声。</text>
+      <dialog chara="095">「Con bé này là dân luyện võ!」</dialog>
+      <text>Cả hai phía đều không phản hồi.</text>
       <text>
-        <p>老练的金沙帮众并不在意此事，</p>
-        <p>因女孩在他们眼里，已是将死之人。</p>
+        <p>Những thành viên lão luyện của Kim Sa Bang không hề để tâm đến chuyện này,</p>
+        <p>Bởi vì trong mắt bọn chúng, thiếu nữ đã gần kề cái chết.</p>
       </text>
       <motion chara="099" action="hide" duration="1"/>
       <motion chara="094" action="hide" duration="1"/>
@@ -1083,41 +1083,41 @@
       <delay t="1"/>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
       <bg img="PureBlack"/>
-      <mono inline="true">另一端，伏在沙上的女孩骤然弹起，</mono>
+      <mono inline="true">Ở phía bên kia, thiếu nữ đang phục trên cát bỗng nhiên bật dậy,</mono>
       <se id="01-25沙子飞溅"/>
       <motion chara="-5" action="show" pos="center" img="砂石如瀑"/>
       <motion chara="-5" action="hide" delay="0.8"/>
       <bg img="飞沙走石2"/>
-      <mono>左足往沙中踢去，激起沙石如瀑。</mono>
+      <mono>Bàn chân trái đá mạnh vào lớp cát, cát đá bắn tung lên mù mịt.</mono>
       <mono>
         <p/>
-        <p>借助沙砾遮蔽敌人的视线，换取宝贵的时间优势。</p>
+        <p>Mượn cát sỏi che khuất tầm mắt địch, đổi lấy lợi thế thời gian quý giá.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>利用每一分场地因素，将获胜的可能提升到最大。</p>
+        <p>Tận dụng từng yếu tố của địa hình, nâng khả năng chiến thắng lên mức tối đa.</p>
         <p/>
-        <p>这是少女的心思。</p>
+        <p>Ý đồ của thiếu nữ là vậy.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>但这也早在敌人的预料之中。</p>
-      </mono>
-      <mono>
-        <p/>
-        <p>在大漠摸爬滚打这么多年，匪徒们对这种打法早已烂熟于心。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p>更不如说他们反而最是精通此道。</p>
+        <p>Nhưng đây cũng chính là điều mà kẻ thù đã lường trước.</p>
       </mono>
       <mono>
         <p/>
-        <p>女孩会扬起沙子，这没什么可奇怪的，他们过往所面对的敌人也总是这么做。</p>
+        <p>Bao năm lăn lộn nơi sa mạc rộng lớn, bọn thổ phỉ này đã sớm thuộc nằm lòng kiểu tác chiến này.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>但若以为他们会因此手忙脚乱，那就太小看金沙帮了。</p>
+        <p>Nói đúng hơn, bọn chúng mới chính là những kẻ tinh thông thứ này nhất.</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>Việc nàng đá tung cát lên chẳng có gì đáng ngạc nhiên, những kẻ địch mà bọn chúng từng đối mặt trước đây cũng luôn làm như vậy.</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>Nhưng nếu nghĩ rằng bọn chúng sẽ vì thế mà luống cuống tay chân, thì đã quá coi thường Kim Sa Bang rồi.</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="3" color="#000000"/>
       <cg img="氛围_第一折_金沙帮众"/>
@@ -1125,16 +1125,16 @@
       <mono>
         <p/>
         <p/>
-        <p>——漠北匪团「金沙帮」，流窜于神州与银吁、百回边境已有六年之久。</p>
+        <p>——Đám thổ phỉ sa mạc phương bắc 「Kim Sa Bang」, đã hoành hành nơi biên giới Thần Châu cùng Ngân Hu, Bách Hồi suốt sáu năm đằng đẵng rồi.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>他们干的是流寇的活儿：打劫来往列国的商队，抢走珍贵的货品，杀掉男人与老人，将女子和孩童卖作奴隶。</p>
+        <p>Bọn chúng hành nghề của lũ giặc cướp lang bạt: cướp bóc các thương đội qua lại giữa các nước, đoạt đi hàng hóa quý giá, giết đàn ông và người già, bán phụ nữ và trẻ em làm nô lệ.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>但相较于流寇，金沙帮更具纪律。</p>
+        <p>Nhưng so với lũ thổ phỉ lang thang, Kim Sa Bang có kỷ luật hơn nhiều.</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bgm looptimes="0"/>
@@ -1143,33 +1143,33 @@
       <delay t="1"/>
       <bgm id="传奇诞生"/>
       <text>
-        <p>传说金沙匪帮的帮主“老鹰”乃是军伍出身。[\s]</p>
-        <p>却因冤罪遭到贬谪，全族均受牵连。</p>
+        <p>Tương truyền, bang chủ của đám cướp Kim Sa Bang là “Lão Ưng” vốn xuất thân quân ngũ.[\s]</p>
+        <p>Nhưng lại vì hàm oan mà bị biếm truất, cả tộc đều bị liên lụy.</p>
       </text>
       <bg img="PureBlack"/>
       <motion chara="015" action="show" pos="center" img="老鹰-悲伤-扭头-远景"/>
-      <text>“老鹰”一怒之下落草为寇，来了漠北，入主金沙帮。</text>
-      <text>他只用了一天，一把刀和一颗人头，就登上帮主之位。</text>
+      <text>“Lão Ưng” đùng đùng nổi giận, sa vào con đường cướp bóc, đến sa mạc phía bắc thành kẻ nắm quyền Kim Sa bang.</text>
+      <text>Hắn chỉ dùng một ngày, một thanh đao và một cái thủ cấp, đã bước lên vị trí bang chủ.</text>
       <motion chara="015" action="img_trans" img="老鹰-狞笑-扭头-远景"/>
-      <text>上一任帮主的名字，则再没人提起。</text>
-      <notification>传略馆解锁：「老鹰」</notification>
+      <text>Tên của bang chủ tiền nhiệm, thì không còn ai nhắc đến nữa.</text>
+      <notification>Mở khóa Tiểu sử: 「Lão Ưng」</notification>
       <event action="achievement" aid="85be8edc975a81e6"/>
       <text>
-        <p>帮众畏惧“老鹰”，因为他辣手无情；[\s]</p>
-        <p>帮众敬服“老鹰”，则是因为他常胜不败。</p>
+        <p>Trong bang đều sợ “Lão Ưng”, bởi vì hắn ra tay tàn nhẫn vô tình;[\s]</p>
+        <p>Trong bang đều kính phục “Lão Ưng”, bởi vì hắn luôn thắng không bại.</p>
       </text>
       <text>
-        <p>这个男人的上位，令金沙帮发生了翻天覆地的变化。[\s]</p>
-        <p>曾经的流寇变成了纪律森严的小股势力，俨然成了漠北边境一带的地头霸主。</p>
+        <p>Việc hắn lên nắm quyền, đã khiến Kim Sa Bang có biến hóa long trời lở đất.[\s]</p>
+        <p>Lũ giặc cướp lang bạt năm xưa biến thành một thế lực nhỏ có kỷ luật nghiêm ngặt, hệt như đã trở thành bá chủ địa phương ở vùng biên giới sa mạc phương bắc.</p>
       </text>
       <motion chara="015" action="hide" img="老鹰-普通-玩玉-远景"/>
       <text>
-        <p>帮众们早晚均要练功习武，勤练不辍。[\s]</p>
-        <p>习武完毕，则要练兵。</p>
+        <p>Thành viên sớm tối đều phải luyện công tập võ, chăm chỉ không ngừng.[\s]</p>
+        <p>Tập võ xong, thì phải luyện binh.</p>
       </text>
       <text>
-        <p>“老鹰”不厌其烦地教导阵型、变化、配合，以及种种信号与命令。[\s]</p>
-        <p>他要的并非一支散漫的匪帮，而是军队。</p>
+        <p>“Lão Ưng” không quản ngại phiền phức mà dạy chúng trận hình, biến hóa, phối hợp, cùng đủ loại tín hiệu và mệnh lệnh.[\s]</p>
+        <p>Thứ hắn muốn không phải một đám thổ phỉ lỏng lẻo, mà là một đội quân.</p>
       </text>
       <bgm looptimes="0"/>
       <event action="goto" to="05"/>
@@ -1179,57 +1179,57 @@
       <bgm id="原始武士"/>
       <bg img="BGDesert02"/>
       <motion chara="002" action="show" pos="center" img="素裳-笑-普通-远景"/>
-      <text>也正因如此，三人面对眼前这个奇怪的小女孩时，没有半点轻视。</text>
+      <text>Cũng chính vì thế, khi ba kẻ cùng đối mặt với thiếu nữ kỳ lạ trước mắt này, chúng không hề có chút lơ là nào.</text>
       <motion chara="002" action="hide" delay="1"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <motion chara="015" action="show" pos="center" img="老鹰-普通-单举刀-远景"/>
-      <dialog chara="015">「敌人就是敌人，不分男女老幼，只有你死我活。任何人都可能夺走你的性命，要把目标当作你人生的最后一个对手，动用一切手段杀死他。」</dialog>
-      <text>“老鹰”反复告诫过他们。</text>
+      <dialog chara="015">「Kẻ địch chính là kẻ địch, không phân biệt nam nữ già trẻ, chỉ có ngươi chết ta sống. Bất cứ ai cũng có thể đoạt đi tính mạng của các ngươi, phải coi mục tiêu là đối thủ cuối cùng trong đời, dùng hết mọi thủ đoạn để giết chết.」</dialog>
+      <text>“Lão Ưng” đã nhiều lần răn dạy bọn chúng.</text>
       <motion chara="015" action="hide"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGDesert02"/>
       <motion chara="002" action="show" pos="center" img="素裳-笑-普通-远景"/>
-      <text>所以，三人见到同伴被一击打倒，也没有半点惊慌。</text>
+      <text>Vì vậy, ba kẻ này khi thấy đồng bọn bị đánh ngã chỉ bằng một đòn, cũng không hề có chút hoảng loạn nào.</text>
       <motion chara="002" action="hide" delay="1"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <motion chara="015" action="show" pos="center" img="老鹰-普通-抱胸有刀-远景"/>
-      <dialog chara="015">「在战场上要保护同伴，但倒下的同伴不是战友，而是累赘。不要把他们和站着的人同等看待。懂得放弃的兵才能活得更久。」</dialog>
-      <text>“老鹰”反复提醒过他们。</text>
+      <dialog chara="015">「Trên chiến trường phải bảo vệ đồng bọn, nhưng kẻ đã ngã xuống thì không phải là chiến hữu nữa, mà là gánh nặng. Đừng xem chúng ngang hàng với những người còn đứng vững. Người lính biết từ bỏ mới có thể sống lâu hơn.」</dialog>
+      <text>“Lão Ưng” đã nhiều lần răn dạy bọn chúng.</text>
       <motion chara="015" action="hide"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGDesert02"/>
       <motion chara="002" action="show" pos="center" img="素裳-笑-普通-远景"/>
-      <text>同样，三人见到女孩扬起漫天沙砾，也没有半点犹豫。</text>
+      <text>Tương tự, bọn chúng thấy thiếu nữ hất tung cát sỏi mù trời, cũng không hề do dự chút nào.</text>
       <motion chara="002" action="hide" delay="1"/>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <motion chara="015" action="show" pos="center" img="老鹰-微笑-持刀-远景"/>
-      <dialog chara="015">「按照我的计划行事，一切就不会有问题。」</dialog>
+      <dialog chara="015">「Làm theo kế hoạch của ta, thì mọi thứ sẽ không có vấn đề gì.」</dialog>
       <text>
-        <p>这是“老鹰”的保证。</p>
-        <p>他们对“老鹰”深信不疑。</p>
+        <p>Đó là sự bảo đảm của “Lão Ưng”.</p>
+        <p>Bọn chúng đối với “Lão Ưng” hết lòng tín nhiệm không chút nghi ngờ.</p>
       </text>
-      <text>毕竟，整整五年来，“老鹰”的指示从来没有错过一次。</text>
+      <text>Suy cho cùng, suốt năm năm qua, chỉ thị của “Lão Ưng” chưa bao giờ sai.</text>
       <motion chara="015" action="hide"/>
-      <text>一次都没有。</text>
+      <text>Một lần cũng chưa từng có.</text>
       <bgm looptimes="0"/>
       <mono>
         <p/>
-        <p>三人迅速闭上了眼睛。</p>
+        <p>Cả ba nhanh chóng nhắm mắt lại.</p>
       </mono>
       <mono>
         <p/>
-        <p>比起丧失视觉，沙子入眼导致的疼痛和条件反射反而更加危险。</p>
+        <p>So với việc tạm mất thị giác, cơn đau và phản xạ có điều kiện do cát vào mắt gây ra càng nguy hiểm hơn.</p>
       </mono>
       <mono>
         <p/>
-        <p>闭眼的一瞬，三人已经记住了彼此的位置与敌人的所在。</p>
+        <p>Trong khoảnh khắc nhắm mắt, chúng đã ghi nhớ vị trí của nhau và nơi kẻ địch đang ở.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>他们接下来踏出的脚步和出刀的方位，都严格遵循「雁人阵」的阵法。</p>
+        <p>Bước chân tiếp theo của bọn chúng và phương vị ra đao, đều nghiêm ngặt tuân theo trận pháp của「Nhạn Nhân Trận」.</p>
       </mono>
       <se id="01-26大刀向下挥"/>
       <motion chara="-5" action="show" pos="center" img="竖劈"/>
@@ -1237,7 +1237,7 @@
       <bg img="竖劈1-黑底"/>
       <mono pageend="true">
         <p/>
-        <p>居中的匪人率先出刀，这刀由上方砍下，力大势沉。</p>
+        <p>Tên phỉ ở giữa ra đao trước, nhát đao này từ phía trên chém xuống, lực lớn thế nặng.</p>
       </mono>
       <se id="01-27大刀横挥"/>
       <motion chara="-5" action="show" pos="center" img="横劈"/>
@@ -1245,40 +1245,40 @@
       <bg img="横劈1-黑底"/>
       <mono pageend="true">
         <p/>
-        <p>左侧的匪人则抢上一步，横向劈斩，攻取目标下盘。</p>
+        <p>Tên bên trái thì bước tới một bước, chém ngang, đánh vào thân dưới của mục tiêu.</p>
       </mono>
       <bg img="PureBlack"/>
       <mono pageend="true">
         <p/>
-        <p>这二刀的用意并非杀敌，而是诱敌。</p>
+        <p>Dụng ý của hai nhát đao này không phải là giết địch, mà là dụ địch.</p>
       </mono>
       <se id="01-26大刀向下挥"/>
       <se id="01-27大刀横挥"/>
       <bg img="叠加1-黑底"/>
       <mono>
         <p/>
-        <p>“老鹰”精心设计的阵型与刀术，是为了引导敌人按照既定的路线躲闪。</p>
+        <p>Trận hình và đao thuật mà “Lão Ưng” cẩn thận thiết kế, là để dẫn dắt kẻ địch né tránh theo lộ tuyến đã định.</p>
       </mono>
       <mono>
         <p/>
-        <p>目标若能躲过这两刀，那末他此刻一定身处事先计算好的方位。</p>
+        <p>Mục tiêu nếu né được hai nhát đao này, vậy thì lúc này hắn nhất định đang ở phương vị đã được tính toán trước.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>这时便轮到右路的刀手执行必杀的一击。</p>
+        <p>Lúc này liền đến lượt đao thủ cánh phải thực hiện đòn tất sát.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>他们有信心即使看不见敌人，也能凭此三人阵法将对方格杀！</p>
+        <p>Bọn chúng tin rằng dù không nhìn thấy kẻ địch, cũng có thể dựa vào trận pháp ba người này mà giết chết đối phương!</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <mono>
         <p/>
-        <p>阵法没有错，但金沙帮匪低估了女孩。</p>
+        <p>Trận pháp không sai, nhưng đám Kim Sa Bang đã đánh giá thấp thiếu nữ.</p>
       </mono>
-      <mono pageend="true">低估了她的奇速。</mono>
+      <mono pageend="true">Đánh giá quá thấp tốc độ phi thường của nàng.</mono>
       <se id="01-25沙子飞溅"/>
       <bg img="飞沙走石2"/>
       <bgm id="火燃"/>
@@ -1286,18 +1286,18 @@
         <p/>
         <p/>
         <p/>
-        <p>当沙石飞起时，女孩已经向前跃出。</p>
+        <p>Khi cát đá bay lên, thiếu nữ đã nhảy vọt về phía trước.</p>
       </mono>
       <cg img="CG_通用_李素裳战斗-2"/>
       <mono>
         <p/>
         <p/>
         <p/>
-        <p>正如金沙帮对“老鹰”的阵法深信不疑，女孩对自己的武功也有着绝对的自信。</p>
+        <p>Cũng như Kim Sa Bang tin tưởng không chút nghi ngờ vào trận pháp của “Lão Ưng”, nàng cũng có sự tự tin tuyệt đối vào võ công của mình.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>剑心澄明的她，根本不觉得大汉缓慢的刀法有躲闪的必要。</p>
+        <p>Người sáng tỏ kiếm tâm như nàng, cảm thấy đường đao pháp chậm chạp của đám này hoàn toàn chẳng cần né tránh</p>
       </mono>
       <bg img="PureBlack"/>
       <cg/>
@@ -1311,7 +1311,7 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>居中的刀手举起朴刀时，女孩已经撞在他的怀中。</p>
+        <p>Khi gã ở giữa giơ phác đao lên, thiếu nữ đã áp sát hắn.</p>
       </mono>
       <event action="hide_ui" duration="1.2"/>
       <motion chara="-5" action="show" pos="center" img="击打下颚"/>
@@ -1324,15 +1324,15 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>他甚至没来得及反应，下颚便遭到一记重击，</p>
+        <p>Hắn thậm chí chưa kịp phản ứng, cằm dưới đã bị giáng một đòn,</p>
         <p/>
-        <p>冲击透过头骨直传颅脑，剧烈的震荡立刻令他昏厥了。</p>
+        <p>Cú va chạm xuyên qua xương sọ truyền thẳng vào não, chấn động dữ dội lập tức khiến hắn ngất đi.</p>
       </mono>
       <motion chara="-4" action="shake" duration="0.1" range="30" direction="default"/>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>因此，刀手没能感到随后飞踢在他膝盖上的重重一脚，就已瘫倒在地。</p>
+        <p>Vì vậy, hắn còn chưa kịp cảm nhận cú đá mạnh tiếp sau đó giáng xuống đầu gối mình, đã ngã gục xuống đất.</p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <motion chara="-5" action="show" pos="center" img="飞燕归巢"/>
@@ -1346,7 +1346,7 @@
         <p/>
         <p/>
         <p/>
-        <p>女孩借着踢击之势，一记漂亮的「飞燕归巢」，转瞬间已落在左首大汉的身后。</p>
+        <p>Thiếu nữ mượn đà cú đá, một chiêu 「Phi Yến Quy Sào」 đẹp mắt, trong khoảnh khắc đã đáp xuống sau lưng tên bên trái.</p>
       </mono>
       <motion chara="-5" action="hide"/>
       <transition mode="fade" in="0.1" stop="0.1" out="0.1" color="#000000"/>
@@ -1358,22 +1358,22 @@
       <mono inline="true">
         <p/>
         <p/>
-        <p>她一掌劈中大汉后颈，</p>
+        <p>Một chưởng bổ trúng sau gáy gã,</p>
       </mono>
       <se id="01-32铁剑掷出"/>
       <motion chara="-5" action="hide"/>
       <motion chara="-5" action="show" img="速度线左右1" pos="center"/>
-      <mono pageend="true">另一只手夺过铁剑，向最后一名敌人掷去。</mono>
+      <mono pageend="true">Tay kia đoạt lấy thanh thiết kiếm, ném về phía tên còn lại.</mono>
       <mono>
         <p/>
         <p/>
-        <p>电光火石之间，她已经将力道与速度都计算得恰到好处，并且正确地付诸行动了。</p>
+        <p>Trong khoảnh khắc điện lóe đá bắn, nàng đã tính toán lực đạo và tốc độ hoàn hảo, tung đòn chuẩn xác.</p>
       </mono>
       <bgm looptimes="0"/>
       <mono pageend="true">
         <p/>
-        <p>太虚五蕴之『剑心』，</p>
-        <p>正是这样一种将大脑潜能发挥到极致的高深心法。</p>
+        <p>『Kiếm Tâm』 trong Ngũ Uẩn của Thái Hư,</p>
+        <p>Chính là một loại tâm pháp cao thâm như thế, phát triển tiềm năng của đại não đạt đến mức cực hạn.</p>
       </mono>
       <motion chara="-5" action="hide"/>
       <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
@@ -1381,30 +1381,30 @@
       <se id="01-33男气声受击"/>
       <remark>
         <p>ㅤ</p>
-        <p>『剑腊』：</p>
+        <p>『Kiếm Lạp』:</p>
         <p>ㅤ</p>
-        <p>剑的组成部分之一。</p>
+        <p>Một trong những bộ phận cấu thành của kiếm.</p>
         <p>ㅤ</p>
-        <p>剑体中间的凸起为剑脊；脊两侧的平滑坡状为剑从。</p>
+        <p>Phần gồ lên ở giữa thân kiếm là sống kiếm; phần dốc phẳng mượt ở hai bên sống kiếm là “tùng kiếm”.</p>
         <p>ㅤ</p>
-        <p>剑脊与两从的合称即剑腊。</p>
+        <p>Tên gọi chung của sống kiếm và hai bên tùng kiếm chính là kiếm lạp.</p>
       </remark>
-      <text>剑腊精准无误地击中刀客腹腔，突如其来的疼痛令他忍不住张开嘴，发出极短的一声嘶叫。</text>
+      <text>Kiếm lạp đánh trúng khoang bụng của đao khách một cách chuẩn xác không sai, cơn đau bất ngờ khiến hắn không nhịn được mở miệng, thốt ra một tiếng rít cực ngắn.</text>
       <bg img="氛围_第一折_烈阳2" duration="0.3"/>
-      <text>就在这时，天旋地转，平衡感顷刻间荡然无存。</text>
+      <text>Ngay lúc này đây, trời đất quay cuồng, cảm giác thăng bằng trong khoảnh khắc tiêu tan.</text>
       <se id="01-34男沙地重摔"/>
       <transition mode="eye" in="1" stop="0.5" out="3" color="#000000"/>
       <bgm id="佛心禅悟"/>
       <cg img="CG_第一折_李素裳1"/>
-      <text>有什么灼热的东西敷在他的右脸上，烫得叫他难以忍受。</text>
-      <text>男人睁开眼睛，看见的是近乎墨黑色的炎热沙地。</text>
-      <text>原来并不是什么东西压住脸颊，而是他的脸被紧紧按在地上。</text>
-      <dialog chara="002">「……你们人有点少哎。」</dialog>
-      <text>小女孩侧坐在他的脊背上，纤美的手指轻点他的后脑：</text>
-      <dialog chara="002">「怎么只有四个？其他人去哪里啦？」</dialog>
-      <text>她的嗓音又清又脆，很是好听，有种天真无邪的少女软颤。</text>
+      <text>Có thứ gì đó nóng bỏng áp lên má phải hắn, nóng đến mức khiến hắn không chịu đựng nổi.</text>
+      <text>Gã đàn ông mở mắt ra, thứ hắn nhìn thấy chỉ là bãi cát nóng bỏng gần như đen như mực.</text>
+      <text>Hóa ra chẳng phải có thứ gì đó đè lên má, mà là mặt hắn đang bị ấn chặt xuống đất.</text>
+      <dialog chara="002">「……Các ngươi có vẻ hơi ít người đấy nhỉ.」</dialog>
+      <text>Thiếu nữ nghiêng người ngồi trên lưng hắn, những ngón tay mảnh mai xinh đẹp khẽ điểm vào sau đầu:</text>
+      <dialog chara="002">「Sao chỉ có bốn? Những tên khác đâu rồi?」</dialog>
+      <text>Giọng nàng trong trẻo, lanh lảnh, rất dễ nghe, có chút ngân nhẹ mềm mại đầy vẻ ngây thơ của thiếu nữ.</text>
       <cg img="CG_第一折_李素裳2" duration="1"/>
-      <dialog chara="002">「我要听真话。」</dialog>
+      <dialog chara="002">「Ta muốn nghe sự thật.」</dialog>
       <event action="hide_ui" duration="4"/>
       <delay t="1"/>
       <bgm looptimes="0"/>
@@ -1419,22 +1419,22 @@
         <p/>
         <p/>
         <p/>
-        <p>                   此时，百里之外……</p>
+        <p>                   Ngay lúc này, cách đó trăm dặm……</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="氛围_第一折_烈阳"/>
       <se id="01-35炎热沙漠环境"/>
       <mono>
         <p/>
-        <p>男人伏在金色的沙砾上，一动不动。</p>
+        <p>Gã đàn ông nằm bất động trên bãi cát vàng.</p>
       </mono>
       <mono>
         <p/>
-        <p>豆大的汗珠从额头、鼻翼、脖颈、腋下和腿间涌出，流淌而下，令身体奇痒难当。</p>
+        <p>Những giọt mồ hôi to như hạt đậu từ trán, cánh mũi, cổ, nách và giữa hai chân túa ra, tuôn chảy, khiến cơ thể ngứa ngáy khó chịu vô cùng.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>但他一动不动。</p>
+        <p>Nhưng hắn không hề động đậy.</p>
       </mono>
       <event action="hide_ui" duration="2.5"/>
       <bgm id="神秘东方"/>
@@ -1443,24 +1443,24 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>即使隔着衣服，沙子也热得发烫，像在灼烧他的皮肤。</p>
+        <p>Dù cách một lớp quần áo, cát vẫn nóng đến bỏng rẫy, như đang thiêu đốt làn da.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>男人努力集中精神，好让自己不致昏厥过去。</p>
+        <p>Hắn cố gắng tập trung tinh thần, để bản thân không bị ngất đi.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>在这种时候，他总是想起“老鹰”曾说过的话：</p>
-        <p>他们这种人要是被官兵捉住，胸口就会被烧红的烙铁打下印记。</p>
+        <p>Vào những lúc như thế này, hắn luôn nhớ đến những lời “Lão Ưng” từng nói: </p>
+        <p>Những kẻ như chúng nếu để bị quan binh bắt được, sẽ bị sắt nung đỏ đóng dấu lên ngực.</p>
       </mono>
       <mono>
         <p/>
-        <p>烙铁比沙子硬，比太阳热，沾上皮肤就会黏在一起，撕下就是一层皮。</p>
+        <p>Sắt nung đỏ cứng hơn cát, nóng hơn mặt trời, chạm vào da là dính chặt lấy, gỡ ra là mất một lớp da.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>那滋味，“老鹰”说：就像下了地狱。</p>
+        <p>Cái cảm giác ấy, “Lão Ưng” nói rằng: giống như xuống địa ngục.</p>
       </mono>
       <event action="hide_ui" duration="2.5"/>
       <bg img="BGDesert00" duration="3"/>
@@ -1468,32 +1468,32 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>金沙帮的弟兄们常把地狱挂在嘴边，[\s]毕竟他们将来注定要在那儿相逢，一个也少不了。</p>
+        <p>Các huynh đệ của Kim Sa Bang thường luôn miệng nhắc đến địa ngục, [\s] dẫu sao tương lai bọn chúng nhất định sẽ chỉ gặp nhau ở đó, một kẻ cũng không thiếu phần.</p>
       </mono>
       <mono>
         <p/>
-        <p>地狱里头阴森恐怖，穷极无聊；没有金银，没有好酒，没有美人。</p>
-        <p>但凡叫得上名字的好东西，那儿一概没有。</p>
+        <p>Chốn địa ngục âm u đáng sợ, vô cùng tẻ nhạt; không có vàng bạc, rượu ngon, càng chẳng có mỹ nhân.</p>
+        <p>Phàm là thứ tốt đẹp nào gọi được tên, ở đó đều không có.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>可在这里，只要拿下今天这一票，他们要什么就有什么。</p>
+        <p>Nhưng ngay tại đây, chỉ cần làm xong vụ này hôm nay, bọn chúng muốn gì được nấy.</p>
       </mono>
       <bg img="BGDesert02"/>
       <mono>
         <p/>
-        <p>这一票买卖据说比以前都要大，“老鹰”收到了绝对可靠的情报。</p>
+        <p>Thương vụ lớn này nghe nói còn lớn hơn tất cả những vụ trước, “Lão Ưng” đã nhận được tin tình báo tuyệt đối đáng tin cậy.</p>
         <p/>
-        <p>从远方来的商队带来了富贾贵族的家眷，车上满载金银财宝。</p>
+        <p>Thương đội từ phương xa mang theo gia quyến của phú thương quý tộc, trên xe chất đầy vàng bạc châu báu.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>如果情报不差，约莫两刻工夫，这些就都是他们的了。</p>
+        <p>Nếu tin tình báo không sai, chỉ chừng hai khắc sau, tất cả những thứ này đều sẽ là của bọn chúng.</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGDesert01"/>
       <bgm looptimes="0"/>
-      <text>思及此，他忍不住轻轻抬头，用眼睛余光向后望，望向那唯一一个站着的男人。</text>
+      <text>Nghĩ đến đây, hắn không nhịn được khẽ ngẩng đầu lên, liếc mắt về phía sau, nơi có gã đàn ông duy nhất còn đứng.</text>
       <event action="hide_ui" duration="2"/>
       <motion chara="015" action="show" pos="center" duration="3" img="老鹰-普通-普通有刀-远景"/>
       <bgm id="传奇诞生"/>
