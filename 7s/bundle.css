@@ -592,8 +592,10 @@ html {
   width: 100vw;
   height: 100vh;
   position: relative;
+  margin-top: -0.5px;
   background-color: #000;
   color: #333;
+  overflow: hidden;
   font-family: 'Oswald', sans-serif;
     Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;
 }
