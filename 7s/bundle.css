@@ -760,7 +760,7 @@ p {
   background: url(./yes.png) 50% no-repeat;
   background-size: cover;
   position: absolute;
-  bottom: 0.7rem;
+  bottom: 0.25rem;
   left: 50%;
   margin-left: -1.1rem;
   cursor: pointer;
