@@ -665,7 +665,7 @@
       <dialog chara="009">「Theo ta thấy, vấn đề nằm ở võ công của gia tộc ngươi.」</dialog>
       <text>Mẫu thân lạnh lùng nói.</text>
       <dialog chara="009">
-        <p>「Phi Yến Công và Thùy Yến Thập Tam Thức ở Tứ Xuyên có lẽ cũng được coi là tuyệt kỹ, nhưng so với 『Thái Hư Kiếm Khí』 của sư phụ thì đáng là gì?</p>
+        <p>「Phi Yến Công và Thùy Yến Thập Tam Thức ở Xuyên Trung có lẽ cũng được coi là tuyệt kỹ, nhưng so với 『Thái Hư Kiếm Khí』 của sư phụ thì đáng là gì?</p>
         <p>Lẽ ra ta không nên nghe lời nhảm nhí của ngươi và cải biến Ức Tâm Kiếm Pháp.」</p>
       </dialog>
       <dialog chara="010">「…………」</dialog>
@@ -696,7 +696,7 @@
         <p>Vào sinh nhật thứ năm của Tố Thường, phụ mẫu đã tặng nàng một món quà vô cùng ý nghĩa.</p>
       </text>
       <text>
-        <p>Từ biệt Ức Kiếm Sơn Trang, từ biệt Tứ Xuyên, từ biệt 『ngôi nhà』 mình chưa từng rời khỏi, </p>
+        <p>Từ biệt Ức Kiếm Sơn Trang, từ biệt Xuyên Trung, từ biệt 『ngôi nhà』 mình chưa từng rời khỏi, </p>
         <p>Lý Tố Thường đến sa mạc phía bắc, tu luyện mười năm 『kiếm pháp đỉnh cao nhất』.</p>
       </text>
       <notification>Mở khoá tiểu sử: 「Lý Tố Thường」</notification>
@@ -1499,10 +1499,10 @@
       <bgm id="传奇诞生"/>
       <delay t="2"/>
       <event action="show_ui"/>
-      <text>那人看上去四十多岁，两鬓斑白，脸上的皱纹与伤痕书写着仇恨的形貌。</text>
+      <text>Người đó trông chừng ngoài bốn mươi tuổi, hai bên tóc mai đã điểm bạc; những nếp nhăn và vết thương trên mặt như khắc họa nên hình hài của mối thù hận.</text>
       <text>
-        <p>他实际的年纪要轻一些，但也年近不惑。整张脸一眼望去，只有眼睛格外突出：那是一双鹰隼的眼睛。</p>
-        <p>他看着远方的样子，就像在注视猎物。</p>
+        <p>Tuổi của hắn ta thật ra vẫn trẻ hơn một chút, nhưng cũng đã gần đến tuổi bất hoặc. Nhìn cả khuôn mặt, chỉ có đôi mắt là đặc biệt nhất: đôi mắt chim ưng.</p>
+        <p>Dáng vẻ hắn ta nhìn về phía xa, tựa như đang dõi theo con mồi.</p>
       </text>
       <text>他正是在守候着将至的猎物，埋伏着的金沙帮就是他的爪牙。</text>
       <text>“老鹰”——正是这个人的绰号、尊称与唯一的姓名。</text>
