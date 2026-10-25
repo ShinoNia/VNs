@@ -7,7 +7,7 @@
       <delay t="2"/>
       <mono pageend="true">
         <p/>
-        <p>这是我有记忆以来的第一个春季。</p>
+        <p>Đây là mùa xuân đầu tiên kể từ khi ta có ký ức.</p>
       </mono>
       <event action="hide_ui"/>
       <bgm id="仙灵岛（水灵笛）"/>
@@ -16,7 +16,7 @@
       <event action="show_ui"/>
       <mono inline="true">
         <p/>
-        <p>那个春天的事情，我至今仍记得清清楚楚。</p>
+        <p>Chuyện mùa xuân năm ấy, đến nay vẫn nhớ như in.</p>
       </mono>
       <event action="hide_ui"/>
       <bg img="太虚山1" duration="3"/>
@@ -25,18 +25,18 @@
       <mono inline="true">
         <p/>
         <p/>
-        <p>一场雨落在太虚山上，一连下了十天，</p>
+        <p>Một trận mưa rơi xuống Thái Hư sơn, mười ngày tầm tã không tạnh,</p>
       </mono>
-      <mono pageend="true">师父一反常态地没有出门，闭不见客。大师姊和二师姊在她的住处进进出出，不知忙些什么。</mono>
+      <mono pageend="true">Sư phụ rất khác thường, không bước ra ngoài, đóng cửa không tiếp khách. Đại sư tỷ và Nhị sư tỷ ra ra vào vào nơi người ở, cũng hẳng biết là đang bận rộn điều gì.</mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>那是一场并不大却很绵长的雨，年幼的我一度以为，春雨就是这样一直下个不停，下遍整个春天——但是不出数日，雨就渐渐小了。</p>
+        <p>Trận mưa chẳng lớn nhưng vô cùng dai dẳng, thuở nhỏ tôi từng tưởng mưa xuân sẽ rơi mãi như thế, phủ ướt cả mùa xuân—— nhưng chẳng mấy ngày sau, mưa dần tạnh đi.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>雨歇之后，师父走出屋门，带大师姊下了山。</p>
+        <p>Sau khi mưa tạnh, sư phụ xuất hành, dẫn Đại sư tỷ xuống núi.</p>
       </mono>
       <event action="hide_ui"/>
       <motion chara="011" action="show" pos="400,0" img="马彦卿-标准-幼年-远景" duration="1"/>
@@ -44,20 +44,20 @@
       <motion chara="003" action="show" pos="left" img="朝雨-温柔-标准-远景" duration="1"/>
       <delay t="1"/>
       <event action="show_ui"/>
-      <dialog chara="000">「朝雨，走了。」</dialog>
-      <text>师父头也不回地掷下这句话。</text>
+      <dialog chara="000">「Triều Vũ, đi thôi.」</dialog>
+      <text>Sư phụ không quay đầu lại, buông một câu như thế.</text>
       <event action="hide_ui"/>
       <motion chara="003" action="hide" duration="1.5"/>
       <delay t="1.5"/>
       <event action="show_ui"/>
       <mono inline="true">
         <p/>
-        <p>大师姊向我们挥挥手，跟着师父步下山阶。两个身影越来越远，越来越小，别了个弯后不见了。</p>
+        <p>Đại sư tỷ vẫy tay chào bọn ta, theo sư phụ bước xuống núi. Hai bóng người mỗi lúc một xa, khuất dần, rẽ qua khúc quanh rồi biến mất.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>我转过身，看着一同来送行的三、四师姊往房里回去，踌躇该不该跟上；身旁的六师兄拉着二师姊的衣角，好似和我一样犹豫。</p>
+        <p>Ta quay người, nhìn Tam sư tỷ và Tứ sư tỷ cùng ra tiễn đang trở về phòng, chần chừ không biết có nên theo vào; Lục sư huynh bên cạnh kéo vạt áo Nhị sư tỷ, dường như cũng đang do dự.</p>
       </mono>
       <event action="hide_ui"/>
       <motion chara="004" action="hide"/>
@@ -67,126 +67,126 @@
       <motion chara="009" action="show" pos="right" img="秦素衣-标准-幼年-中景"/>
       <delay t="0.1"/>
       <event action="show_ui"/>
-      <dialog chara="009">「师父……要去……多久？」</dialog>
+      <dialog chara="009">「Sư phụ…… sẽ đi…… bao lâu?」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
-      <text>我问二师姊。</text>
-      <text>被师父带回山时，我什么也不记得，连话都忘了怎么说。即使现在，我说话还是很慢。</text>
-      <dialog chara="004">「我可不晓得——少则三五天，多则两三月吧。」</dialog>
-      <text>二师姊苏湄回答。</text>
+      <text>Ta hỏi Nhị sư tỷ.</text>
+      <text>Khi được sư phụ đưa về núi, ta chẳng có ký ức gì, ngay cả việc nói chuyện ra sao cũng đã quên. Tận bây giờ, ta vẫn nói rất chậm chạp.</text>
+      <dialog chara="004">「Ta nào có biết—— ít thì ba năm ngày, nhiều thì hai ba tháng.」</dialog>
+      <text>Nhị sư tỷ Tô My đáp.</text>
       <motion chara="004" action="img_trans" img="苏湄-凝视-幼年-中景"/>
       <mono pageend="true">
         <p/>
-        <p>师父和大师姊林朝雨不在时，太虚山就由二师姊管理。她才十三岁，就已深得师父信任。太虚座下七个弟子，就只她和大师姊获准与师父一同外出。</p>
+        <p>Khi sư phụ và Đại sư tỷ Lâm Triều Vũ vắng mặt, Thái Hư sơn do Nhị sư tỷ quản lý. Nàng mới mười ba tuổi đã được sư phụ hết mực tin tưởng. Trong môn Thái Hư có bảy đệ tử, chỉ nàng và Đại sư tỷ được phép cùng sư phụ ra ngoài.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>这样的师姊，面无表情地注视着远处的山林。</p>
+        <p>Vị sư tỷ ấy mặt không chút biểu cảm, nhìn về đại ngàn xa xăm.</p>
         <p/>
-        <p>往她的视线望去，我什么也看不见。[em italic]但或许她是能见到什么的，[/em]我想：说不得她正望着师父与朝雨姊姊的身影，一步步远去。</p>
+        <p>Nhìn theo ánh mắt nàng, ta lại chẳng thấy gì cả. [em italic]Nhưng có lẽ nàng nhìn thấy được điều gì đó, [/em]ta nghĩ: có khi nàng đang nhìn bóng dáng sư phụ và Triều Vũ tỷ tỷ từng bước dần xa.</p>
       </mono>
       <motion chara="004" action="img_trans" img="苏湄-标准-幼年-中景"/>
-      <dialog chara="004">「你想下山吗？」</dialog>
-      <text>冷不丁地，二师姊问。</text>
+      <dialog chara="004">「Muội muốn xuống núi không?」</dialog>
+      <text>Đột nhiên, Nhị sư tỷ hỏi.</text>
       <motion chara="004" action="img_trans" img="苏湄-笑-幼年-中景"/>
-      <dialog chara="009">「咦……我……」</dialog>
-      <dialog chara="004">「……讶异什么。咱们六个活蹦乱跳的，总不能成年前一直闷在山里吧？如果你嫌这儿厌了，就跟我说，我带你出去走走。」</dialog>
+      <dialog chara="009">「Ơ…… Muội……」</dialog>
+      <dialog chara="004">「……có gì đâu chứ. Sáu đứa chúng ta đều đang tuổi hoạt bát, không lẽ cứ mãi ru rú trong núi này cho đến khi trưởng thành? Nếu muội chán nơi này, cứ nói với ta, ta dẫn muội ra ngoài một chuyến.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-认真-幼年-中景"/>
-      <dialog chara="009">「可……师父……」</dialog>
-      <text>只有林朝雨和苏湄可以下山，这似是一条默认的规矩。</text>
-      <dialog chara="004">「喔，她应该知道吧。」</dialog>
+      <dialog chara="009">「Nhưng…… Sư phụ……」</dialog>
+      <text>Chỉ Lâm Triều Vũ và Tô My mới được xuống núi; dường như đó là quy tắc ngầm.</text>
+      <dialog chara="004">「Ồ, người hẳn là biết đấy.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
       <dialog chara="004">
-        <p>「不过，师父是不会理会的；孩子们大了，早晚要出去见识见识。但外面的世界可险恶得多呵，盖世武功怎奈何人心歹毒？</p>
-        <p>要么让师妹们溜出去惹祸，要么由我领着看着——想来师父也会选后者罢。」</p>
+        <p>「Có điều, sư phụ sẽ không bận tâm đâu; bọn trẻ lớn rồi, sớm muộn cũng phải ra ngoài mở mang tầm mắt. Thế giới ngoài kia hung hiểm hơn nhiều, võ công cái thế thì đã sao trước lòng người độc ác?</p>
+        <p>Giữa để các đệ muội lén ra ngoài chuốc họa với để ta dẫn theo trông nom—— e rằng sư phụ cũng sẽ chọn vế sau.」</p>
       </dialog>
       <mono inline="true">
         <p/>
-        <p>听起来，二师姊的说话轻描淡写，胸有成竹。</p>
+        <p>Nghe qua thì, lời Nhị sư tỷ nói thật nhẹ nhàng, như thể trong lòng đã tính toán sẵn.</p>
       </mono>
-      <mono inline="true">一件有违常理的事情，在她说来竟是那么顺理成章，连我也不由得有些信服。</mono>
-      <mono pageend="true">下山……啊，我来到太虚山已三个月了，这儿的一砖一瓦，一草一木，都不再新鲜，渐渐变得乏善无趣了起来。拜师之前的事情，我全都不记得了，这座太虚山就是我所知的整个世界，在那以外……</mono>
+      <mono inline="true">Một việc trái với lẽ thường, nghe nàng nói ra lại thành ra hợp tình hợp lý đến thế, khiến ta cũng chẳng khỏi có phần tin phục.</mono>
+      <mono pageend="true">Xuống núi…… à, ta đến Thái Hư sơn đã được ba tháng; từng viên gạch viên ngói, từng ngọn cỏ cành cây nơi đây đều không còn mới lạ, dần trở nên nhạt nhẽo vô vị. Chuyện trước khi bái sư, ta đều không nhớ; Thái Hư sơn này chính là cả thế giới mà ta biết, còn ngoài ra thì……</mono>
       <motion chara="004" action="hide"/>
       <motion chara="009" action="hide"/>
       <bgm looptimes="0"/>
       <mono inline="true">
         <p/>
         <p/>
-        <p>……在那以外……</p>
+        <p>……thế giới ngoài kia……</p>
       </mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>……可险恶得多呵……</p>
+        <p>……hung hiểm hơn nhiều……</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>二师姊随口的一句话流入脑海，忽然，我想起了海边。</p>
+        <p>Một câu Nhị sư tỷ buột miệng nói lại lọt vào tai, ta bỗng nhiên nhớ đến bờ biển.</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <cg img="CG_回忆篇_秦素衣"/>
       <mono inline="true">
         <p/>
-        <p>唰——</p>
+        <p>Xoạch——</p>
         <p/>
-        <p>呀——哑哑——</p>
+        <p>Rào—— rì rào——</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>那时候，师父在做什么呢？</p>
+        <p>Khi ấy, sư phụ đang làm gì nhỉ?</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <cg/>
-      <text>我的身体颤抖起来，这奇怪的战栗毫无来由，全然无法抑止。我低下头，抱住自己的臂膀……</text>
-      <dialog chara="099">「喂——」</dialog>
-      <text>（师父不会做没意义的事，所以不要记起来，不要记起来。）</text>
-      <dialog chara="099">「喂！」</dialog>
+      <text>Cơ thể run lên; cơn run rẩy kỳ lạ không rõ vì đâu, hoàn toàn không thể kìm lại. Ta cúi đầu, ôm lấy cánh tay mình……</text>
+      <dialog chara="099">「Này——」</dialog>
+      <text>（Sư phụ không làm việc vô nghĩa, nên đừng nhớ lại, đừng nhớ lại.）</text>
+      <dialog chara="099">「Này！」</dialog>
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#FFFFFF"/>
       <bg img="太虚山1"/>
       <motion chara="004" action="show" pos="center" img="苏湄-哀伤-幼年-近景"/>
-      <text>二师姊的叫嚷声让我惊醒。苏湄蹲在我面前，紧张地瞪着我。</text>
+      <text>Tiếng gọi của Nhị sư tỷ khiến ta bừng tỉnh. Tô My ngồi xổm trước mặt ta,vẻ mặt đầy căng thẳng quan sát ta.</text>
       <bgm id="月下昆仑（慢灵）"/>
-      <dialog chara="004">「你还好吗？」</dialog>
-      <dialog chara="009">「没事……」</dialog>
+      <dialog chara="004">「Muôi sao thể?」</dialog>
+      <dialog chara="009">「Không sao……」</dialog>
       <motion chara="004" action="hide"/>
       <motion chara="004" action="show" pos="left" img="苏湄-凝视-幼年-中景"/>
       <motion chara="009" action="show" pos="right" img="秦素衣-笑-幼年-中景"/>
-      <text>我摇摇头。苏湄呼了口气，显是放松了下来。</text>
+      <text>Ta lắc đầu. Tô My thở phào một hơi, rõ là đã an tâm.</text>
       <motion chara="004" action="img_trans" img="苏湄-宿命-幼年-中景"/>
-      <dialog chara="004">「对不住，我不该……唉，其实是太早了。你才刚刚入门，连山上也没待习惯呢。」</dialog>
-      <dialog chara="009">「不会，师姊……谢谢。」</dialog>
+      <dialog chara="004">「Xin lỗi, ta không nên…… ôi, thật ra là quá sớm. Muội mới vừa nhập môn, ngay cả ở trên núi cũng chưa quen.」</dialog>
+      <dialog chara="009">「Không đâu, sư tỷ…… Cảm ơn tỷ.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-哀伤-幼年-中景"/>
       <motion chara="009" action="img_trans" img="秦素衣-标准-幼年-中景"/>
-      <dialog chara="004">「你害怕吗？」</dialog>
-      <text>二师姊问，</text>
-      <dialog chara="004">「你害怕外面的世界吗？」</dialog>
-      <text>不怕。我想说。但，我却点了点头。</text>
+      <dialog chara="004">「Muội sợ không?」</dialog>
+      <text>Nhị sư tỷ hỏi,</text>
+      <dialog chara="004">「Muội có sợ thế giới bên ngoài không?」</dialog>
+      <text>Không sợ. Ta vốn muốn nói vậy. Nhưng rồi lại gật đầu.</text>
       <motion chara="004" action="img_trans" img="苏湄-凝视-幼年-中景"/>
-      <dialog chara="004">「这样啊。」</dialog>
-      <text>苏湄思忖道，</text>
+      <dialog chara="004">「Thế à.」</dialog>
+      <text>Tô My trầm ngâm nói, </text>
       <motion chara="004" action="img_trans" img="苏湄-笑-幼年-中景"/>
-      <dialog chara="004" inline="true">「那，你就跟在师父身边好了。</dialog>
-      <dialog chara="004">我会去跟师父说……如果你想离山，我就请师父带着你。」</dialog>
+      <dialog chara="004" inline="true">「Vậy thì muội cứ ở bên sư phụ là được.</dialog>
+      <dialog chara="004">Ta sẽ nói với sư phụ…… nếu muội muốn xuống núi, ta sẽ xin sư phụ dẫn muội theo.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
-      <dialog chara="009">「不…不想！」</dialog>
-      <text>我连忙摇手。怎能让这种小事叨扰师父？而我极力拒绝的模样，在二师姊看来却是另一番光景。</text>
+      <dialog chara="009">「Không… Không muốn!」</dialog>
+      <text>Ta vội xua tay. Sao có thể để chuyện nhỏ ấy làm phiền sư phụ? Nhưng dáng vẻ hết mực từ chối của ta, trong mắt Nhị sư tỷ lại là một cảnh tượng khác.</text>
       <motion chara="004" action="img_trans" img="苏湄-宿命-幼年-中景"/>
-      <dialog chara="004">「是吗？那也依你。可是素衣，你不能永远留在这座山上……那不是你我的价值。」</dialog>
-      <dialog chara="004">「或早或晚，你会明白这一点：人要是没了价值，就什么也得不到。你与我，我们只有出了这太虚山……」</dialog>
-      <text>她的声音渐渐低了下去。</text>
-      <dialog chara="004">「……只有出了这太虚山。」</dialog>
-      <text inline="true">啾——我听见奇怪的声音，原来是师姊吹了声口哨。</text>
+      <dialog chara="004">「Vậy sao? Vậy cũng tùy muội. Nhưng Tố Y, muội không thể mãi mãi ở lại ngọn núi này…… đó không phải giá trị của muội và ta.」</dialog>
+      <dialog chara="004">「Sớm muộn, muội cũng sẽ hiểu điều này: người mà không còn giá trị, thì sẽ chẳng có được gì cả. Muội và ta, chỉ có ra khỏi Thái Hư sơn này……」</dialog>
+      <text>Giọng nàng dần nhỏ đi.</text>
+      <dialog chara="004">「……chỉ có ra khỏi Thái Hư sơn này.」</dialog>
+      <text inline="true">Huýt—— ta nghe thấy âm thanh lạ, hóa ra là sư tỷ huýt sáo một tiếng.</text>
       <text>
         <p/>
-        <p>她看着我，像是有什么话要说却阻住，迟疑了一下才开口：</p>
+        <p>Nàng nhìn ta, như có điều muốn nói lại thôi, do dự một lát mới cất lời:</p>
       </text>
-      <dialog chara="004" inline="true">「……外面的世界很可怖。既残酷又危险，绝非此间这般乐土；</dialog>
-      <dialog chara="004">但它却也很美妙。」</dialog>
+      <dialog chara="004" inline="true">「……thế giới bên ngoài rất đáng sợ. Vừa tàn khốc vừa nguy hiểm, tuyệt nhiên không phải chốn lạc thổ như nơi này;</dialog>
+      <dialog chara="004">	Nhưng nó cũng đẹp diệu kỳ.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-认真-幼年-中景"/>
-      <dialog chara="004">「别怕，素衣，只要待在师父身边，所有可怖、残酷和危险都会离你远去。」</dialog>
-      <dialog chara="004">「只要待在师父身边，你就什么都不用怕。」</dialog>
+      <dialog chara="004">「Đừng sợ, Tố Y, chỉ cần ở bên sư phụ, mọi sự đáng sợ, tàn khốc và nguy hiểm đều sẽ phải cách xa muội.」</dialog>
+      <dialog chara="004">「Chỉ cần ở bên sư phụ, muội sẽ chẳng phải sợ điều gì.」</dialog>
       <bgm looptimes="0"/>
       <event action="hide_ui"/>
       <motion chara="004" action="hide"/>
@@ -200,7 +200,7 @@
         <p/>
         <p/>
         <p/>
-        <p>只要待在师父身边……</p>
+        <p>Chỉ cần ở bên sư phụ……</p>
       </mono>
       <event action="hide_ui"/>
       <bg img="BGPureWhite00" duration="3"/>
@@ -211,72 +211,72 @@
       <bgm id="国势倾危（燃）"/>
       <mono inline="true">
         <p/>
-        <p>此时夜过四更，周围却并不清静。</p>
+        <p>Lúc này đêm đã qua canh tư, mà xung quanh chẳng hề yên tĩnh.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>身后，熊熊的大火仍在燃烧，冲天火光令太虚山亮如白昼；远处的山林里响起稀疏的人声，想来因着这场大火，附近村镇里的百姓都赶来了吧？还有那些寻仙之人，他们总在山脚徘徊，这时候，脚程快的人兴许已在附近……</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>[em italic]（这就是外面的世界，多么可怕啊。）[/em]</p>
-      </mono>
-      <mono inline="true">
-        <p/>
-        <p>若在往常，喧闹的人群只会令我安心；但此刻，我谁也不想见，谁也害怕见到。我不能让任何人看见我，不能让任何人知道——</p>
-      </mono>
-      <mono inline="true">
-        <p/>
-        <p/>
-        <p>不能让任何人发现我，「染香剑」的发面被火烬薰得焦黑。</p>
-      </mono>
-      <mono inline="true">
-        <p/>
-        <p/>
-        <p>不能让任何人发现我，「秦素衣」的双手满是干涸血迹。</p>
-      </mono>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p>不能让任何人发现我，「太虚第七徒」怀抱一具尸体。</p>
+        <p>Phía sau lưng, ngọn lửa lớn vẫn đang rừng rực cháy, ánh lửa ngút trời khiến Thái Hư sơn sáng như ban ngày; trong rừng núi xa xa vọng lại tiếng người lác đác, e rằng vì trận hỏa hoạn này, dân chúng các thôn trấn gần đó đều đã kéo tới? Còn những kẻ tìm tiên, từ đầu họ đã luôn quanh quẩn dưới chân núi; lúc này, ai nhanh chân có lẽ đã đến gần……</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>——仙人的尸体。</p>
+        <p>[em italic]（Đây chính là thế giới bên ngoài, đáng sợ biết bao.）[/em]</p>
       </mono>
-      <text>[em italic]（如果有人看见我，如果二师姊知道了……我会怎样？）[/em]</text>
-      <text>喧喧人声靠近。火光在远处的林中摇曳，有如流萤夜照。</text>
-      <text>——我很害怕。</text>
       <mono inline="true">
         <p/>
-        <p>我心乱如麻。</p>
+        <p>Nếu là ngày thường, đám đông ồn ào chỉ khiến ta thấy yên lòng; nhưng lúc này, ta chẳng muốn gặp ai, cũng rất sợ gặp bất cứ ai. Không thể để ai nhìn thấy, không thể để bất kỳ ai biết——</p>
       </mono>
-      <mono inline="true">师父死去时，我仿佛听见剑心破碎的声音——震惊、悔恨与痛苦将我凝练多年的止水心击碎，但慌乱的我并没意识到……</mono>
-      <mono pageend="true">直到此刻，我才恍惚明白：它是彻彻底底地粉碎了，再也凝不回来。</mono>
+      <mono inline="true">
+        <p/>
+        <p/>
+        <p>Không thể để ai phát hiện ra ta, tóc tai mặt mũi của 「Nhiễm Hương kiếm」 đều đã bị tro lửa hun đen xạm.</p>
+      </mono>
+      <mono inline="true">
+        <p/>
+        <p/>
+        <p>Không thể để ai phát hiện ra ta, hai tay 「Tần Tố Y」đầy vết máu đã khô.</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>Không thể để ai phát hiện ra ta, 「Thái Hư Thất đệ tử」 đang mang theo một thi thể.</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p>——Thi thể của tiên nhân.</p>
+      </mono>
+      <text>[em italic](Nếu có ai nhìn thấy, nếu để Nhị sư tỷ biết…… ta sẽ ra sao?)[/em]</text>
+      <text>Tiếng người huyên náo mỗi lúc một gần. Ánh lửa trong rừng xa lay động, tựa đom đóm chiếu vào bóng đêm.</text>
+      <text>——Ta rất sợ hãi.</text>
+      <mono inline="true">
+        <p/>
+        <p>Lòng ta rối như tơ vò.</p>
+      </mono>
+      <mono inline="true">Khi sư phụ chết đi, ta dường như nghe thấy tiếng kiếm tâm vỡ vụn—— kinh hoàng, hối hận và đau đớn đập nát chỉ thủy tâm mà ta đã tôi luyện bao năm; nhưng lúc ấy ta quá hoảng loạn nên không hề nhận ra……</mono>
+      <mono pageend="true">Đến lúc này, ta mới mơ hồ hiểu ra: nó đã vỡ tan hoàn toàn, không còn ngưng tụ lại được nữa.</mono>
       <transition mode="clock" in="0.3" stop="0.3" out="0.3" color="#000000"/>
       <delay t="0.3"/>
       <se id="01-34男沙地重摔"/>
       <motion chara="-4" action="shake" duration="0.3" range="300" direction="default"/>
       <mono inline="true">
         <p/>
-        <p>脚下一个趔趄，我摔倒在地，怀中之人脱离掌握，滚落一旁。</p>
+        <p>Chân ta lảo đảo, ngã nhào xuống đất; người trong lòng thoát khỏi vòng tay, lăn sang một bên.</p>
       </mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>地面是松软的泥土和散发嫩香的青草，我没有感到痛楚。</p>
+        <p>Mặt đất chỉ là bùn mềm và cỏ còn hương non, ta chẳng cảm thấy đau chút nào.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>我伸手抓住师父的遗蜕，手指握住一截冰冷的，已无气息的人肉——那是师父的手腕，噢，天下无敌的真仙赤鸢……</p>
+        <p>Ta vươn tay nắm lấy di thể của sư phụ, ngón tay chạm vào da thịt lạnh buốt, đã không còn hơi thở—— ấy là cổ tay sư phụ, ôi, chân tiên vô địch thiên hạ Xích Diên……</p>
       </mono>
       <mono pageend="true">
         <p/>
@@ -285,32 +285,32 @@
         <p/>
         <p/>
         <p/>
-        <p>                     师父已死。</p>
+        <p>                     Sư phụ đã chết rồi.</p>
       </mono>
       <text>……</text>
       <mono inline="true">
         <p/>
         <p/>
-        <p>有什么落在我的头上、肩上，仿佛雨水，其实只是灰烬。</p>
+        <p>Có gì đó đang rơi trên đầu, trên vai ta, tưởng như mưa, nhưng chỉ là tàn tro.</p>
       </mono>
-      <mono inline="true">我抱起师父，小心地走下山。</mono>
-      <mono inline="true">我心想：师父已经死了，但她是仙人，仙人不死不灭。我这么想，是因为我内心惧怕。我惧怕师姊，惧怕外人，惧怕罪孽，惧怕来生，惧怕未来，惧怕眼下……</mono>
-      <mono pageend="true">我惧怕的事情有那么多，就像飘散在天空的燃灰，就像山林路上晃动的夜光，密密麻麻，从四面八方向我落下。</mono>
+      <mono inline="true">Ta bế sư phụ lên, cẩn thận đi xuống núi.</mono>
+      <mono inline="true">Ta thầm nghĩ: sư phụ đã chết rồi, nhưng sư phụ là tiên nhân, tiên nhân bất tử bất diệt. Ta nghĩ vậy, là bởi trong lòng tôi sợ hãi. Ta sợ sư tỷ, sợ người ngoài, sợ tội nghiệt, sợ kiếp sau, sợ tương lai, sợ cả hiện tại……</mono>
+      <mono pageend="true">Những điều ta sợ nhiều đến thế, như tro cháy bay ngợp trời, như ánh đêm lay động trên đường rừng núi, dày đặc, từ bốn phương tám hướng đổ về rơi xuống người ta.</mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>但是只要待在师父身边……</p>
+        <p>	Nhưng chỉ cần ở bên sư phụ……</p>
       </mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>只要待在师父身边……</p>
+        <p>Chỉ cần ở bên sư phụ……</p>
       </mono>
-      <text>我抱着师父，继续走着，小心翼翼，小心翼翼，避开所有人。</text>
+      <text>Ta ôm lấy sư phụ, tiếp tục bước đi, cẩn trọng, cẩn trọng từng bước, tránh khỏi tất cả mọi người.</text>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>只要待在师父身边，我就什么都不用怕。</p>
+        <p>Chỉ cần ở bên sư phụ, ta sẽ chẳng sợ điều gì.</p>
       </mono>
       <transition mode="fade" in="2" stop="0.5" out="0" color="#000000"/>
       <bgm looptimes="0"/>
