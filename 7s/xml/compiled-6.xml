@@ -25,13 +25,13 @@
       <mono inline="true">
         <p/>
         <p/>
-        <p>Một trận mưa rơi xuống Thái Hư sơn, mười ngày tầm tã không tạnh,</p>
+        <p>Một trận mưa rơi xuống Thái Hư sơn, mười ngày tầm tã không tạnh, </p>
       </mono>
       <mono pageend="true">Sư phụ rất khác thường, không bước ra ngoài, đóng cửa không tiếp khách. Đại sư tỷ và Nhị sư tỷ ra ra vào vào nơi người ở, cũng hẳng biết là đang bận rộn điều gì.</mono>
       <mono inline="true">
         <p/>
         <p/>
-        <p>Trận mưa chẳng lớn nhưng vô cùng dai dẳng, thuở nhỏ tôi từng tưởng mưa xuân sẽ rơi mãi như thế, phủ ướt cả mùa xuân—— nhưng chẳng mấy ngày sau, mưa dần tạnh đi.</p>
+        <p>Trận mưa chẳng lớn nhưng thật dai dẳng, thuở nhỏ tôi từng tưởng mưa xuân sẽ rơi mãi như thế, phủ ướt cả mùa xuân—— nhưng chẳng mấy ngày sau, mưa dần tạnh đi.</p>
       </mono>
       <mono pageend="true">
         <p/>
@@ -101,9 +101,9 @@
       </dialog>
       <mono inline="true">
         <p/>
-        <p>Nghe qua thì, lời Nhị sư tỷ nói thật nhẹ nhàng, như thể trong lòng đã tính toán sẵn.</p>
+        <p>Nghe qua thì, lời Nhị sư tỷ nói thật nhẹ nhàng, như thể trong lòng đã tính toán sẵn. </p>
       </mono>
-      <mono inline="true">Một việc trái với lẽ thường, nghe nàng nói ra lại thành ra hợp tình hợp lý đến thế, khiến ta cũng chẳng khỏi có phần tin phục.</mono>
+      <mono inline="true">Một việc trái với lẽ thường, nghe nàng nói ra lại thành ra hợp tình hợp lý đến thế, khiến ta cũng chẳng khỏi có phần tin phục .</mono>
       <mono pageend="true">Xuống núi…… à, ta đến Thái Hư sơn đã được ba tháng; từng viên gạch viên ngói, từng ngọn cỏ cành cây nơi đây đều không còn mới lạ, dần trở nên nhạt nhẽo vô vị. Chuyện trước khi bái sư, ta đều không nhớ; Thái Hư sơn này chính là cả thế giới mà ta biết, còn ngoài ra thì……</mono>
       <motion chara="004" action="hide"/>
       <motion chara="009" action="hide"/>
@@ -146,7 +146,7 @@
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#FFFFFF"/>
       <bg img="太虚山1"/>
       <motion chara="004" action="show" pos="center" img="苏湄-哀伤-幼年-近景"/>
-      <text>Tiếng gọi của Nhị sư tỷ khiến ta bừng tỉnh. Tô My ngồi xổm trước mặt ta,vẻ mặt đầy căng thẳng quan sát ta.</text>
+      <text>Tiếng gọi của Nhị sư tỷ khiến ta bừng tỉnh. Tô My ngồi xổm trước mặt ta, vẻ mặt đầy căng thẳng quan sát ta.</text>
       <bgm id="月下昆仑（慢灵）"/>
       <dialog chara="004">「Muôi sao thể?」</dialog>
       <dialog chara="009">「Không sao……」</dialog>
@@ -155,7 +155,7 @@
       <motion chara="009" action="show" pos="right" img="秦素衣-笑-幼年-中景"/>
       <text>Ta lắc đầu. Tô My thở phào một hơi, rõ là đã an tâm.</text>
       <motion chara="004" action="img_trans" img="苏湄-宿命-幼年-中景"/>
-      <dialog chara="004">「Xin lỗi, ta không nên…… ôi, thật ra là quá sớm. Muội mới vừa nhập môn, ngay cả ở trên núi cũng chưa quen.」</dialog>
+      <dialog chara="004">「Xin lỗi, ta không nên…… ôi, thật là quá sớm. Muội vừa mới nhập môn, ngay cả ở trên núi cũng chưa quen.」</dialog>
       <dialog chara="009">「Không đâu, sư tỷ…… Cảm ơn tỷ.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-哀伤-幼年-中景"/>
       <motion chara="009" action="img_trans" img="秦素衣-标准-幼年-中景"/>
@@ -242,7 +242,7 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>Không thể để ai phát hiện ra ta, 「Thái Hư Thất đệ tử」 đang mang theo một thi thể.</p>
+        <p>Không thể để ai phát hiện ra ta, 「Thái Hư Thất đệ tử」 mang theo một thi thể.</p>
       </mono>
       <mono pageend="true">
         <p/>
@@ -256,9 +256,9 @@
       <text>——Ta rất sợ hãi.</text>
       <mono inline="true">
         <p/>
-        <p>Lòng ta rối như tơ vò.</p>
+        <p>Lòng ta rối như tơ vò. </p>
       </mono>
-      <mono inline="true">Khi sư phụ chết đi, ta dường như nghe thấy tiếng kiếm tâm vỡ vụn—— kinh hoàng, hối hận và đau đớn đập nát chỉ thủy tâm mà ta đã tôi luyện bao năm; nhưng lúc ấy ta quá hoảng loạn nên không hề nhận ra……</mono>
+      <mono inline="true">Khi sư phụ chết đi, ta dường như nghe thấy tiếng kiếm tâm vỡ vụn—— kinh hoàng, hối hận và đau đớn đập nát chỉ thủy tâm mà ta đã tôi luyện bao năm; nhưng lúc ấy ta quá hoảng loạn nên không hề nhận ra…… </mono>
       <mono pageend="true">Đến lúc này, ta mới mơ hồ hiểu ra: nó đã vỡ tan hoàn toàn, không còn ngưng tụ lại được nữa.</mono>
       <transition mode="clock" in="0.3" stop="0.3" out="0.3" color="#000000"/>
       <delay t="0.3"/>
@@ -293,8 +293,8 @@
         <p/>
         <p>Có gì đó đang rơi trên đầu, trên vai ta, tưởng như mưa, nhưng chỉ là tàn tro.</p>
       </mono>
-      <mono inline="true">Ta bế sư phụ lên, cẩn thận đi xuống núi.</mono>
-      <mono inline="true">Ta thầm nghĩ: sư phụ đã chết rồi, nhưng sư phụ là tiên nhân, tiên nhân bất tử bất diệt. Ta nghĩ vậy, là bởi trong lòng tôi sợ hãi. Ta sợ sư tỷ, sợ người ngoài, sợ tội nghiệt, sợ kiếp sau, sợ tương lai, sợ cả hiện tại……</mono>
+      <mono inline="true">Ta bế sư phụ lên, cẩn thận đi xuống núi. </mono>
+      <mono inline="true">Ta thầm nghĩ: sư phụ đã chết rồi, nhưng sư phụ là tiên nhân, tiên nhân bất tử bất diệt. Ta nghĩ vậy, là bởi trong lòng đầy sợ hãi. Ta sợ sư tỷ, sợ người ngoài, sợ tội nghiệt, sợ kiếp sau, sợ tương lai, sợ cả hiện tại…… </mono>
       <mono pageend="true">Những điều ta sợ nhiều đến thế, như tro cháy bay ngợp trời, như ánh đêm lay động trên đường rừng núi, dày đặc, từ bốn phương tám hướng đổ về rơi xuống người ta.</mono>
       <mono inline="true">
         <p/>
@@ -310,7 +310,7 @@
       <mono pageend="true">
         <p/>
         <p/>
-        <p>Chỉ cần ở bên sư phụ, ta sẽ chẳng sợ điều gì.</p>
+        <p>Chỉ cần ở bên sư phụ, ta sẽ chẳng phải sợ điều gì.</p>
       </mono>
       <transition mode="fade" in="2" stop="0.5" out="0" color="#000000"/>
       <bgm looptimes="0"/>
