@@ -142,13 +142,13 @@
       <text>Cơ thể run lên; cơn run rẩy kỳ lạ không rõ vì đâu, hoàn toàn không thể kìm lại. Ta cúi đầu, ôm lấy cánh tay mình……</text>
       <dialog chara="099">「Này——」</dialog>
       <text>（Sư phụ không làm việc vô nghĩa, nên đừng nhớ lại, đừng nhớ lại.）</text>
-      <dialog chara="099">「Này！」</dialog>
+      <dialog chara="099">「Này!」</dialog>
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#FFFFFF"/>
       <bg img="太虚山1"/>
       <motion chara="004" action="show" pos="center" img="苏湄-哀伤-幼年-近景"/>
       <text>Tiếng gọi của Nhị sư tỷ khiến ta bừng tỉnh. Tô My ngồi xổm trước mặt ta, vẻ mặt đầy căng thẳng quan sát ta.</text>
       <bgm id="月下昆仑（慢灵）"/>
-      <dialog chara="004">「Muôi sao thể?」</dialog>
+      <dialog chara="004">「Muội sao thể?」</dialog>
       <dialog chara="009">「Không sao……」</dialog>
       <motion chara="004" action="hide"/>
       <motion chara="004" action="show" pos="left" img="苏湄-凝视-幼年-中景"/>
@@ -167,7 +167,7 @@
       <dialog chara="004">「Thế à.」</dialog>
       <text>Tô My trầm ngâm nói, </text>
       <motion chara="004" action="img_trans" img="苏湄-笑-幼年-中景"/>
-      <dialog chara="004" inline="true">「Vậy thì muội cứ ở bên sư phụ là được.</dialog>
+      <dialog chara="004" inline="true">「Vậy thì muội cứ ở bên sư phụ là được. </dialog>
       <dialog chara="004">Ta sẽ nói với sư phụ…… nếu muội muốn xuống núi, ta sẽ xin sư phụ dẫn muội theo.」</dialog>
       <motion chara="004" action="img_trans" img="苏湄-环视-幼年-中景"/>
       <dialog chara="009">「Không… Không muốn!」</dialog>
@@ -291,7 +291,7 @@
       <mono inline="true">
         <p/>
         <p/>
-        <p>Có gì đó đang rơi trên đầu, trên vai ta, tưởng như mưa, nhưng chỉ là tàn tro.</p>
+        <p>Có gì đó đang rơi trên đầu, trên vai ta, tưởng như mưa, nhưng chỉ là tàn tro. </p>
       </mono>
       <mono inline="true">Ta bế sư phụ lên, cẩn thận đi xuống núi. </mono>
       <mono inline="true">Ta thầm nghĩ: sư phụ đã chết rồi, nhưng sư phụ là tiên nhân, tiên nhân bất tử bất diệt. Ta nghĩ vậy, là bởi trong lòng đầy sợ hãi. Ta sợ sư tỷ, sợ người ngoài, sợ tội nghiệt, sợ kiếp sau, sợ tương lai, sợ cả hiện tại…… </mono>
