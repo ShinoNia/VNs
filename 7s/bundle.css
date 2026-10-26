@@ -234,7 +234,7 @@
 }
 .archive {
   height: 100%;
-  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/bg.37447077.jpg)
+  background: url("images/archive bg.png")
     50% 50% no-repeat;
   background-size: cover;
 }
@@ -255,7 +255,7 @@
 .archive__ex {
   width: 3.89rem;
   height: 3.32rem;
-  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ex.b50bfdbf.png)
+  background: url("images/achive ex.png")
     50% 50% no-repeat;
   background-size: cover;
   left: 9.75rem;
@@ -374,7 +374,7 @@
 }
 .cg-list {
   height: 100%;
-  background: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/bg.1d8179cb.jpg)
+  background: url("images/cg bg.png")
     50% 50% no-repeat;
   background-size: cover;
 }
@@ -727,10 +727,10 @@ p {
   background-repeat: no-repeat;
 }
 .gal-popup-next .gal-popup__content {
-  background-image: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ep_next.bf729685.png);
+  background-image: url("images/popup normal.png");
 }
 .gal-popup-end .gal-popup__content {
-  background-image: url(https://webstatic-sea.mihoyo.com/bh3/event/mihoyo-bh3-novel-7swords-ja-fe/images/ep_end.01dfea81.png);
+  background-image: url("images/popup end.png");
 }
 .gal-popup__textwrp {
   position: absolute;
