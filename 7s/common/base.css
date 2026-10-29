@@ -27,8 +27,17 @@
   padding: 0;
   margin: 0;
 }
+
+@font-face {
+    font-family: 'hua';
+    src: url('../fonts/FuHua-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .stage-scene em {
   font-style: normal;
+  font-family: 'hua', sans-serif;
 }
 @-webkit-keyframes fade-in {
   0% {
