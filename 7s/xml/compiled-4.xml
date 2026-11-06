@@ -1504,24 +1504,24 @@
         <p>Tuổi của hắn ta thật ra vẫn trẻ hơn một chút, nhưng cũng đã gần đến tuổi bất hoặc. Nhìn cả khuôn mặt, chỉ có đôi mắt là đặc biệt nhất: đôi mắt chim ưng.</p>
         <p>Dáng vẻ hắn ta nhìn về phía xa, tựa như đang dõi theo con mồi.</p>
       </text>
-      <text>他正是在守候着将至的猎物，埋伏着的金沙帮就是他的爪牙。</text>
-      <text>“老鹰”——正是这个人的绰号、尊称与唯一的姓名。</text>
-      <text>只要是“老鹰”的命令，哪怕要金沙帮趴在沸烫的沙地上一个时辰，他们也会照做不误。</text>
+      <text>Hắn đang chờ đợi con mồi sắp đến, Kim Sa Bang đang mai phục đều là tay sai của hắn.</text>
+      <text>“Lão Ưng”——chính là biệt hiệu, tôn xưng và cũng là danh tính duy nhất của gã.</text>
+      <text>Chỉ cần là mệnh lệnh của “Lão Ưng”, cho dù có bắt đám Kim Sa Bang phải nằm sấp trên bãi cát như đang sôi sục này suốt một canh giờ, bọn chúng cũng sẽ làm theo răm rắp.</text>
       <text>
-        <p>不需要质疑，不需要许诺，</p>
-        <p>只要听从“老鹰”的吩咐，换来的就会是——</p>
+        <p>Không cần phải hồ nghi, cũng không cần phải hứa hẹn, </p>
+        <p>Chỉ cần nghe theo sự phân phó của “Lão Ưng”, thứ đổi lại sẽ là——</p>
       </text>
-      <text>——“胜利”。</text>
+      <text>——“Thắng lợi”。</text>
       <transition mode="eye" in="0.5" stop="0.3" out="0.5" color="#000000"/>
       <motion chara="015" action="img_trans" img="老鹰-微笑-抱胸有刀-远景"/>
       <text>
-        <p>突然，笑意浮现在鹰的脸上，</p>
-        <p>他的眼神亦随之一变。</p>
+        <p>Đột nhiên, nụ cười hiện lên trên khuôn mặt của Lão Ưng, </p>
+        <p>Ánh mắt của hắn cũng lập tức biến đổi.</p>
       </text>
-      <text>那对眼珠不再守望，它们转动起来，缓缓地转了一圈——这是捕猎的讯号。</text>
+      <text>Cặp mắt ấy không còn chỉ canh chừng nữa, chúng khẽ xoay, chậm rãi đảo một vòng——đó là tín hiệu săn mồi.</text>
       <motion chara="015" action="hide" duration="2"/>
-      <text>“老鹰”抬手，向后退了一步，又退了一步。</text>
-      <text>他在撤出商队护卫的视线范围，手势则是出击的信号。</text>
+      <text>“Lão Ưng” giơ tay lên, lùi về phía sau một bước, lại lùi thêm một bước nữa.</text>
+      <text>Hắn đang rút mình ra khỏi tầm nhìn của đội hộ vệ thương đội, còn động tác tay chính là tín hiệu xuất kích.</text>
       <event action="hide_ui" duration="2"/>
       <bgm looptimes="0"/>
       <bg img="BGDesert00" duration="3"/>
@@ -1529,11 +1529,11 @@
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
-        <p>男人撤回目光，吸了口气。滚烫的空气填满了肺，但他可以忍耐。</p>
+        <p>Gã đàn ông thu tầm mắt, hít vào một hơi. Không khí nóng rực tràn đầy vào phổi, nhưng hắn có thể chịu đựng được.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>远处，烟尘升腾。</p>
+        <p>Ở phía đằng xa, khói bụi đang bay lên mù mịt.</p>
       </mono>
       <se id="01-36骆驼车队loop" looptimes="-1"/>
       <event action="hide_ui" duration="2"/>
@@ -1542,22 +1542,22 @@
       <event action="show_ui"/>
       <mono chara="-1">
         <p/>
-        <p>「来了。」</p>
+        <p>「Đến rồi.」</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>有人低声说道。</p>
+        <p>Có tên nói nhỏ.</p>
       </mono>
       <mono>
         <p/>
-        <p>埋伏已久的男人们如释重负，最艰难的阶段已经过去。[\s]</p>
+        <p>Những kẻ đã mai phục từ lâu cảm thấy nhẹ nhõm như trút được gánh nặng, giai đoạn khó khăn nhất đã vượt qua rồi.[\s]</p>
         <p/>
-        <p>接下来，只有胜利。而这胜利……</p>
+        <p>Tiếp theo, chỉ có thắng lợi. Mà thắng lợi này……</p>
       </mono>
       <mono>
         <p/>
         <p/>
-        <p>他们已经等待了很久。</p>
+        <p>Chúng đã chờ đợi rất lâu rồi.</p>
       </mono>
       <se id="01-36骆驼车队loop" looptimes="0"/>
       <transition mode="eye" in="2" stop="0.5" out="0" color="#000000"/>
@@ -1566,40 +1566,40 @@
       <dialog chara="099">「……」</dialog>
       <cg img="氛围_通用_棺材" duration="2"/>
       <se id="01-37棺材氛围声loop" looptimes="-1"/>
-      <text>在不远处的某座车厢里，一具棺材静静竖立。</text>
+      <text>Trong toa xe cách đó không xa lắm, một cỗ quan tài lặng lẽ dựng đứng.</text>
       <cg/>
       <delay t="0.1"/>
       <cg img="氛围_通用_棺材" scale="2" origin="50%,0%" duration="0"/>
       <delay t="0.1"/>
       <cg img="氛围_通用_棺材" duration="20" pos="0,-520" scale="2" origin="50%,0%"/>
-      <text>它约有一人高度，木料用白漆涂得光亮照人，上面雕刻着华丽的纹饰。</text>
+      <text>Cỗ quan tài này cao khoảng chừng bằng một người, gỗ được sơn trắng bóng loáng đến mức có thể soi gương, chạm khắc những hoa văn tinh xảo.</text>
       <text>
-        <p>从外表看来，这棺木几乎是密封的，它的周身找不到一条缝隙。</p>
-        <p>数根黑色的真皮束带绕着棺身，将它牢牢束住。</p>
+        <p>Nhìn từ bên ngoài, có vẻ nó được niêm phong kín, xung quanh không thể tìm thấy một khe hở nào.</p>
+        <p>Những sợi dây đai bằng da thật màu đen quấn quanh thân, như trói chặt nó lại.</p>
       </text>
-      <text>似乎这棺材的主人花费了许多力气，好将它内部的事物彻底与外界隔离……</text>
+      <text>Dường như chủ nhân của chiếc quan tài này đã tốn rất nhiều công sức, để có thể hoàn toàn cách ly bên trong nó với thế giới bên ngoài……</text>
       <cg duration="3"/>
       <delay t="1.5"/>
       <motion chara="001" action="show" pos="center" duration="3" img="奥托-悲伤-标准-近景" delay="1"/>
       <delay t="1"/>
-      <text>那个主人，此刻正在它的面前。</text>
+      <text>Mà tên chủ nhân đó, lúc này đang ở ngay trước mặt nó đây.</text>
       <text>
-        <p>金发绿眸的男子单膝跪在棺木旁，修长的手指滑过棺面。</p>
-        <p>他的动作轻柔一如爱抚，却好像用尽全身气力。</p>
+        <p>Người đàn ông tóc vàng mắt xanh lá quỳ một chân bên cạnh nó, những ngón tay thon dài lướt qua mặt quan tài.</p>
+        <p>Động tác của hắn nhẹ nhàng như vuốt ve, nhưng cũng lại như thể đã dồn hết sức lực.</p>
       </text>
       <dialog chara="099">「……」</dialog>
       <text>
-        <p>这个人亲手制造了这具棺材，让棺中之物超脱物外，与世隔绝。[\s]</p>
-        <p>也正是这个人，对抗世间万般法则，只为将他的心爱带回现界。[\s]</p>
-        <p>在心愿得偿之前，他还不能将自己抛离人间。</p>
+        <p>Chính hắn đã đích thân tạo ra chiếc quan tài này, để cho người ở trong áo quan thoát ly khỏi thế tục, cách biệt hoàn toàn với thế giới bên ngoài.[\s]</p>
+        <p>Cũng chính là hắn, chống lại muôn vàn quy luật của thế gian, chỉ để đem người thương trở về sinh thế.[\s]</p>
+        <p>Chừng nào tâm nguyện chưa được đền đáp, hắn vẫn chưa thể nhắm mắt xuôi tay.</p>
       </text>
       <text>
-        <p>于是，在远处传来的吼声、叫声、哭声中；</p>
-        <p>在骆驼的哀鸣、马车的颠覆、刀剑的挥砍声中——</p>
+        <p>Thế là, trong tiếng gầm thét, tiếng kêu gào và tiếng khóc than vọng lại từ phía xa;</p>
+        <p>Trong tiếng lạc đà kêu ré, tiếng xe ngựa lật nhào, tiếng đao kiếm chém giết——</p>
       </text>
       <text>
-        <p>——男人一动不动，恍然未觉。</p>
-        <p>仿佛除了这具棺材外的一切，都与他无关。</p>
+        <p>——Người đàn ông vẫn cứ bất động, như không hề hay biết.</p>
+        <p>Dường như tất thảy mọi thứ, trừ chiếc quan tài này ra, đều chẳng hề can dự gì đến hắn.</p>
       </text>
       <text>与他无关……</text>
       <motion chara="001" action="hide" delay="3"/>
