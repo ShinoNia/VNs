@@ -1511,7 +1511,7 @@
         <p>Không cần phải hồ nghi, cũng không cần phải hứa hẹn, </p>
         <p>Chỉ cần nghe theo sự phân phó của “Lão Ưng”, thứ đổi lại sẽ là——</p>
       </text>
-      <text>——“Thắng lợi”。</text>
+      <text>——“Thắng lợi”.</text>
       <transition mode="eye" in="0.5" stop="0.3" out="0.5" color="#000000"/>
       <motion chara="015" action="img_trans" img="老鹰-微笑-抱胸有刀-远景"/>
       <text>
@@ -1584,7 +1584,7 @@
       <delay t="1"/>
       <text>Mà tên chủ nhân đó, lúc này đang ở ngay trước mặt nó đây.</text>
       <text>
-        <p>Người đàn ông tóc vàng mắt xanh lá quỳ một chân bên cạnh nó, những ngón tay thon dài lướt qua mặt quan tài.</p>
+        <p>Người đàn ông tóc vàng mắt xanh lá quỳ một chân bên cạnh, những ngón tay thon dài lướt qua mặt quan tài.</p>
         <p>Động tác của hắn nhẹ nhàng như vuốt ve, nhưng cũng lại như thể đã dồn hết sức lực.</p>
       </text>
       <dialog chara="099">「……」</dialog>
