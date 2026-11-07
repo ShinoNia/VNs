@@ -148,7 +148,7 @@
       <motion chara="004" action="show" pos="center" img="苏湄-哀伤-幼年-近景"/>
       <text>Tiếng gọi của Nhị sư tỷ khiến ta bừng tỉnh. Tô My ngồi xổm trước mặt ta, vẻ mặt đầy căng thẳng quan sát ta.</text>
       <bgm id="月下昆仑（慢灵）"/>
-      <dialog chara="004">「Muội sao thể?」</dialog>
+      <dialog chara="004">「Muội sao thế?」</dialog>
       <dialog chara="009">「Không sao……」</dialog>
       <motion chara="004" action="hide"/>
       <motion chara="004" action="show" pos="left" img="苏湄-凝视-幼年-中景"/>
