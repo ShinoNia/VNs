@@ -1618,7 +1618,7 @@
         <p>Đám đàn ông cầm đao kiếm bủa quanh, hộ tống người ngựa và vàng bạc của thương đội.</p>
       </text>
       <text>
-        <p>Mọi thứ dường như không hề thay đổi; nhưng tất cả lại bị đảo ngược hoàn toàn:</p>
+        <p>Mọi thứ dường như không có gì thay đổi, nhưng thực ra tất cả đều đảo lộn:</p>
         <p>Thương nhân biến thành nô lệ, còn đám cướp đã trở thành chủ nhân của bọn họ.</p>
       </text>
       <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"/>
