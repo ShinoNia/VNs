@@ -713,17 +713,17 @@
   padding-left: 0.3rem;
   padding-right: 0.3rem;
   color: #fff;
-  font-size: 0.48rem;
-  line-height: 1.6;
+  font-size: 0.45rem;
+  line-height: 1.5;
 }
 .stage-dialog-container .stage-text-typewriter {
-  font-size: 0.48rem;
+  font-size: 0.45rem;
   line-height: 1.6;
   overflow-y: auto;
 }
 .stage-monologue-container .stage-text-typewriter {
-  font-size: 0.48rem;
-  line-height: 1.6;
+  font-size: 0.45rem;
+  line-height: 1.5;
   padding: 0 0.4rem;
   overflow-y: auto;
 }
