@@ -523,7 +523,7 @@
         <p>ㅤ</p>
         <p>Vài nhân vật trong câu chuyện đôi lúc có ngôn từ tục tĩu trong một số hoàn cảnh nhất định. Để tôn trọng thiết lập của nhân vật, các từ đã bị ẩn và thay bằng kí hiệu; mong bạn thông cảm.</p>
       </remark>
-      <dialog chara="095">「※, đấy không phải một thương vụ lớn sao.」</dialog>
+      <dialog chara="095">「※, không phải là một vụ làm ăn lớn sao.」</dialog>
       <text>
         <p>Gã đàn ông rủa xả thậm tệ để trút hết sự bực bội của mình.</p>
         <p>Âm lượng không quá lớn, ngay cả khi những người đồng hành nghe thấy, họ cũng chẳng biết hắn ta đang chửi rủa cái gì.</p>
@@ -545,7 +545,7 @@
         <p>Hắn ta không hề xấu hổ về việc dùng bạo lực; ngược lại, còn coi đó là minh chứng của năng lực.</p>
       </text>
       <text>
-        <p>Bởi vậy, nên mới bị loại khỏi 『thương vụ lớn』 đã lên kế hoạch từ lâu, </p>
+        <p>Bởi vậy, nên mới bị loại khỏi 『vụ làm ăn lớn』 đã lên kế hoạch từ lâu, </p>
         <p>Dẫn đến cảm giác nhục nhã và oán hận nảy nở trong lòng hắn.[\s]</p>
         <p>Chính sự tức giận đó đã khiến hắn đứng ngồi không yên.</p>
       </text>
@@ -1482,7 +1482,7 @@
       <bg img="BGDesert02"/>
       <mono>
         <p/>
-        <p>Thương vụ lớn này nghe nói còn lớn hơn tất cả những vụ trước, “Lão Ưng” đã nhận được tin tình báo tuyệt đối đáng tin cậy.</p>
+        <p>Vụ làm ăn lớn này nghe nói còn lớn hơn tất cả những vụ trước, “Lão Ưng” đã nhận được tin tình báo tuyệt đối đáng tin cậy.</p>
         <p/>
         <p>Thương đội từ phương xa mang theo gia quyến của phú thương quý tộc, trên xe chất đầy vàng bạc châu báu.</p>
       </mono>
@@ -1599,9 +1599,9 @@
       </text>
       <text>
         <p>——Người đàn ông vẫn cứ bất động, như không hề hay biết.</p>
-        <p>Dường như tất thảy mọi thứ, trừ chiếc quan tài này ra, đều chẳng hề can dự gì đến hắn.</p>
+        <p>Dường như tất thảy mọi thứ, trừ chiếc quan tài này ra, đều chẳng chút can dự gì đến hắn.</p>
       </text>
-      <text>与他无关……</text>
+      <text>Chẳng chút can dự……</text>
       <motion chara="001" action="hide" delay="3"/>
       <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
       <se id="01-37棺材氛围声loop" looptimes="0"/>
@@ -1612,47 +1612,47 @@
       <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"/>
       <bg img="远处的烟尘"/>
       <se id="01-36骆驼车队loop" looptimes="-1"/>
-      <text>咯、咯啦、咻、咯啦……</text>
+      <text>Két, kẽo kẹt, vút, răng rắc……</text>
       <text>
-        <p>蹄声再度响起，车轮滚滚前行。</p>
-        <p>持刀抱剑的男人们簇拥在旁，负责护卫商队的人马与金银。</p>
+        <p>Tiếng vó ngựa lại vang lên, bánh xe lăn ầm ầm về phía trước.</p>
+        <p>Đám đàn ông cầm đao kiếm bủa quanh, hộ tống người ngựa và vàng bạc của thương đội.</p>
       </text>
       <text>
-        <p>一切似乎并无变化；一切却又彻底颠覆：</p>
-        <p>商人已沦为奴隶，劫匪成了他们的主人。</p>
+        <p>Mọi thứ dường như không hề thay đổi; nhưng tất cả lại bị đảo ngược hoàn toàn:</p>
+        <p>Thương nhân biến thành nô lệ, còn đám cướp đã trở thành chủ nhân của bọn họ.</p>
       </text>
       <transition mode="move" in="1" stop="0.5" out="1" color="#000000" direction="left" custom="default"/>
       <bg img="BGDesert01"/>
       <se/>
       <se id="01-38踏在沙上的脚步声"/>
-      <text>靴子踏在温热的沙上，脚底传来隐约的暖意。</text>
+      <text>Gót giày đạp lên cát nóng, từ dưới chân hơi nóng dần toả lên.</text>
       <remark>
         <p>ㅤ</p>
-        <p>注：</p>
+        <p>Ghi chú: </p>
         <p>ㅤ</p>
-        <p>罗刹国位于神州以北的极寒之地，时常骚乱边疆，招引战事。</p>
+        <p>Nước La Sát nằm ở vùng đất cực hàn phía bắc Thần Châu, thường xuyên quấy nhiễu biên cương, gây ra chiến sự.</p>
         <p>ㅤ</p>
-        <p>罗刹人长相奇异。其百姓多为浅发碧眼，高鼻络须；俊美者状若天神，丑陋者形同恶鬼。</p>
+        <p>Người La Sát ngoại hình cũng kỳ dị. Dân chúng nước này phần lớn có tóc sáng màu, mắt xanh, mũi cao, râu quai nón; người tuấn mỹ thì đẹp tựa thiên tiên, kẻ xấu xí thì trông như ác quỷ.</p>
         <p>ㅤ</p>
-        <p>当时的神州人将样貌异常者谑称为罗刹人，该称谓多含贬义。</p>
+        <p>Người dân Thần Châu thời bấy giờ gọi những kẻ có dung mạo dị thường một cách châm biếm là La Sát Nhân, cách gọi này đa phần mang ý xấu.</p>
       </remark>
       <text>
-        <p>踩中之处总会微微下沉，带动重心摇晃，如同被大地轻轻拉拽。</p>
-        <p>对“老鹰”来说，这感觉总让他想起罗刹国那被鲜血浸红的雪地。</p>
+        <p>Nơi bị giẫm lên luôn hơi lún xuống, khiến trọng tâm người chao đảo, cảm giác như bị mặt đất khẽ hút xuống.</p>
+        <p>Đối với “Lão Ưng” mà nói, cảm giác này luôn khiến hắn nhớ đến những vùng tuyết trắng bị máu tươi nhuộm đỏ ở nước La Sát.</p>
       </text>
-      <text>“老鹰”痛恨雪地。</text>
+      <text>“Lão Ưng” căm thù thứ tuyết ấy.</text>
       <bgm id="神秘东方"/>
       <motion action="show" pos="center" chara="015" img="老鹰-普通-普通有刀-远景" duration="2"/>
-      <text>赢得一场大胜的“老鹰”面无表情，他的阴郁有如一道屏障，构成一片以他为圆心的领域：在这之外是欢庆的沙匪，在内则是浑浊的沉默。</text>
+      <text>“Lão Ưng” vừa giành đại thắng không chút biểu cảm, vẻ âm u của hắn tựa như một màn kết giới, tạo thành một vùng lãnh địa lấy hắn làm trung tâm: bên ngoài đó là những tên thổ phỉ sa mạc đang ăn mừng, bên trong lại là sự im lặng ngầu đục.</text>
       <motion chara="015" action="hide"/>
       <event action="hide_ui" duration="2"/>
       <bg img="远处的烟尘" duration="2"/>
       <delay t="1.5"/>
-      <text>他的心情本应非常之好，今日这一票着实太漂亮，太成功。</text>
-      <text inline="true">缴获的银钱商品价值数万，就算速求转手也能净赚七、八千两银子。</text>
+      <text>Tâm trạng của hắn lẽ ra phải vô cùng tốt, vụ làm ăn hôm nay thực sự quá đỉnh, quá thành công.</text>
+      <text inline="true">Số tiền bạc và hàng hóa thu được có giá trị đến mấy vạn, cho dù có bán tống bán tháo ngay lập tức thì cũng có thể lãi ròng bảy, tám ngàn lạng bạc.</text>
       <text>
         <p/>
-        <p>俘虏的壮年男女有九名，其中颇有几个上等货色，待百回的奴隶贩子路过，又是一笔不菲的收入。</p>
+        <p>Tù binh có chín người cả nam lẫn nữ đương tuổi tráng niên, trong đó có vài tên còn là hàng thượng hạng, đợi đến khi bọn buôn nô lệ của Bách Hồi đi ngang qua, lại lấy được một khoản thu nhập không nhỏ.</p>
       </text>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <event action="hide_ui" duration="1"/>
@@ -1662,77 +1662,77 @@
         <p/>
         <p/>
         <p/>
-        <p>而最值得欣喜的，是手下这帮兄弟的表现，</p>
+        <p>Mà điều đáng mừng nhất, chính là biểu hiện của đám huynh đệ dưới trướng,</p>
         <p/>
-        <p>与他刚接手金沙帮时的颓态完全不可同日而语。</p>
+        <p>Hoàn toàn không thể so sánh với bộ dạng sa sút của bọn chúng khi hắn vừa tiếp quản Kim Sa Bang.</p>
       </mono>
       <mono inline="true">
         <p/>
         <p/>
         <p/>
-        <p>今次的商队虽然中了埋伏，负责护卫的保镖们却尽职尽责；</p>
+        <p>Thương đội lần này tuy trúng phải mai phục, nhưng những người hộ vệ lại vô cùng tận tụy với chức trách; </p>
         <p/>
-        <p>片刻的慌乱之后，他们迅速重整兵员，展开顽强的抵抗。</p>
+        <p>Sau một thoáng hoảng loạn, bọn họ nhanh chóng tái tổ chức lực lượng, kháng cự ngoan cường.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>——此举正中“老鹰”下怀。</p>
+        <p>——Điều này vừa khéo đúng ý “Lão Ưng”.</p>
       </mono>
       <bg img="BGBlood1"/>
       <cg/>
-      <text>“老鹰”喜欢对手反抗。</text>
+      <text>“Lão Ưng” thích đối thủ phải có sự phản kháng.</text>
       <text>
-        <p>他恰恰是从挑战中获得快感，找到存在意义的那一类人。</p>
-        <p>敌手的反抗越激烈，练兵的价值也就越高。</p>
-        <p>胜利的意义，正是在不断提升的价值之中带来至高的满足——</p>
+        <p>Hắn chính là kiểu người tìm thấy khoái cảm và ý nghĩa tồn tại từ những thử thách.</p>
+        <p>Đối thủ giãy giụa càng kịch liệt, thì việc rèn luyện binh sĩ càng đạt được mục đích.</p>
+        <p>Ý nghĩa của chiến thắng, chính là mang lại sự thỏa mãn tột cùng trong những giá trị đang không ngừng được nâng cao——</p>
       </text>
       <bgm looptimes="0"/>
       <transition mode="dissolve" in="1" stop="0.5" out="0" color="#000000"/>
       <transition mode="fade" in="0" stop="0.5" out="1" color="#000000"/>
       <bg img="BGSky02"/>
       <bgm id="余烬"/>
-      <mono>——在北国的皑皑白雪之中，他曾经认定这种满足已至顶峰。</mono>
+      <mono>——Trong làn tuyết trắng phau của miền Bắc quốc, hắn từng cho rằng sự thỏa mãn này đã đạt đến đỉnh cao.</mono>
       <mono>
         <p/>
-        <p>——他想尽办法逃离父兄与战友丧生之地，将朝堂作为新的战场，以为仍能叱咤风云。</p>
+        <p>——Hắn đã làm đủ mọi cách để trốn khỏi vùng đất nơi cha anh và đồng đội ngã xuống, lấy triều đình làm chiến trường mới, cho rằng mình vẫn có thể hô phong hoán vũ.</p>
       </mono>
       <mono>
         <p/>
-        <p>——蒙冤下狱后，新的『战友』弃他而去。令他无数次从梦中醒转的并非痛苦与悔恨，而是与罗刹鬼厮杀的戎马时光。</p>
+        <p>——Sau khi bị hàm oan và tống vào ngục, những 『chiến hữu』 mới đã phủi tay vứt bỏ hắn. Thứ khiến hắn có thể vô số lần tỉnh giấc từ cơn mơ không phải là nỗi đau đớn và sự hối hận, mà là tháng ngày chiến chinh với lũ quỷ La Sát.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>——可舍命将他从发配的军中救出的，反是曾经被他抛下的忠诚部属。</p>
+        <p>——Thế nhưng, người dám liều mạng cứu hắn ra khỏi lưu đày quân ngũ, bất ngờ lại là những thuộc hạ trung thành từng bị hắn bỏ rơi.</p>
       </mono>
       <bg img="PureBlack"/>
-      <text>从那时起，“老鹰”终于明白他的人生永远地停留在那场漫长的战争之中。</text>
+      <text>Từ lúc đó, “Lão Ưng” cuối cùng đã hiểu ra, rằng cuộc đời hắn vĩnh viễn dừng lại ở trong cuộc chiến tranh dài đằng đẵng năm ấy rồi.</text>
       <remark>
         <p>ㅤ</p>
-        <p>注：</p>
+        <p>Ghi chú: </p>
         <p>ㅤ</p>
-        <p>罗刹国位于神州以北的极寒之地，时常骚乱边疆，招引战事。</p>
+        <p>Nước La Sát nằm ở vùng đất cực hàn phía bắc Thần Châu, thường xuyên quấy nhiễu biên cương, gây ra chiến sự.</p>
         <p>ㅤ</p>
-        <p>罗刹人长相奇异。其百姓多为浅发碧眼，高鼻络须；俊美者状若天神，丑陋者形同恶鬼。</p>
+        <p>Người La Sát ngoại hình cũng kỳ dị. Dân chúng nước này phần lớn có tóc sáng màu, mắt xanh, mũi cao, râu quai nón; người tuấn mỹ thì đẹp tựa thiên tiên, kẻ xấu xí thì trông như ác quỷ.</p>
         <p>ㅤ</p>
-        <p>当时的神州人将样貌异常者谑称为罗刹人，该称谓多含贬义。</p>
+        <p>Người dân Thần Châu thời bấy giờ gọi những kẻ có dung mạo dị thường một cách châm biếm là La Sát Nhân, cách gọi này đa phần mang ý xấu.</p>
       </remark>
       <text>
-        <p>离开罗刹国的那一刻，他的人生已经凝滞了。</p>
-        <p>往后的时光，不过是一具行尸重复着毫无价值的行动而已。</p>
+        <p>Khoảnh khắc hắn rời khỏi nước La Sát, cuộc đời hắn đã ngưng đọng rồi.</p>
+        <p>Những tháng ngày về sau ấy, chẳng qua chỉ là một cái xác không hồn lặp đi lặp lại những hành động vô nghĩa mà thôi.</p>
       </text>
       <text>
-        <p>所以他逃亡漠北，夺取金沙帮，得到一伙忠诚的士兵。[\s]</p>
-        <p>所以他锤炼、鞭策、折磨他们；</p>
-        <p>送他们赴死，与他们同生。</p>
+        <p>Bởi thế mà hắn tháo chạy đến Mạc Bắc, đoạt lấy Kim Sa Bang, có được một đám binh lính trung thành.[\s]</p>
+        <p>Vì thế hắn rèn luyện, thúc đẩy và giày vò cả đám;</p>
+        <p>Tiễn chúng đến chỗ chết, cũng đồng sinh cộng tử với chúng.</p>
       </text>
       <text>
-        <p>重复过去，</p>
-        <p>报复过去，</p>
-        <p>渴望过去。</p>
+        <p>Lặp lại quá khứ, </p>
+        <p>trả thù quá khứ, </p>
+        <p>thèm khát quá khứ.</p>
       </text>
-      <text>名为“老鹰”的这个男人，想要拨动已经停止的时间……</text>
+      <text>Gã đàn ông mang tên “Lão Ưng” ấy, muốn xoay chuyển dòng thời gian đã ngừng trôi……</text>
       <bgm looptimes="0"/>
       <event action="goto" to="08"/>
     </scene>
@@ -1740,31 +1740,31 @@
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGDesert00"/>
       <text>
-        <p>于是，遇见那个『罗刹人』的时候，</p>
-        <p>“老鹰”恍然产生了时间往复循环，故日重现的错觉。</p>
+        <p>Thế là, vào lúc gặp gỡ 『La Sát Nhân』 đó,</p>
+        <p>“Lão Ưng” bỗng nhiên nảy sinh ảo giác, rằng thời gian đang vần xoay trở lại, rằng mọi thứ đang trở về lúc xưa.</p>
       </text>
       <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <bgm id="神秘东方"/>
       <text>
-        <p>第一眼见到此人，“老鹰”的脊背阵阵恶寒，</p>
-        <p>直觉大鸣警钟，告诉他这是一个『祸患』。</p>
+        <p>Ngay từ cái nhìn đầu tiên khi thấy người này, sống lưng của “Lão Ưng” bỗng dội lên từng đợt ớn lạnh,</p>
+        <p>Trực giác gióng lên hồi chuông cảnh báo dữ dội, mách bảo hắn rằng đây chính là một 『mối họa』.</p>
       </text>
       <text>
-        <p>当时，『祸患』待在商队的马车里，独享一间陋厢。[\s]</p>
-        <p>几十人的商队中，就只他有这非凡的待遇。</p>
+        <p>Lúc bấy giờ, 『mối họa』 đang ở bên trong xe ngựa của thương đội, một mình hưởng trọn cả một khoang buồng đơn sơ.[\s]</p>
+        <p>Trong thương đội mấy chục người, chỉ có duy nhất hắn ta là có được đãi ngộ phi thường này.</p>
       </text>
       <event action="hide_ui" duration="4"/>
       <cg img="CG_第一折_奥托出场1" duration="5"/>
       <delay t="4"/>
-      <text>“老鹰”的弯刀挑开帘子时，『祸患』正在说话。</text>
+      <text>Khi lưỡi đao cong vút của “Lão Ưng” vén tấm rèm lên, 『mối họa』 này vẫn còn đang nói chuyện.</text>
       <dialog chara="001">「马赫敌耶楷能索更。」</dialog>
       <text>
-        <p>男人单膝跪地。[\s]</p>
-        <p>他的语气平静随和，好似嘱咐亲密的旅伴，[\s]</p>
-        <p>然而四下望去：厢内并无别人，只有一口棺材。</p>
+        <p>Người đàn ông quỳ một chân xuống đất.[\s]</p>
+        <p>Giọng điệu của hắn thật bình thản và ôn hòa, tựa như đang dặn dò một người bạn đồng hành thân thiết, [\s]</p>
+        <p>Tuy nhiên, nhìn quanh, thì không còn ai khác trong phòng, chỉ có một cỗ quan tài.</p>
       </text>
-      <text>只有这个人，和一口棺材。</text>
+      <text>Chỉ có người đó và một cỗ quan tài.</text>
       <cg img="CG_第一折_奥托出场2"/>
       <dialog chara="001">「伊氏卧登略森……」</dialog>
       <text>
