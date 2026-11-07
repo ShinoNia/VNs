@@ -1758,7 +1758,7 @@
       <cg img="CG_第一折_奥托出场1" duration="5"/>
       <delay t="4"/>
       <text>Khi lưỡi đao cong vút của “Lão Ưng” vén tấm rèm lên, 『mối họa』 này vẫn còn đang nói chuyện.</text>
-      <dialog chara="001">「马赫敌耶楷能索更。」</dialog>
+      <dialog chara="001">「Mach dir keine Sorgen.」</dialog>
       <text>
         <p>Người đàn ông quỳ một chân xuống đất.[\s]</p>
         <p>Giọng điệu của hắn thật bình thản và ôn hòa, tựa như đang dặn dò một người bạn đồng hành thân thiết, [\s]</p>
@@ -1766,7 +1766,7 @@
       </text>
       <text>Chỉ có người đó và một cỗ quan tài.</text>
       <cg img="CG_第一折_奥托出场2"/>
-      <dialog chara="001">「伊氏卧登略森……」</dialog>
+      <dialog chara="001">「Ich werde lösen……」</dialog>
       <text>
         <p>这人说的并非罗刹语，“老鹰”听不明白。</p>
         <p>但这诡异惊悚的一幕已令他冷汗如雨。</p>
